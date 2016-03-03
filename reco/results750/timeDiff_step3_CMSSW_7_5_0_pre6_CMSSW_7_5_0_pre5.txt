@@ -1,0 +1,69 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre6 vs CMSSW_7_5_0_pre5
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev tcdsDigis
+   +0.339697      +0.00%         0.65 ms/ev ->         0.92 ms/ev pfIsolatedMuonsEI
+   -0.196559      -0.20%       137.98 ms/ev ->       113.29 ms/ev particleFlowDisplacedVertex
+   +0.078272      +0.03%        41.26 ms/ev ->        44.62 ms/ev pfNoPileUpEI
+   +0.072135      +0.02%        35.71 ms/ev ->        38.38 ms/ev pfNoPileUpJMEEI
+   +0.071496      +0.02%        32.76 ms/ev ->        35.19 ms/ev pfNoPileUp
+   -0.067365      -0.00%         7.46 ms/ev ->         6.98 ms/ev hpsPFTauProducerSansRefs
+   +0.066197      +0.02%        32.78 ms/ev ->        35.03 ms/ev pfNoPileUpIso
+   +0.061795      +0.02%        35.22 ms/ev ->        37.46 ms/ev pfNoPileUpJME
+   +0.057117      +0.00%         7.67 ms/ev ->         8.12 ms/ev siPixelClusters
+
+### Full Comparison CMSSW_7_5_0_pre6 vs CMSSW_7_5_0_pre5 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev tcdsDigis
+   -1.339130      -0.00%         0.38 ms/ev ->         0.08 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwoLT
+   -1.221790      -0.00%         0.21 ms/ev ->         0.05 ms/ev ak4PFL1FastjetCorrector
+   -1.100690      -0.00%         0.56 ms/ev ->         0.16 ms/ev l1extraParticles
+   +0.432055      +0.02%         3.65 ms/ev ->         5.66 ms/ev csc2DRecHits
+   -0.383006      -0.00%         1.85 ms/ev ->         1.26 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   -0.381408      -0.00%         1.74 ms/ev ->         1.18 ms/ev combinedSecondaryVertexBJetTags
+   +0.374612      +0.01%         1.83 ms/ev ->         2.67 ms/ev hcalDigis
+   +0.339719      +0.00%         0.65 ms/ev ->         0.92 ms/ev pfIsolatedMuonsEI
+   -0.196851      -0.20%       138.04 ms/ev ->       113.30 ms/ev particleFlowDisplacedVertex
+   +0.078249      +0.03%        41.27 ms/ev ->        44.63 ms/ev pfNoPileUpEI
+   +0.072143      +0.02%        35.71 ms/ev ->        38.39 ms/ev pfNoPileUpJMEEI
+   +0.072081      +0.02%        32.75 ms/ev ->        35.20 ms/ev pfNoPileUp
+   +0.066706      +0.02%        32.78 ms/ev ->        35.04 ms/ev pfNoPileUpIso
+   -0.065558      -0.00%         7.73 ms/ev ->         7.24 ms/ev hpsPFTauProducerSansRefs
+   +0.062309      +0.02%        35.20 ms/ev ->        37.47 ms/ev pfNoPileUpJME
+   +0.060379      +0.04%        88.39 ms/ev ->        93.89 ms/ev particleFlowDisplacedVertexCandidate
+   +0.057114      +0.00%         7.67 ms/ev ->         8.12 ms/ev siPixelClusters
+   +0.055163      +0.02%        40.23 ms/ev ->        42.51 ms/ev hpsPFTauPrimaryVertexProducer
+   +0.054792      +0.01%        19.03 ms/ev ->        20.10 ms/ev inclusiveCandidateVertexFinder
+   +0.053855      +0.00%         5.82 ms/ev ->         6.14 ms/ev uncleanedOnlyAllConversions
+   +0.053576      +0.00%         7.05 ms/ev ->         7.44 ms/ev ghostTrackVertexTagInfos
+   +0.052911      +0.01%        31.13 ms/ev ->        32.82 ms/ev initialStep
+   +0.052641      +0.00%        10.73 ms/ev ->        11.31 ms/ev particleFlowRecHitHF
+   -0.051061      -0.00%         5.24 ms/ev ->         4.98 ms/ev offlinePrimaryVertices
+  ---------- ------------     --------                  ----       ------------
+Job total:  12.4706 s/ev ==> 12.6241 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev tcdsDigis
+   +0.339697      +0.00%         0.65 ms/ev ->         0.92 ms/ev pfIsolatedMuonsEI
+   -0.196559      -0.20%       137.98 ms/ev ->       113.29 ms/ev particleFlowDisplacedVertex
+   +0.078272      +0.03%        41.26 ms/ev ->        44.62 ms/ev pfNoPileUpEI
+   +0.072135      +0.02%        35.71 ms/ev ->        38.38 ms/ev pfNoPileUpJMEEI
+   +0.071496      +0.02%        32.76 ms/ev ->        35.19 ms/ev pfNoPileUp
+   -0.067365      -0.00%         7.46 ms/ev ->         6.98 ms/ev hpsPFTauProducerSansRefs
+   +0.066197      +0.02%        32.78 ms/ev ->        35.03 ms/ev pfNoPileUpIso
+   +0.061795      +0.02%        35.22 ms/ev ->        37.46 ms/ev pfNoPileUpJME
+   +0.057117      +0.00%         7.67 ms/ev ->         8.12 ms/ev siPixelClusters
+   +0.055167      +0.02%        40.16 ms/ev ->        42.44 ms/ev hpsPFTauPrimaryVertexProducer
+   +0.054125      +0.01%        19.03 ms/ev ->        20.09 ms/ev inclusiveCandidateVertexFinder
+   +0.053993      +0.00%         5.82 ms/ev ->         6.14 ms/ev uncleanedOnlyAllConversions
+   +0.053115      +0.01%        31.12 ms/ev ->        32.82 ms/ev initialStep
+   +0.052766      +0.00%        10.73 ms/ev ->        11.31 ms/ev particleFlowRecHitHF
+   +0.052449      +0.00%         7.05 ms/ev ->         7.43 ms/ev ghostTrackVertexTagInfos
+  ---------- ------------     --------                  ----       ------------
+Job total:  12.3392 s/ev ==> 12.4873 s/ev
+

@@ -1,0 +1,55 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre3 vs CMSSW_7_5_0_pre2
+Job total:  9.5443 s/ev ==> 9.67373 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.239481      -0.01%         6.23 ms/ev ->         4.90 ms/ev hpsPFTauProducerSansRefs
+   -0.232611      -0.01%         4.12 ms/ev ->         3.26 ms/ev pfTausProducerSansRefs
+   +0.135178      +0.01%         4.69 ms/ev ->         5.38 ms/ev dt4DSegments
+   +0.128587      +0.01%         4.69 ms/ev ->         5.33 ms/ev dt4DCosmicSegments
+   +0.108381      +0.06%        52.23 ms/ev ->        58.22 ms/ev allConversions
+   +0.101595      +0.04%        34.31 ms/ev ->        37.98 ms/ev hpsPFTauPrimaryVertexProducer
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.41972 s/ev ==> 9.54867 s/ev
+
+### Full Comparison CMSSW_7_5_0_pre3 vs CMSSW_7_5_0_pre2 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.710914      +0.01%         0.05 ms/ev ->         0.63 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwoLT
+   +1.710843      +0.01%         0.05 ms/ev ->         0.62 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwLT
+   +1.644699      +0.01%         0.06 ms/ev ->         0.64 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwLT
+   -1.554377      -0.00%         0.34 ms/ev ->         0.04 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwoLT
+   +1.498667      +0.00%         0.05 ms/ev ->         0.33 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwLT
+   +1.497326      +0.00%         0.05 ms/ev ->         0.33 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3newDMwoLT
+   +1.497326      +0.00%         0.05 ms/ev ->         0.33 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwoLT
+   +1.488000      +0.00%         0.05 ms/ev ->         0.33 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwLT
+   +1.478903      +0.01%         0.25 ms/ev ->         1.65 ms/ev hpsPFTauDiscriminationByMVA5VTightElectronRejection
+   +1.358025      +0.00%         0.06 ms/ev ->         0.34 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwLT
+   +1.137540      +0.01%         0.53 ms/ev ->         1.94 ms/ev hpsPFTauDiscriminationByMVA5MediumElectronRejection
+   +1.086142      +0.00%         0.12 ms/ev ->         0.41 ms/ev hpsPFTauDiscriminationByIsolationMVA3newDMwLTraw
+   -0.879829      -0.04%         6.06 ms/ev ->         2.36 ms/ev hpsPFTauDiscriminationByMVA5VLooseElectronRejection
+   +0.571429      +0.01%         0.60 ms/ev ->         1.09 ms/ev hpsPFTauDiscriminationByMVA5TightElectronRejection
+   -0.543731      -0.01%         2.95 ms/ev ->         1.69 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   -0.235939      -0.01%         6.32 ms/ev ->         4.99 ms/ev hpsPFTauProducerSansRefs
+   -0.232773      -0.01%         4.11 ms/ev ->         3.26 ms/ev pfTausProducerSansRefs
+   +0.135189      +0.01%         4.69 ms/ev ->         5.37 ms/ev dt4DSegments
+   +0.128620      +0.01%         4.68 ms/ev ->         5.33 ms/ev dt4DCosmicSegments
+   +0.108269      +0.06%        52.21 ms/ev ->        58.18 ms/ev allConversions
+   +0.101246      +0.04%        34.30 ms/ev ->        37.96 ms/ev hpsPFTauPrimaryVertexProducer
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.5443 s/ev ==> 9.67373 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.239481      -0.01%         6.23 ms/ev ->         4.90 ms/ev hpsPFTauProducerSansRefs
+   -0.232611      -0.01%         4.12 ms/ev ->         3.26 ms/ev pfTausProducerSansRefs
+   +0.135178      +0.01%         4.69 ms/ev ->         5.38 ms/ev dt4DSegments
+   +0.128587      +0.01%         4.69 ms/ev ->         5.33 ms/ev dt4DCosmicSegments
+   +0.108381      +0.06%        52.23 ms/ev ->        58.22 ms/ev allConversions
+   +0.101595      +0.04%        34.31 ms/ev ->        37.98 ms/ev hpsPFTauPrimaryVertexProducer
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.41972 s/ev ==> 9.54867 s/ev
+

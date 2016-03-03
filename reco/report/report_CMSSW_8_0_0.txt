@@ -1,0 +1,21 @@
+1. cmsDriver
+step3 \
+--conditions auto:run2_mc \
+--eventcontent RECOSIM,AODSIM,MINIAODSIM,DQM \
+--runUnscheduled -s RAW2DIGI,L1Reco,RECO,EI,PAT,DQM:@common \
+--datatier GEN-SIM-RECO,AODSIM,MINIAODSIM,DQMIO \
+--era Run2_25ns
+-n 1000 \
+--customise Validation/Performance/TimeMemoryInfo.py \
+--no_exec \
+--filein filelist:localfile \
+--fileout file:step3.root \
+--python_filename step3.py
+
+
+2. dataset for CMSSW_8_0_0_pre3
+Not Found dataset : das_client.py --limit 0 --query 'dataset dataset=/RelValTTbar*/CMSSW_8_0_0_pre3*/*BUG' 
+Using old : /RelValTTbar_13/CMSSW_8_0_0_pre2-PU25ns_76X_mcRun2_asymptotic_v12-v1/GEN-SIM-DIGI-RAW-HLTDEBUG
+
+
+

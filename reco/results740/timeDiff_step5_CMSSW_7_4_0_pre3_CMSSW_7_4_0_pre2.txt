@@ -1,0 +1,169 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0_pre3 vs CMSSW_7_4_0_pre2
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -2.39%        17.30 ms/ev ->         0.00 ms/ev inclusiveVertexFinder
+     removed      -2.20%        15.90 ms/ev ->         0.00 ms/ev trackVertexArbitrator
+     removed      -0.01%         0.05 ms/ev ->         0.00 ms/ev inclusiveSecondaryVertices
+     removed      -0.06%         0.45 ms/ev ->         0.00 ms/ev vertexMerger
+   +1.448542      +8.00%        11.03 ms/ev ->        68.98 ms/ev patJets
+   +0.998150      +0.15%         0.54 ms/ev ->         1.62 ms/ev selectedPatTrigger
+   +0.670881      +0.95%         6.80 ms/ev ->        13.67 ms/ev prunedGenParticles
+   +0.638829      +1.85%        14.28 ms/ev ->        27.68 ms/ev prunedGenParticlesWithStatusOne
+   +0.507785      +0.15%         1.62 ms/ev ->         2.71 ms/ev selectedPatJetsForMETtype1p2Corr
+   +0.497417      +0.56%         6.09 ms/ev ->        10.11 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+
+### Full Comparison CMSSW_7_4_0_pre3 vs CMSSW_7_4_0_pre2 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -2.20%        15.89 ms/ev ->         0.00 ms/ev trackVertexArbitrator
+     removed      -0.01%         0.05 ms/ev ->         0.00 ms/ev inclusiveSecondaryVertices
+     removed      -0.06%         0.46 ms/ev ->         0.00 ms/ev vertexMerger
+     removed      -2.39%        17.28 ms/ev ->         0.00 ms/ev inclusiveVertexFinder
+   +1.535035      +7.88%         8.63 ms/ev ->        65.60 ms/ev patJets
+   +0.997204      +0.15%         0.54 ms/ev ->         1.61 ms/ev selectedPatTrigger
+   +0.670768      +0.95%         6.81 ms/ev ->        13.67 ms/ev prunedGenParticles
+   +0.638995      +1.86%        14.28 ms/ev ->        27.69 ms/ev prunedGenParticlesWithStatusOne
+   +0.507753      +0.15%         1.61 ms/ev ->         2.71 ms/ev selectedPatJetsForMETtype1p2Corr
+   +0.493149      +0.55%         6.08 ms/ev ->        10.05 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   +0.488430      +0.54%         6.07 ms/ev ->        10.00 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   +0.481841      +0.07%         0.74 ms/ev ->         1.21 ms/ev smearedPatJetsAK4PFForMetUncResUp
+   +0.478553      +0.06%         0.74 ms/ev ->         1.20 ms/ev smearedPatJetsAK4PFForMetUncResDown
+   +0.463221      +0.06%         0.77 ms/ev ->         1.24 ms/ev smearedPatJetsAK4PFForMetUnc
+   +0.439866      +0.13%         1.63 ms/ev ->         2.55 ms/ev softPFMuonsTagInfos
+   +0.425082      +0.17%         2.27 ms/ev ->         3.50 ms/ev selectedPatJetsForMETtype1p2CorrEnDown
+   +0.404998      +0.25%         3.57 ms/ev ->         5.39 ms/ev patPFJetMETtype1p2Corr
+   +0.397727      +0.06%         0.85 ms/ev ->         1.27 ms/ev particleFlowPtrs
+   +0.395303      +0.13%         1.84 ms/ev ->         2.75 ms/ev selectedPatJetsForMETtype1p2CorrOriginalReserved
+   +0.394379      +0.25%         3.66 ms/ev ->         5.45 ms/ev patPFJetMETtype1p2CorrOriginalReserved
+   +0.390363      +0.14%         2.14 ms/ev ->         3.17 ms/ev patPFJetMETtype1p2CorrResDown
+   +0.389610      +0.14%         2.14 ms/ev ->         3.17 ms/ev patPFJetMETtype1p2CorrResUp
+   +0.384553      +0.07%         1.00 ms/ev ->         1.48 ms/ev pfPileUpAllChargedParticlesPFBRECO
+   +0.382791      +0.16%         2.39 ms/ev ->         3.52 ms/ev selectedPatJetsForMETtype1p2CorrEnUp
+   +0.381378      +0.14%         2.17 ms/ev ->         3.20 ms/ev patPFJetMETtype1p2CorrEnDown
+   +0.381072      +0.21%         3.23 ms/ev ->         4.75 ms/ev patJetsAK4PFForMetUnc
+   +0.374436      +0.28%         4.41 ms/ev ->         6.45 ms/ev corrPfMetType1
+   +0.373700      +0.14%         2.19 ms/ev ->         3.19 ms/ev patPFJetMETtype1p2CorrEnUp
+   +0.365643      +0.15%         2.41 ms/ev ->         3.48 ms/ev pfCandsNotInJetsForMetCorrOriginalReserved
+   +0.362157      +0.35%         5.69 ms/ev ->         8.20 ms/ev patJetFlavourAssociation
+   +0.361238      +3.28%        53.78 ms/ev ->        77.50 ms/ev pfNoPileUpJME
+   +0.356388      +3.72%        62.02 ms/ev ->        88.91 ms/ev pfNoPileUpPFBRECO
+   +0.355450      +0.37%         6.21 ms/ev ->         8.89 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   +0.354314      +3.70%        62.04 ms/ev ->        88.76 ms/ev pfNoPileUpIsoPFBRECO
+   +0.353809      +0.37%         6.25 ms/ev ->         8.94 ms/ev packedPFCandidates
+   +0.352057      +0.14%         2.41 ms/ev ->         3.44 ms/ev pfCandsNotInJetsForMetCorr
+   +0.345311      +0.33%         5.66 ms/ev ->         8.03 ms/ev patJetCorrFactors
+   +0.338415      +0.09%         1.64 ms/ev ->         2.30 ms/ev softPFElectronsTagInfos
+   +0.335223      +0.03%         0.51 ms/ev ->         0.72 ms/ev lostTracks
+   +0.331649      +0.10%         1.73 ms/ev ->         2.42 ms/ev pfCombinedSecondaryVertexBJetTags
+   +0.330023      +6.35%       116.19 ms/ev ->       162.12 ms/ev pfImpactParameterTagInfos
+   +0.325716      +0.08%         1.45 ms/ev ->         2.01 ms/ev patJetCorrFactorsAK8
+   +0.321087      +0.19%         3.55 ms/ev ->         4.91 ms/ev pfPileUpJME
+   +0.319232      +0.19%         3.55 ms/ev ->         4.89 ms/ev pfSecondaryVertexTagInfos
+   +0.318009      +0.20%         3.75 ms/ev ->         5.17 ms/ev pfPileUpPFBRECO
+   +0.317845      +0.07%         1.25 ms/ev ->         1.72 ms/ev tauIsoDepositPFChargedHadrons
+   +0.317073      +0.09%         1.72 ms/ev ->         2.38 ms/ev combinedMVABJetTags
+   +0.313920      +0.06%         1.19 ms/ev ->         1.63 ms/ev patJetsAK8
+   +0.308767      +0.19%         3.75 ms/ev ->         5.12 ms/ev pfPileUpIsoPFBRECO
+   +0.299569      +0.17%         3.45 ms/ev ->         4.67 ms/ev secondaryVertexTagInfos
+   +0.298695      +1.22%        25.09 ms/ev ->        33.90 ms/ev pileupJetId
+   +0.298405      +0.20%         4.21 ms/ev ->         5.69 ms/ev ak8PFJetsCHSSoftDrop
+   +0.298133      +0.20%         4.03 ms/ev ->         5.45 ms/ev patJetFlavourAssociationAK8
+   +0.296569      +0.03%         0.69 ms/ev ->         0.94 ms/ev muPFIsoDepositGammaPAT
+   +0.294656      +0.11%         2.23 ms/ev ->         3.01 ms/ev muPFIsoDepositPUPAT
+   +0.291419      +0.54%        11.51 ms/ev ->        15.44 ms/ev impactParameterTagInfos
+   +0.291095      +0.05%         1.09 ms/ev ->         1.46 ms/ev tauIsoDepositPFNeutralHadrons
+   +0.290103      +0.21%         4.40 ms/ev ->         5.89 ms/ev ak8PFJetsCHSPruned
+   +0.281791      +0.14%         3.13 ms/ev ->         4.15 ms/ev patTaus
+   +0.278851      +0.18%         4.12 ms/ev ->         5.46 ms/ev ak8PFJetsCHSFiltered
+   +0.271369      +0.03%         0.72 ms/ev ->         0.95 ms/ev patMuons
+   +0.271250      +1.37%        31.57 ms/ev ->        41.48 ms/ev ak8PFJetsCHSTrimmed
+   +0.262784      +1.34%        32.08 ms/ev ->        41.78 ms/ev pfCandsNotInJetsPtrForMetCorr
+   +0.262758      +1.87%        44.68 ms/ev ->        58.20 ms/ev NjettinessAK8
+   +0.259933      +0.16%         3.88 ms/ev ->         5.03 ms/ev tauIsoDepositPFGammas
+   +0.257239      +0.91%        22.16 ms/ev ->        28.71 ms/ev tauIsoDepositPFCandidates
+   +0.253140      +0.02%         0.45 ms/ev ->         0.58 ms/ev packedGenParticles
+   +0.220756      +1.31%        38.16 ms/ev ->        47.63 ms/ev MINIAODSIMoutput
+   +0.206606      +0.02%         0.64 ms/ev ->         0.79 ms/ev reducedEgamma
+   +0.202604      +0.09%         3.00 ms/ev ->         3.68 ms/ev combinedInclusiveSecondaryVertexV2BJetTags
+   +0.201814      +0.02%         0.79 ms/ev ->         0.97 ms/ev inclusiveSecondaryVertexFinderTagInfos
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.722851 s/ev ==> 1.01876 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -2.39%        17.30 ms/ev ->         0.00 ms/ev inclusiveVertexFinder
+     removed      -2.20%        15.90 ms/ev ->         0.00 ms/ev trackVertexArbitrator
+     removed      -0.01%         0.05 ms/ev ->         0.00 ms/ev inclusiveSecondaryVertices
+     removed      -0.06%         0.45 ms/ev ->         0.00 ms/ev vertexMerger
+   +1.448542      +8.00%        11.03 ms/ev ->        68.98 ms/ev patJets
+   +0.998150      +0.15%         0.54 ms/ev ->         1.62 ms/ev selectedPatTrigger
+   +0.670881      +0.95%         6.80 ms/ev ->        13.67 ms/ev prunedGenParticles
+   +0.638829      +1.85%        14.28 ms/ev ->        27.68 ms/ev prunedGenParticlesWithStatusOne
+   +0.507785      +0.15%         1.62 ms/ev ->         2.71 ms/ev selectedPatJetsForMETtype1p2Corr
+   +0.497417      +0.56%         6.09 ms/ev ->        10.11 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   +0.488308      +0.54%         6.09 ms/ev ->        10.02 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   +0.481504      +0.07%         0.74 ms/ev ->         1.22 ms/ev smearedPatJetsAK4PFForMetUncResUp
+   +0.477966      +0.06%         0.74 ms/ev ->         1.20 ms/ev smearedPatJetsAK4PFForMetUncResDown
+   +0.462472      +0.06%         0.78 ms/ev ->         1.24 ms/ev smearedPatJetsAK4PFForMetUnc
+   +0.439232      +0.13%         1.63 ms/ev ->         2.55 ms/ev softPFMuonsTagInfos
+   +0.425245      +0.17%         2.28 ms/ev ->         3.51 ms/ev selectedPatJetsForMETtype1p2CorrEnDown
+   +0.405089      +0.25%         3.58 ms/ev ->         5.39 ms/ev patPFJetMETtype1p2Corr
+   +0.397472      +0.06%         0.85 ms/ev ->         1.27 ms/ev particleFlowPtrs
+   +0.395155      +0.13%         1.85 ms/ev ->         2.76 ms/ev selectedPatJetsForMETtype1p2CorrOriginalReserved
+   +0.394531      +0.25%         3.66 ms/ev ->         5.46 ms/ev patPFJetMETtype1p2CorrOriginalReserved
+   +0.391544      +0.23%         3.45 ms/ev ->         5.14 ms/ev patJetsAK4PFForMetUnc
+   +0.391525      +0.14%         2.14 ms/ev ->         3.18 ms/ev patPFJetMETtype1p2CorrResDown
+   +0.388999      +0.14%         2.14 ms/ev ->         3.17 ms/ev patPFJetMETtype1p2CorrResUp
+   +0.384064      +0.07%         1.01 ms/ev ->         1.48 ms/ev pfPileUpAllChargedParticlesPFBRECO
+   +0.382921      +0.16%         2.39 ms/ev ->         3.52 ms/ev selectedPatJetsForMETtype1p2CorrEnUp
+   +0.380690      +0.14%         2.17 ms/ev ->         3.20 ms/ev patPFJetMETtype1p2CorrEnDown
+   +0.376791      +0.28%         4.41 ms/ev ->         6.46 ms/ev corrPfMetType1
+   +0.373193      +0.14%         2.19 ms/ev ->         3.20 ms/ev patPFJetMETtype1p2CorrEnUp
+   +0.365034      +0.15%         2.41 ms/ev ->         3.48 ms/ev pfCandsNotInJetsForMetCorrOriginalReserved
+   +0.362933      +0.35%         5.69 ms/ev ->         8.21 ms/ev patJetFlavourAssociation
+   +0.361010      +3.27%        53.83 ms/ev ->        77.54 ms/ev pfNoPileUpJME
+   +0.356610      +0.37%         6.22 ms/ev ->         8.92 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   +0.356015      +3.71%        62.07 ms/ev ->        88.95 ms/ev pfNoPileUpPFBRECO
+   +0.354332      +3.69%        62.09 ms/ev ->        88.83 ms/ev pfNoPileUpIsoPFBRECO
+   +0.353554      +0.37%         6.25 ms/ev ->         8.94 ms/ev packedPFCandidates
+   +0.351883      +0.14%         2.42 ms/ev ->         3.45 ms/ev pfCandsNotInJetsForMetCorr
+   +0.345974      +0.33%         5.67 ms/ev ->         8.05 ms/ev patJetCorrFactors
+   +0.338026      +0.09%         1.64 ms/ev ->         2.30 ms/ev softPFElectronsTagInfos
+   +0.335100      +0.03%         0.52 ms/ev ->         0.72 ms/ev lostTracks
+   +0.331053      +0.09%         1.73 ms/ev ->         2.41 ms/ev pfCombinedSecondaryVertexBJetTags
+   +0.329861      +6.34%       116.29 ms/ev ->       162.22 ms/ev pfImpactParameterTagInfos
+   +0.325419      +0.08%         1.45 ms/ev ->         2.01 ms/ev patJetCorrFactorsAK8
+   +0.320907      +0.19%         3.55 ms/ev ->         4.91 ms/ev pfPileUpJME
+   +0.319850      +0.19%         3.55 ms/ev ->         4.90 ms/ev pfSecondaryVertexTagInfos
+   +0.318003      +0.07%         1.25 ms/ev ->         1.72 ms/ev tauIsoDepositPFChargedHadrons
+   +0.317565      +0.20%         3.75 ms/ev ->         5.17 ms/ev pfPileUpPFBRECO
+   +0.316084      +0.09%         1.72 ms/ev ->         2.37 ms/ev combinedMVABJetTags
+   +0.309926      +0.12%         2.36 ms/ev ->         3.23 ms/ev combinedInclusiveSecondaryVertexV2BJetTags
+   +0.308819      +0.19%         3.75 ms/ev ->         5.12 ms/ev pfPileUpIsoPFBRECO
+   +0.304737      +0.04%         0.76 ms/ev ->         1.03 ms/ev patMuons
+   +0.300699      +0.09%         1.87 ms/ev ->         2.53 ms/ev patJetsAK8
+   +0.299925      +0.17%         3.46 ms/ev ->         4.68 ms/ev secondaryVertexTagInfos
+   +0.298339      +0.20%         4.22 ms/ev ->         5.70 ms/ev ak8PFJetsCHSSoftDrop
+   +0.298289      +0.20%         4.04 ms/ev ->         5.45 ms/ev patJetFlavourAssociationAK8
+   +0.297570      +1.14%        23.67 ms/ev ->        31.94 ms/ev pileupJetId
+   +0.295872      +0.03%         0.70 ms/ev ->         0.94 ms/ev muPFIsoDepositGammaPAT
+   +0.294996      +0.11%         2.24 ms/ev ->         3.01 ms/ev muPFIsoDepositPUPAT
+   +0.292167      +0.54%        11.50 ms/ev ->        15.44 ms/ev impactParameterTagInfos
+   +0.291656      +0.05%         1.09 ms/ev ->         1.46 ms/ev tauIsoDepositPFNeutralHadrons
+   +0.290255      +0.21%         4.40 ms/ev ->         5.90 ms/ev ak8PFJetsCHSPruned
+   +0.284098      +0.03%         0.62 ms/ev ->         0.83 ms/ev reducedEgamma
+   +0.279785      +0.19%         4.13 ms/ev ->         5.47 ms/ev ak8PFJetsCHSFiltered
+   +0.273715      +0.18%         4.06 ms/ev ->         5.35 ms/ev patTaus
+   +0.271209      +1.37%        31.62 ms/ev ->        41.54 ms/ev ak8PFJetsCHSTrimmed
+   +0.262964      +1.87%        44.74 ms/ev ->        58.28 ms/ev NjettinessAK8
+   +0.262497      +1.34%        32.10 ms/ev ->        41.80 ms/ev pfCandsNotInJetsPtrForMetCorr
+   +0.260231      +0.16%         3.88 ms/ev ->         5.04 ms/ev tauIsoDepositPFGammas
+   +0.257312      +0.90%        22.17 ms/ev ->        28.71 ms/ev tauIsoDepositPFCandidates
+   +0.253623      +0.02%         0.45 ms/ev ->         0.59 ms/ev packedGenParticles
+   +0.225040      +1.34%        38.15 ms/ev ->        47.83 ms/ev MINIAODSIMoutput
+   +0.203287      +0.04%         1.40 ms/ev ->         1.71 ms/ev patTrigger
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.724195 s/ev ==> 1.02182 s/ev
+

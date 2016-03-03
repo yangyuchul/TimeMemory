@@ -1,0 +1,154 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_6_0_pre5 vs CMSSW_7_6_0_pre4
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.03%         0.00 ms/ev ->         2.74 ms/ev patJetPartonAssociationLegacyAK8
+       added      +0.00%         0.00 ms/ev ->         0.09 ms/ev patJetFlavourAssociationLegacyAK4PFForMetUnc
+       added      +0.09%         0.00 ms/ev ->         8.91 ms/ev patJetPartonAssociationLegacyAK4PFForMetUnc
+       added      +0.02%         0.00 ms/ev ->         2.36 ms/ev patJetPartonAssociationLegacyCMSTopTagCHSSubjets
+       added      +0.04%         0.00 ms/ev ->         4.42 ms/ev patJetFlavourAssociationAK4PFForMetUnc
+       added      +0.03%         0.00 ms/ev ->         2.72 ms/ev patJetPartonAssociationLegacyPuppi
+       added      +0.01%         0.00 ms/ev ->         0.55 ms/ev patJetPartonsLegacy
+       added      +0.00%         0.00 ms/ev ->         0.02 ms/ev patJetFlavourAssociationLegacyPuppi
+       added      +0.00%         0.00 ms/ev ->         0.08 ms/ev patJetFlavourAssociationLegacy
+       added      +0.08%         0.00 ms/ev ->         7.74 ms/ev patJetPartonAssociationLegacy
+
+### Full Comparison CMSSW_7_6_0_pre5 vs CMSSW_7_6_0_pre4 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.03%         0.00 ms/ev ->         2.74 ms/ev patJetPartonAssociationLegacyAK8
+       added      +0.00%         0.00 ms/ev ->         0.09 ms/ev patJetFlavourAssociationLegacyAK4PFForMetUnc
+       added      +0.09%         0.00 ms/ev ->         8.91 ms/ev patJetPartonAssociationLegacyAK4PFForMetUnc
+       added      +0.02%         0.00 ms/ev ->         2.36 ms/ev patJetPartonAssociationLegacyCMSTopTagCHSSubjets
+       added      +0.04%         0.00 ms/ev ->         4.42 ms/ev patJetFlavourAssociationAK4PFForMetUnc
+       added      +0.03%         0.00 ms/ev ->         2.72 ms/ev patJetPartonAssociationLegacyPuppi
+       added      +0.01%         0.00 ms/ev ->         0.55 ms/ev patJetPartonsLegacy
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev patJetFlavourAssociationLegacyPuppi
+       added      +0.00%         0.00 ms/ev ->         0.08 ms/ev patJetFlavourAssociationLegacy
+       added      +0.07%         0.00 ms/ev ->         7.74 ms/ev patJetPartonAssociationLegacy
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev patJetFlavourAssociationLegacyAK8
+       added      +0.02%         0.00 ms/ev ->         2.33 ms/ev patJetPartonAssociationLegacyAK8PFCHSSoftDropSubjets
+       added      +0.00%         0.00 ms/ev ->         0.02 ms/ev patJetFlavourAssociationLegacyAK8PFCHSSoftDropSubjets
+       added      +0.00%         0.00 ms/ev ->         0.02 ms/ev patJetFlavourAssociationLegacyCMSTopTagCHSSubjets
+       added      +0.00%         0.00 ms/ev ->         0.13 ms/ev patJetPartonsForMetUnc
+   -1.849427      -0.01%         1.18 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwLT
+   -1.848875      -0.01%         1.20 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwoLT
+   -1.840142      -0.01%         1.08 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3oldDMwLT
+   +1.834320      +0.01%         0.06 ms/ev ->         1.30 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwLT
+   +1.831623      +0.05%         0.24 ms/ev ->         5.51 ms/ev hpsPFTauDiscriminationByMVA5VTightElectronRejection
+   -1.822059      -0.58%        63.09 ms/ev ->         2.94 ms/ev patTrigger
+   +1.803484      +0.04%         0.22 ms/ev ->         4.26 ms/ev hpsPFTauDiscriminationByMVA5MediumElectronRejection
+   +1.798150      +0.01%         0.06 ms/ev ->         1.13 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwoLT
+   +1.784823      +0.03%         0.21 ms/ev ->         3.64 ms/ev hpsPFTauDiscriminationByMVA5TightElectronRejection
+   +1.766339      +0.04%         0.24 ms/ev ->         3.93 ms/ev hpsPFTauDiscriminationByMVA5LooseElectronRejection
+   +1.763119      +0.04%         0.28 ms/ev ->         4.46 ms/ev hpsPFTauDiscriminationByMVA5VLooseElectronRejection
+   +1.685864      +0.00%         0.05 ms/ev ->         0.53 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3oldDMwoLT
+   +1.665059      +0.02%         0.24 ms/ev ->         2.66 ms/ev patJetPartonMatchAK4PFForMetUnc
+   +1.444444      +0.00%         0.06 ms/ev ->         0.37 ms/ev hpsPFTauDiscriminationByMVALooseMuonRejection
+   -1.430572      -0.02%         2.21 ms/ev ->         0.37 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwLT
+   +1.333333      +0.00%         0.06 ms/ev ->         0.29 ms/ev patJetPartonMatchPuppi
+   +1.263158      +0.00%         0.03 ms/ev ->         0.12 ms/ev patJetPartonMatchCMSTopTagCHSSubjets
+   +1.253644      +0.00%         0.06 ms/ev ->         0.28 ms/ev patJetPartonMatchAK8
+   +1.183099      +0.00%         0.03 ms/ev ->         0.11 ms/ev patJetPartonMatchAK8PFCHSSoftDropSubjets
+   -1.126214      -0.00%         0.48 ms/ev ->         0.14 ms/ev hpsPFTauDiscriminationByIsolationMVA3newDMwLTraw
+   -1.092702      -0.01%         1.18 ms/ev ->         0.34 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3newDMwLT
+   -1.057292      -0.01%         1.17 ms/ev ->         0.36 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3newDMwLT
+   -1.055592      -0.01%         1.17 ms/ev ->         0.36 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3newDMwoLT
+   -1.013240      -0.01%         1.08 ms/ev ->         0.35 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3oldDMwLT
+   -1.012587      -0.01%         1.08 ms/ev ->         0.35 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3oldDMwLT
+   +0.657046      +0.05%         5.63 ms/ev ->        11.14 ms/ev slimmedElectrons
+   -0.565383      -0.01%         1.18 ms/ev ->         0.66 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3newDMwoLT
+   -0.517483      -0.00%         0.72 ms/ev ->         0.42 ms/ev MeasurementTrackerEventPreSplitting
+   -0.509009      -0.00%         1.11 ms/ev ->         0.66 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3newDMwoLT
+   -0.500000      -0.00%         1.10 ms/ev ->         0.66 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwLT
+   -0.491168      -0.00%         1.09 ms/ev ->         0.66 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwoLT
+   -0.467593      -0.00%         1.07 ms/ev ->         0.66 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwLT
+   -0.329708      -0.01%         3.37 ms/ev ->         2.42 ms/ev egmGsfElectronIDs
+   -0.315014      -0.01%         2.20 ms/ev ->         1.60 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwoLT
+   +0.244455      +0.00%         0.93 ms/ev ->         1.19 ms/ev patJetFlavourAssociationCMSTopTagCHSSubjets
+   +0.229717      +0.00%         0.97 ms/ev ->         1.22 ms/ev patJetFlavourAssociationAK8PFCHSSoftDropSubjets
+   -0.225249      -0.01%         4.08 ms/ev ->         3.26 ms/ev pfPileUpJMEEI
+   -0.222463      -0.01%         4.10 ms/ev ->         3.28 ms/ev pfPileUpJME
+   +0.220840      +0.01%         2.86 ms/ev ->         3.57 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   +0.220518      +0.00%         0.93 ms/ev ->         1.16 ms/ev patJetFlavourAssociationAK8
+   -0.219070      -0.01%         4.22 ms/ev ->         3.39 ms/ev pfPileUpEI
+   -0.218264      -0.01%         4.17 ms/ev ->         3.35 ms/ev pfPileUpIso
+   -0.216702      -0.01%         4.19 ms/ev ->         3.37 ms/ev pfPileUp
+   -0.215062      -0.01%         4.23 ms/ev ->         3.41 ms/ev pfPileUpIsoPFBRECO
+   +0.202371      +0.01%         2.62 ms/ev ->         3.21 ms/ev patJetFlavourAssociation
+   +0.118771      +0.06%        50.40 ms/ev ->        56.76 ms/ev particleFlowClusterECAL
+   +0.101506      +0.04%        36.94 ms/ev ->        40.89 ms/ev prunedGenParticlesWithStatusOne
+   +0.098577      +0.01%         9.49 ms/ev ->        10.47 ms/ev prunedGenParticles
+   +0.085506      +0.02%        25.19 ms/ev ->        27.44 ms/ev pfNoPileUp
+   +0.084992      +0.02%        25.21 ms/ev ->        27.45 ms/ev pfNoPileUpIso
+   +0.079749      +0.03%        31.52 ms/ev ->        34.14 ms/ev pfNoPileUpIsoPFBRECO
+   +0.079741      +0.02%        26.71 ms/ev ->        28.92 ms/ev pfNoPileUpJME
+   +0.077613      +0.02%        26.74 ms/ev ->        28.90 ms/ev pfNoPileUpJMEEI
+   +0.077608      +0.02%        31.57 ms/ev ->        34.12 ms/ev pfNoPileUpEI
+   +0.074354      +0.00%         4.84 ms/ev ->         5.22 ms/ev uncleanedOnlyAllConversions
+   +0.059823      +0.06%       107.61 ms/ev ->       114.25 ms/ev convTrackCandidates
+   +0.054750      +0.02%        30.00 ms/ev ->        31.69 ms/ev pfCandidateToVertexAssociation
+  ---------- ------------     --------                  ----       ------------
+Job total:  10.3556 s/ev ==> 10.4847 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.03%         0.00 ms/ev ->         2.74 ms/ev patJetPartonAssociationLegacyAK8
+       added      +0.00%         0.00 ms/ev ->         0.09 ms/ev patJetFlavourAssociationLegacyAK4PFForMetUnc
+       added      +0.09%         0.00 ms/ev ->         8.91 ms/ev patJetPartonAssociationLegacyAK4PFForMetUnc
+       added      +0.02%         0.00 ms/ev ->         2.36 ms/ev patJetPartonAssociationLegacyCMSTopTagCHSSubjets
+       added      +0.04%         0.00 ms/ev ->         4.42 ms/ev patJetFlavourAssociationAK4PFForMetUnc
+       added      +0.03%         0.00 ms/ev ->         2.72 ms/ev patJetPartonAssociationLegacyPuppi
+       added      +0.01%         0.00 ms/ev ->         0.55 ms/ev patJetPartonsLegacy
+       added      +0.00%         0.00 ms/ev ->         0.02 ms/ev patJetFlavourAssociationLegacyPuppi
+       added      +0.00%         0.00 ms/ev ->         0.08 ms/ev patJetFlavourAssociationLegacy
+       added      +0.08%         0.00 ms/ev ->         7.74 ms/ev patJetPartonAssociationLegacy
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev patJetFlavourAssociationLegacyAK8
+       added      +0.02%         0.00 ms/ev ->         2.33 ms/ev patJetPartonAssociationLegacyAK8PFCHSSoftDropSubjets
+       added      +0.00%         0.00 ms/ev ->         0.02 ms/ev patJetFlavourAssociationLegacyAK8PFCHSSoftDropSubjets
+       added      +0.00%         0.00 ms/ev ->         0.01 ms/ev patJetFlavourAssociationLegacyCMSTopTagCHSSubjets
+       added      +0.00%         0.00 ms/ev ->         0.13 ms/ev patJetPartonsForMetUnc
+   -1.821990      -0.59%        63.09 ms/ev ->         2.94 ms/ev patTrigger
+   +1.664325      +0.02%         0.24 ms/ev ->         2.66 ms/ev patJetPartonMatchAK4PFForMetUnc
+   -1.467731      -0.01%         0.80 ms/ev ->         0.12 ms/ev patJetsAK8PFCHSSoftDropSubjets
+   -1.444273      -0.01%         0.80 ms/ev ->         0.13 ms/ev patJetsCMSTopTagCHSSubjets
+   -1.428830      -0.00%         0.14 ms/ev ->         0.02 ms/ev offlineSlimmedPrimaryVertices
+   -1.402430      -0.02%         2.65 ms/ev ->         0.47 ms/ev patJetsAK8
+   -1.384013      -0.00%         0.28 ms/ev ->         0.05 ms/ev patJetsCMSTopTagCHS
+   +1.333375      +0.00%         0.06 ms/ev ->         0.29 ms/ev patJetPartonMatchPuppi
+   -1.330221      -0.00%         0.29 ms/ev ->         0.06 ms/ev patJetsAK8PFCHSSoftDrop
+   +1.251440      +0.00%         0.06 ms/ev ->         0.28 ms/ev patJetPartonMatchAK8
+   +1.245886      +0.00%         0.03 ms/ev ->         0.12 ms/ev patJetPartonMatchCMSTopTagCHSSubjets
+   +1.189720      +0.00%         0.03 ms/ev ->         0.11 ms/ev patJetPartonMatchAK8PFCHSSoftDropSubjets
+   -1.165002      -0.02%         2.71 ms/ev ->         0.72 ms/ev patJetsPuppi
+   -0.791834      -0.01%         1.06 ms/ev ->         0.46 ms/ev slimmedElectrons
+   -0.343673      -0.00%         0.68 ms/ev ->         0.48 ms/ev patElectrons
+   -0.331065      -0.01%         3.37 ms/ev ->         2.41 ms/ev egmGsfElectronIDs
+   +0.244616      +0.00%         0.93 ms/ev ->         1.19 ms/ev patJetFlavourAssociationCMSTopTagCHSSubjets
+   +0.229518      +0.00%         0.97 ms/ev ->         1.22 ms/ev patJetFlavourAssociationAK8PFCHSSoftDropSubjets
+   -0.225295      -0.01%         4.09 ms/ev ->         3.26 ms/ev pfPileUpJMEEI
+   -0.223113      -0.01%         4.10 ms/ev ->         3.27 ms/ev pfPileUpJME
+   +0.219973      +0.00%         0.93 ms/ev ->         1.16 ms/ev patJetFlavourAssociationAK8
+   -0.218954      -0.01%         4.22 ms/ev ->         3.39 ms/ev pfPileUpEI
+   -0.218437      -0.01%         4.17 ms/ev ->         3.35 ms/ev pfPileUpIso
+   -0.216511      -0.01%         4.19 ms/ev ->         3.38 ms/ev pfPileUp
+   -0.214790      -0.01%         4.23 ms/ev ->         3.41 ms/ev pfPileUpIsoPFBRECO
+   +0.202640      +0.01%         2.61 ms/ev ->         3.20 ms/ev patJetFlavourAssociation
+   +0.125460      +0.07%        49.77 ms/ev ->        56.43 ms/ev particleFlowClusterECAL
+   +0.103098      +0.04%        36.64 ms/ev ->        40.62 ms/ev prunedGenParticlesWithStatusOne
+   +0.098641      +0.01%         9.48 ms/ev ->        10.47 ms/ev prunedGenParticles
+   -0.087689      -0.01%         6.12 ms/ev ->         5.60 ms/ev patJets
+   +0.085527      +0.02%        25.19 ms/ev ->        27.44 ms/ev pfNoPileUp
+   +0.085010      +0.02%        25.22 ms/ev ->        27.46 ms/ev pfNoPileUpIso
+   +0.079763      +0.03%        31.52 ms/ev ->        34.14 ms/ev pfNoPileUpIsoPFBRECO
+   +0.079016      +0.02%        26.71 ms/ev ->        28.91 ms/ev pfNoPileUpJME
+   +0.077634      +0.02%        26.74 ms/ev ->        28.90 ms/ev pfNoPileUpJMEEI
+   +0.077606      +0.02%        31.57 ms/ev ->        34.12 ms/ev pfNoPileUpEI
+   +0.074128      +0.00%         4.84 ms/ev ->         5.21 ms/ev uncleanedOnlyAllConversions
+   +0.059761      +0.06%       107.59 ms/ev ->       114.22 ms/ev convTrackCandidates
+   +0.054748      +0.02%        30.00 ms/ev ->        31.69 ms/ev pfCandidateToVertexAssociation
+  ---------- ------------     --------                  ----       ------------
+Job total:  10.241 s/ev ==> 10.3448 s/ev
+

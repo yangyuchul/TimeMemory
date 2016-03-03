@@ -1,0 +1,35 @@
+Checking process _RECO ./CMSSW_7_6_0_pre7/src/TimeMemory/step3.root and ./CMSSW_7_6_0/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+     2745 ->        2848        103      3.7   0.00     recoConversions_allConversions__RECO.
+     2356 ->        2474        117      4.9   0.01     recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALBarrel_RECO.
+     4995 ->        5233        238      4.7   0.01     recoTrackExtras_conversionStepTracks__RECO.
+    21041 ->       20726       -315     -1.5  -0.01     recoRecoChargedRefCandidates_trackRefsForJets__RECO.
+     6750 ->        6971        221      3.2   0.01     recoMuons_muons__RECO.
+    46344 ->       46092       -252     -0.5  -0.01     HBHERecHitsSorted_hbhereco__RECO.
+    16250 ->       15836       -414     -2.6  -0.02     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_RECO.
+   151631 ->      173569      21938     13.5   1.04     recoPFClusters_particleFlowClusterPS__RECO.
+    10095 ->        9865       -229     -2.3  -0.01     EcalRecHitsSorted_reducedEcalRecHitsEE__RECO.
+    76402 ->       77100        698      0.9   0.03     recoPFBlocks_particleFlowBlock__RECO.
+     4530 ->        4693        163      3.5   0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_ecal_RECO.
+    54607 ->       54763        156      0.3   0.01     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEB_RECO.
+    94460 ->       95269        809      0.9   0.04     TrackingRecHitsOwned_generalTracks__RECO.
+    78082 ->       77855       -227     -0.3  -0.01     CaloTowersSorted_towerMaker__RECO.
+   497052 ->      487882      -9170     -1.9  -0.44     SiStripClusteredmNewDetSetVector_siStripClusters__RECO.
+     2889 ->        3146        257      8.5   0.01     recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALPreshower_RECO.
+    78438 ->       78230       -208     -0.3  -0.01     recoPFCandidates_particleFlow__RECO.
+     1677 ->        1805        128      7.4   0.01     recoCaloClusters_particleFlowEGamma_ESClusters_RECO.
+        0 ->          10         10     NEWO   0.00     double_fixedGridRhoFastjetCentral__RECO.
+    79846 ->      115431      35585     36.4   1.69     EcalRecHitsSorted_ecalPreshowerRecHit_EcalRecHitsES_RECO.
+     1504 ->        1614        110      7.0   0.01     TrackingRecHitsOwned_conversionStepTracks__RECO.
+    11088 ->       11387        299      2.7   0.01     EcalRecHitsSorted_reducedEcalRecHitsEB__RECO.
+    46346 ->       46096       -251     -0.5  -0.01     HBHERecHitsSorted_hbheprereco__RECO.
+   186372 ->      187075        703      0.4   0.03     recoTrackExtras_generalTracks__RECO.
+     2726 ->        2863        137      4.9   0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_hcal_RECO.
+     2927 ->        3086        158      5.3   0.01     recoTracks_conversionStepTracks__RECO.
+       19 ->          24          5     22.9   0.00     l1extraL1JetParticles_l1extraParticles_Forward_RECO.
+    96704 ->       95395      -1309     -1.4  -0.06     SiPixelClusteredmNewDetSetVector_siPixelClusters__RECO.
+     1654 ->        1764        110      6.4   0.01     TrackingRecHitsOwned_displacedGlobalMuons__RECO.
+-------------------------------------------------------------
+  2103544 ->     2154734      51190             2.4     ALL BRANCHES

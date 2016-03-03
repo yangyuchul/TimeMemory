@@ -1,0 +1,101 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre4 vs CMSSW_7_5_0_pre3
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL2RelativeCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL3AbsoluteCorrector
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev gtEvmDigis
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev ak4PFL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL3AbsoluteCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL2RelativeCorrector
+   -0.275599      -0.11%        44.32 ms/ev ->        33.59 ms/ev ecalDrivenElectronSeeds
+
+### Full Comparison CMSSW_7_5_0_pre4 vs CMSSW_7_5_0_pre3 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL2RelativeCorrector
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL3AbsoluteCorrector
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev gtEvmDigis
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev ak4PFL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL3AbsoluteCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL2RelativeCorrector
+   +1.848158      +0.06%         0.24 ms/ev ->         6.06 ms/ev hpsPFTauDiscriminationByMVA5VLooseElectronRejection
+   -1.794549      -0.01%         0.91 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwoLT
+   +1.715396      +0.03%         0.24 ms/ev ->         3.11 ms/ev hpsPFTauDiscriminationByMVA5LooseElectronRejection
+   -1.711712      -0.01%         0.62 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwLT
+   -1.661202      -0.01%         0.67 ms/ev ->         0.06 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwLT
+   -1.509138      -0.00%         0.34 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByMVAMediumMuonRejection
+   -1.507853      -0.00%         0.34 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3newDMwoLT
+   -1.501326      -0.00%         0.33 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwLT
+   -1.488000      -0.00%         0.33 ms/ev ->         0.05 ms/ev hpsPFTauDiscriminationByMVATightMuonRejection
+   -1.487818      -0.01%         1.68 ms/ev ->         0.25 ms/ev hpsPFTauDiscriminationByMVA5VTightElectronRejection
+   +1.300493      +0.00%         0.07 ms/ev ->         0.34 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwoLT
+   +1.160600      +0.02%         0.78 ms/ev ->         2.95 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   -0.903292      -0.01%         1.41 ms/ev ->         0.53 ms/ev hpsPFTauDiscriminationByMVA5MediumElectronRejection
+   -0.275460      -0.11%        44.28 ms/ev ->        33.56 ms/ev ecalDrivenElectronSeeds
+   -0.223192      -0.04%        17.07 ms/ev ->        13.64 ms/ev gedPhotons
+   -0.222098      -0.02%         9.96 ms/ev ->         7.96 ms/ev particleFlowSuperClusterECAL
+   -0.216587      -0.00%         1.05 ms/ev ->         0.84 ms/ev interestingGedGamIsoDetIdEE
+   -0.213514      -0.01%         4.91 ms/ev ->         3.97 ms/ev ecalDrivenGsfElectrons
+   -0.175316      -0.04%        22.38 ms/ev ->        18.78 ms/ev pfTrackElec
+   -0.174710      -0.22%       130.16 ms/ev ->       109.24 ms/ev conversionTrackCandidates
+   -0.153595      -0.03%        22.43 ms/ev ->        19.23 ms/ev gedGsfElectronsTmp
+   -0.152557      -0.18%       121.78 ms/ev ->       104.52 ms/ev electronGsfTracks
+   -0.142740      -0.01%        10.49 ms/ev ->         9.10 ms/ev gedPhotonsTmp
+   +0.136268      +0.07%        46.86 ms/ev ->        53.72 ms/ev particleFlowClusterECAL
+   -0.135312      -0.02%        12.16 ms/ev ->        10.62 ms/ev electronCkfTrackCandidates
+   -0.132427      -0.08%        59.61 ms/ev ->        52.21 ms/ev allConversions
+   -0.103026      -0.05%        45.82 ms/ev ->        41.33 ms/ev pfTausCombiner
+   -0.101640      -0.01%        11.72 ms/ev ->        10.59 ms/ev particleFlowEGamma
+   -0.100801      -0.05%        45.91 ms/ev ->        41.51 ms/ev combinatoricRecoTaus
+   -0.066795      -0.01%         9.13 ms/ev ->         8.54 ms/ev pfTrack
+   -0.065821      -0.01%        11.24 ms/ev ->        10.52 ms/ev convStepTracks
+   +0.054939      +0.00%         5.17 ms/ev ->         5.46 ms/ev particleFlowRecHitHBHE
+   +0.054274      +0.00%         5.99 ms/ev ->         6.32 ms/ev hpsPFTauProducerSansRefs
+   -0.052371      -0.01%        14.50 ms/ev ->        13.76 ms/ev candidateVertexArbitrator
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.59564 s/ev ==> 9.5443 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL2RelativeCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL3AbsoluteCorrector
+       added      +0.00%         0.00 ms/ev ->         0.03 ms/ev gtEvmDigis
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev ak4PFL1FastjetCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL3AbsoluteCorrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFCHSL1FastL2L3Corrector
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev ak4PFL2RelativeCorrector
+   -0.275599      -0.11%        44.32 ms/ev ->        33.59 ms/ev ecalDrivenElectronSeeds
+   -0.222959      -0.04%        17.07 ms/ev ->        13.65 ms/ev gedPhotons
+   -0.222286      -0.02%         9.96 ms/ev ->         7.97 ms/ev particleFlowSuperClusterECAL
+   -0.216620      -0.00%         1.05 ms/ev ->         0.84 ms/ev interestingGedGamIsoDetIdEE
+   -0.213667      -0.01%         4.91 ms/ev ->         3.96 ms/ev ecalDrivenGsfElectrons
+   -0.175493      -0.04%        22.39 ms/ev ->        18.78 ms/ev pfTrackElec
+   -0.174709      -0.22%       130.29 ms/ev ->       109.35 ms/ev conversionTrackCandidates
+   -0.154911      -0.03%        22.33 ms/ev ->        19.12 ms/ev gedGsfElectronsTmp
+   -0.152814      -0.18%       121.80 ms/ev ->       104.50 ms/ev electronGsfTracks
+   -0.142667      -0.01%        10.50 ms/ev ->         9.10 ms/ev gedPhotonsTmp
+   -0.135607      -0.02%        12.16 ms/ev ->        10.62 ms/ev electronCkfTrackCandidates
+   -0.132541      -0.08%        59.64 ms/ev ->        52.23 ms/ev allConversions
+   +0.121408      +0.06%        46.58 ms/ev ->        52.60 ms/ev particleFlowClusterECAL
+   -0.103125      -0.05%        45.84 ms/ev ->        41.35 ms/ev pfTausCombiner
+   -0.101747      -0.01%        11.73 ms/ev ->        10.59 ms/ev particleFlowEGamma
+   -0.100785      -0.05%        45.94 ms/ev ->        41.53 ms/ev combinatoricRecoTaus
+   -0.066830      -0.01%         9.13 ms/ev ->         8.54 ms/ev pfTrack
+   -0.065833      -0.01%        11.24 ms/ev ->        10.52 ms/ev convStepTracks
+   +0.055502      +0.00%         5.89 ms/ev ->         6.23 ms/ev hpsPFTauProducerSansRefs
+   +0.054602      +0.00%         5.17 ms/ev ->         5.46 ms/ev particleFlowRecHitHBHE
+   -0.052387      -0.01%        14.51 ms/ev ->        13.77 ms/ev candidateVertexArbitrator
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.47794 s/ev ==> 9.41972 s/ev
+

@@ -1,0 +1,61 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0_pre8 vs CMSSW_7_4_0_pre7
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.15%         1.00 ms/ev ->         0.00 ms/ev combinedSecondaryVertexBJetTags
+   -0.145086      -0.19%         9.45 ms/ev ->         8.17 ms/ev prunedGenParticles
+   +0.089922      +0.44%        30.60 ms/ev ->        33.48 ms/ev ak8PFJetsCHSTrimmed
+   +0.084520      +0.57%        42.68 ms/ev ->        46.45 ms/ev MINIAODSIMoutput
+   +0.079748      +0.07%         5.80 ms/ev ->         6.28 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   +0.075601      +0.06%         4.94 ms/ev ->         5.33 ms/ev patJetCorrFactors
+   +0.073100      +0.11%         9.21 ms/ev ->         9.91 ms/ev patJets
+   +0.070943      +0.05%         4.92 ms/ev ->         5.28 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   +0.067719      +0.57%        54.17 ms/ev ->        57.96 ms/ev pfNoPileUpJME
+   +0.067642      +0.67%        63.82 ms/ev ->        68.28 ms/ev pfNoPileUpIsoPFBRECO
+
+### Full Comparison CMSSW_7_4_0_pre8 vs CMSSW_7_4_0_pre7 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.18%         1.19 ms/ev ->         0.00 ms/ev combinedSecondaryVertexBJetTags
+   +0.518857      +0.17%         1.62 ms/ev ->         2.75 ms/ev patElectrons
+   +0.418065      +0.05%         0.61 ms/ev ->         0.94 ms/ev patJetCorrFactorsAK8
+   -0.142841      -0.19%         9.47 ms/ev ->         8.20 ms/ev prunedGenParticles
+   +0.090069      +0.44%        30.60 ms/ev ->        33.48 ms/ev ak8PFJetsCHSTrimmed
+   +0.082975      +0.56%        43.00 ms/ev ->        46.72 ms/ev MINIAODSIMoutput
+   +0.080728      +0.07%         5.80 ms/ev ->         6.29 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   +0.075516      +0.06%         4.94 ms/ev ->         5.33 ms/ev patJetCorrFactors
+   +0.071737      +0.06%         4.92 ms/ev ->         5.29 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   +0.068576      +0.17%        16.22 ms/ev ->        17.38 ms/ev pileupJetId
+   +0.068466      +0.58%        54.18 ms/ev ->        58.02 ms/ev pfNoPileUpJME
+   +0.068360      +0.68%        63.83 ms/ev ->        68.35 ms/ev pfNoPileUpIsoPFBRECO
+   +0.068088      +0.05%         4.94 ms/ev ->         5.29 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   +0.062751      +0.62%        63.64 ms/ev ->        67.77 ms/ev pfNoPileUpPFBRECO
+   +0.061441      +0.07%         6.89 ms/ev ->         7.33 ms/ev patJets
+   +0.058856      +0.25%        26.78 ms/ev ->        28.41 ms/ev pfCandsNotInJetsPtrForMetCorr
+   -0.051571      -0.30%        39.18 ms/ev ->        37.21 ms/ev prunedGenParticlesWithStatusOne
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.661541 s/ev ==> 0.693206 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.15%         1.00 ms/ev ->         0.00 ms/ev combinedSecondaryVertexBJetTags
+   -0.145086      -0.19%         9.45 ms/ev ->         8.17 ms/ev prunedGenParticles
+   +0.089922      +0.44%        30.60 ms/ev ->        33.48 ms/ev ak8PFJetsCHSTrimmed
+   +0.084520      +0.57%        42.68 ms/ev ->        46.45 ms/ev MINIAODSIMoutput
+   +0.079748      +0.07%         5.80 ms/ev ->         6.28 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   +0.075601      +0.06%         4.94 ms/ev ->         5.33 ms/ev patJetCorrFactors
+   +0.073100      +0.11%         9.21 ms/ev ->         9.91 ms/ev patJets
+   +0.070943      +0.05%         4.92 ms/ev ->         5.28 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   +0.067719      +0.57%        54.17 ms/ev ->        57.96 ms/ev pfNoPileUpJME
+   +0.067642      +0.67%        63.82 ms/ev ->        68.28 ms/ev pfNoPileUpIsoPFBRECO
+   +0.067034      +0.05%         4.94 ms/ev ->         5.28 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   +0.061962      +0.61%        63.63 ms/ev ->        67.70 ms/ev pfNoPileUpPFBRECO
+   +0.058192      +0.24%        26.78 ms/ev ->        28.38 ms/ev pfCandsNotInJetsPtrForMetCorr
+   -0.053048      -0.31%        39.15 ms/ev ->        37.13 ms/ev prunedGenParticlesWithStatusOne
+   +0.051322      +0.12%        14.52 ms/ev ->        15.28 ms/ev pileupJetId
+   +0.050403      +0.07%         9.51 ms/ev ->        10.00 ms/ev impactParameterTagInfos
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.662094 s/ev ==> 0.691944 s/ev
+

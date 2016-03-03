@@ -1,0 +1,66 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_6_0_pre2 vs CMSSW_7_6_0_pre1
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.496114      -0.00%         0.84 ms/ev ->         0.51 ms/ev uncleanedOnlyConversionTrackCandidates
+   +0.250776      +0.00%         0.77 ms/ev ->         1.00 ms/ev pfTausSelectionDiscriminator
+   +0.247461      +0.00%         0.78 ms/ev ->         1.00 ms/ev hpsSelectionDiscriminator
+   +0.108399      +0.16%       138.74 ms/ev ->       154.64 ms/ev conversionTrackCandidates
+   -0.100176      -0.01%         8.00 ms/ev ->         7.23 ms/ev siPixelClustersPreSplitting
+   +0.094196      +0.02%        21.27 ms/ev ->        23.38 ms/ev pfTrackElec
+   -0.083203      -0.05%        55.94 ms/ev ->        51.47 ms/ev ecalDrivenElectronSeeds
+   +0.081581      +0.04%        50.61 ms/ev ->        54.91 ms/ev trackerDrivenElectronSeeds
+   +0.079054      +0.16%       188.23 ms/ev ->       203.73 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.074684      -0.00%         6.52 ms/ev ->         6.05 ms/ev siPixelClusters
+
+### Full Comparison CMSSW_7_6_0_pre2 vs CMSSW_7_6_0_pre1 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.231068      +0.00%         0.10 ms/ev ->         0.42 ms/ev hpsPFTauDiscriminationByIsolationMVA3oldDMwoLTraw
+   +0.812381      +0.08%         5.95 ms/ev ->        14.08 ms/ev hpsPFTauDiscriminationByMVA5LooseElectronRejection
+   -0.495905      -0.00%         0.84 ms/ev ->         0.51 ms/ev uncleanedOnlyConversionTrackCandidates
+   +0.383934      +0.00%         0.68 ms/ev ->         1.01 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3newDMwoLT
+   +0.383079      +0.00%         0.69 ms/ev ->         1.01 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwLT
+   +0.382075      +0.00%         0.69 ms/ev ->         1.01 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwoLT
+   +0.380672      +0.00%         0.69 ms/ev ->         1.01 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwLT
+   +0.335960      +0.04%        10.72 ms/ev ->        15.04 ms/ev hpsPFTauDiscriminationByMVA5MediumElectronRejection
+   +0.251131      +0.00%         0.77 ms/ev ->         0.99 ms/ev pfTausSelectionDiscriminator
+   +0.248307      +0.00%         0.78 ms/ev ->         1.00 ms/ev hpsSelectionDiscriminator
+   -0.241461      -0.01%         3.07 ms/ev ->         2.41 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   +0.108377      +0.16%       138.66 ms/ev ->       154.54 ms/ev conversionTrackCandidates
+   +0.094547      +0.02%        21.27 ms/ev ->        23.38 ms/ev pfTrackElec
+   -0.082914      -0.04%        55.93 ms/ev ->        51.48 ms/ev ecalDrivenElectronSeeds
+   +0.081845      +0.04%        50.62 ms/ev ->        54.94 ms/ev trackerDrivenElectronSeeds
+   +0.078948      +0.16%       188.29 ms/ev ->       203.77 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.074628      -0.00%         6.52 ms/ev ->         6.05 ms/ev siPixelClusters
+   +0.070192      +0.00%         5.04 ms/ev ->         5.41 ms/ev muonSeededTrackCandidatesInOut
+   +0.057183      +0.00%         5.55 ms/ev ->         5.88 ms/ev ecalDrivenGsfElectrons
+   -0.055865      -0.01%        13.56 ms/ev ->        12.82 ms/ev siPixelClustersPreSplitting
+   -0.055685      -0.09%       156.56 ms/ev ->       148.08 ms/ev pixelPairStepTracks
+   +0.054389      +0.01%        14.13 ms/ev ->        14.92 ms/ev trackVertexArbitrator
+   +0.052252      +0.01%        14.17 ms/ev ->        14.93 ms/ev candidateVertexArbitrator
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.92205 s/ev ==> 10.0154 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.496114      -0.00%         0.84 ms/ev ->         0.51 ms/ev uncleanedOnlyConversionTrackCandidates
+   +0.250776      +0.00%         0.77 ms/ev ->         1.00 ms/ev pfTausSelectionDiscriminator
+   +0.247461      +0.00%         0.78 ms/ev ->         1.00 ms/ev hpsSelectionDiscriminator
+   +0.108399      +0.16%       138.74 ms/ev ->       154.64 ms/ev conversionTrackCandidates
+   -0.100176      -0.01%         8.00 ms/ev ->         7.23 ms/ev siPixelClustersPreSplitting
+   +0.094196      +0.02%        21.27 ms/ev ->        23.38 ms/ev pfTrackElec
+   -0.083203      -0.05%        55.94 ms/ev ->        51.47 ms/ev ecalDrivenElectronSeeds
+   +0.081581      +0.04%        50.61 ms/ev ->        54.91 ms/ev trackerDrivenElectronSeeds
+   +0.079054      +0.16%       188.23 ms/ev ->       203.73 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.074684      -0.00%         6.52 ms/ev ->         6.05 ms/ev siPixelClusters
+   +0.070100      +0.00%         5.05 ms/ev ->         5.41 ms/ev muonSeededTrackCandidatesInOut
+   +0.057456      +0.00%         5.55 ms/ev ->         5.88 ms/ev ecalDrivenGsfElectrons
+   -0.055711      -0.09%       156.60 ms/ev ->       148.11 ms/ev pixelPairStepTracks
+   +0.053780      +0.01%        14.13 ms/ev ->        14.91 ms/ev trackVertexArbitrator
+   +0.051746      +0.01%        14.16 ms/ev ->        14.91 ms/ev candidateVertexArbitrator
+  ---------- ------------     --------                  ----       ------------
+Job total:  9.74014 s/ev ==> 9.81946 s/ev
+

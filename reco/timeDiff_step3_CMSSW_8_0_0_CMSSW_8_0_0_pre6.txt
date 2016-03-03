@@ -1,0 +1,183 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_8_0_0_pre6 vs CMSSW_8_0_0
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         0.89 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexSoftLeptonBJetTags
+     removed      -0.01%         0.84 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexBJetTags
+       added      +0.00%         0.00 ms/ev ->         0.10 ms/ev pfSimpleInclusiveSecondaryVertexHighEffBJetTags
+     removed      -0.01%         1.02 ms/ev ->         0.00 ms/ev l1L1GtObjectMap
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTagsAK8
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTagsPuppi
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTags
+     removed      -0.00%         0.31 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTagsAK8
+     removed      -0.00%         0.09 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTags
+
+### Full Comparison CMSSW_8_0_0_pre6 vs CMSSW_8_0_0 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         0.89 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexSoftLeptonBJetTags
+     removed      -0.01%         0.84 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexBJetTags
+       added      +0.00%         0.00 ms/ev ->         0.10 ms/ev pfSimpleInclusiveSecondaryVertexHighEffBJetTags
+     removed      -0.01%         1.02 ms/ev ->         0.00 ms/ev l1L1GtObjectMap
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTagsAK8
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTagsPuppi
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTags
+     removed      -0.00%         0.31 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTagsAK8
+     removed      -0.00%         0.09 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTags
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev conditionsInEdm
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTagsPuppi
+     removed      -0.00%         0.49 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTagsPuppi
+     removed      -0.01%         1.26 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTags
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTagsAK8
+   +1.604651      +0.00%         0.05 ms/ev ->         0.47 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVArun2v1DBdR03oldDMwLT
+   -1.515695      -0.01%         0.98 ms/ev ->         0.14 ms/ev ElecMuonHLTOfflineDQM
+   -1.503616      -0.05%         6.06 ms/ev ->         0.86 ms/ev topSingleMuonHLTOfflineDQM
+   -1.490231      -0.05%         5.81 ms/ev ->         0.85 ms/ev SingleTopSingleMuonHLTOfflineDQM
+   -1.366337      -0.00%         0.09 ms/ev ->         0.02 ms/ev rctDigis
+   -1.364787      -0.04%         5.12 ms/ev ->         0.97 ms/ev topSingleElectronHLTOfflineDQM
+   -1.347436      -0.04%         4.94 ms/ev ->         0.96 ms/ev SingleTopSingleElectronHLTOfflineDQM
+   +1.154769      +0.01%         0.37 ms/ev ->         1.38 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   +1.010753      +0.00%         0.02 ms/ev ->         0.07 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVArun2v1DBdR03oldDMwLT
+   -1.000822      -0.01%         0.91 ms/ev ->         0.30 ms/ev selectedPatTrigger
+   -0.606205      -0.00%         0.82 ms/ev ->         0.44 ms/ev uncleanedOnlyConversionTrackCandidates
+   -0.362949      -0.05%        18.60 ms/ev ->        12.88 ms/ev hltResults
+   -0.314443      -0.01%         4.62 ms/ev ->         3.36 ms/ev HILowLumiHLTOfflineSource
+   -0.263056      -0.01%         2.93 ms/ev ->         2.25 ms/ev jetMETHLTOfflineSource
+   +0.237448      +0.00%         0.75 ms/ev ->         0.95 ms/ev pfCombinedSecondaryVertexV2BJetTags
+   +0.205534      +0.00%         0.45 ms/ev ->         0.56 ms/ev egmGedGsfElectronPFPileUpIsolation
+   -0.115092      -0.02%        20.45 ms/ev ->        18.23 ms/ev patTrigger
+   -0.102290      -0.08%        85.49 ms/ev ->        77.17 ms/ev jetCoreRegionalStepTrackCandidates
+   +0.099436      +0.01%        13.24 ms/ev ->        14.62 ms/ev siPixelClustersPreSplitting
+   +0.093108      +0.10%       114.85 ms/ev ->       126.07 ms/ev particleFlowDisplacedVertex
+   +0.092434      +0.10%       114.88 ms/ev ->       126.01 ms/ev particleFlowDisplacedVertexNoHF
+   +0.092096      +0.01%        13.74 ms/ev ->        15.06 ms/ev trackVertexArbitrator
+   +0.090785      +0.00%         4.90 ms/ev ->         5.37 ms/ev particleFlowRecHitHBHE
+   +0.082018      +0.01%         8.93 ms/ev ->         9.70 ms/ev generalV0Candidates
+   +0.078345      +0.02%        21.73 ms/ev ->        23.50 ms/ev pfNoPileUpJMEEI
+   +0.076443      +0.01%        12.48 ms/ev ->        13.47 ms/ev pfCHSNoHF
+   +0.075721      +0.02%        21.80 ms/ev ->        23.52 ms/ev pfNoPileUpJME
+   -0.073997      -0.03%        42.11 ms/ev ->        39.11 ms/ev MINIAODSIMoutput
+   +0.073658      +0.01%        11.14 ms/ev ->        11.99 ms/ev pfNoJetEI
+   +0.072699      +0.02%        33.06 ms/ev ->        35.55 ms/ev tobTecStepSeedsPair
+   +0.070710      +0.19%       277.47 ms/ev ->       297.81 ms/ev pixelLessStepTrackCandidates
+   +0.070032      +0.02%        24.33 ms/ev ->        26.10 ms/ev pfNoPileUpEI
+   +0.068971      +0.02%        24.36 ms/ev ->        26.10 ms/ev pfNoPileUpIsoPFBRECO
+   +0.067446      +0.37%       566.87 ms/ev ->       606.44 ms/ev pixelPairStepTrackCandidates
+   +0.067341      +0.01%        18.09 ms/ev ->        19.36 ms/ev candidateVertexArbitratorCvsL
+   +0.066802      +0.00%         5.95 ms/ev ->         6.36 ms/ev uncleanedOnlyPfTrack
+   +0.066572      +0.01%        16.26 ms/ev ->        17.38 ms/ev gedPhotons
+   +0.065536      +0.03%        51.74 ms/ev ->        55.25 ms/ev allConversions
+   +0.065398      +0.00%         4.88 ms/ev ->         5.21 ms/ev dt4DSegments
+   +0.064968      +0.00%         5.94 ms/ev ->         6.34 ms/ev JetPlusTrackZSPCorJetAntiKt4
+   +0.064705      +0.00%         6.61 ms/ev ->         7.05 ms/ev pixelLessStepClassifier1
+   +0.064484      +0.03%        52.00 ms/ev ->        55.47 ms/ev lowPtTripletStepSeeds
+   +0.062955      +0.01%        21.41 ms/ev ->        22.81 ms/ev duplicateTrackCandidates
+   +0.061829      +0.02%        28.39 ms/ev ->        30.20 ms/ev pfCandidateToVertexAssociationNoHF
+   +0.061685      +0.01%        12.96 ms/ev ->        13.79 ms/ev candidateVertexArbitrator
+   +0.060673      +0.01%        19.29 ms/ev ->        20.50 ms/ev pfNoPileUpIso
+   +0.060469      +0.01%        19.28 ms/ev ->        20.48 ms/ev pfNoPileUp
+   +0.060155      +0.00%         7.82 ms/ev ->         8.30 ms/ev pfTrack
+   +0.059821      +0.00%         6.07 ms/ev ->         6.44 ms/ev boostedTauSeeds
+   +0.059166      +0.08%       144.17 ms/ev ->       152.96 ms/ev tobTecStepTrackCandidates
+   +0.058913      +0.04%        72.78 ms/ev ->        77.20 ms/ev particleFlowDisplacedVertexCandidate
+   +0.058573      +0.01%        22.02 ms/ev ->        23.35 ms/ev particleFlowTmp
+   +0.058193      +0.01%        20.46 ms/ev ->        21.68 ms/ev mixedTripletStepTrackCandidates
+   +0.058074      +0.01%        20.13 ms/ev ->        21.33 ms/ev mixedTripletStepSeedsB
+   +0.057971      +0.02%        28.27 ms/ev ->        29.96 ms/ev pfCandidateToVertexAssociation
+   +0.057714      +0.01%        15.45 ms/ev ->        16.37 ms/ev pixelPairStep
+   +0.057507      +0.02%        27.92 ms/ev ->        29.57 ms/ev mixedTripletStepTracks
+   +0.056356      +0.00%         5.43 ms/ev ->         5.75 ms/ev particleFlowEGamma
+   +0.055828      +0.16%       290.12 ms/ev ->       306.78 ms/ev lowPtTripletStepTrackCandidates
+   +0.055739      +0.18%       338.96 ms/ev ->       358.40 ms/ev detachedTripletStepTrackCandidates
+   +0.055494      +0.00%         5.66 ms/ev ->         5.98 ms/ev TrackSeedMondetachedTripletStep
+   +0.054992      +0.02%        42.55 ms/ev ->        44.96 ms/ev photonConvTrajSeedFromSingleLeg
+   +0.054216      +0.00%         5.53 ms/ev ->         5.83 ms/ev globalSETMuons
+   +0.053505      +0.05%        99.43 ms/ev ->       104.89 ms/ev detachedTripletStepSeeds
+   +0.053240      +0.02%        40.86 ms/ev ->        43.10 ms/ev earlyGeneralTracks
+   +0.051466      +0.01%        17.13 ms/ev ->        18.04 ms/ev combinatoricRecoTausBoosted
+   +0.050562      +0.07%       135.75 ms/ev ->       142.80 ms/ev particleFlowBlock
+   +0.050260      +0.01%        28.63 ms/ev ->        30.11 ms/ev initialStepSeedsPreSplitting
+  ---------- ------------     --------                  ----       ------------
+Job total:  10.6928 s/ev ==> 11.0294 s/ev
+
+The same excluding the first 1 events
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         0.88 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexSoftLeptonBJetTags
+     removed      -0.01%         0.66 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexBJetTags
+       added      +0.00%         0.00 ms/ev ->         0.10 ms/ev pfSimpleInclusiveSecondaryVertexHighEffBJetTags
+     removed      -0.01%         1.02 ms/ev ->         0.00 ms/ev l1L1GtObjectMap
+     removed      -0.00%         0.02 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTagsAK8
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTagsPuppi
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTags
+     removed      -0.00%         0.31 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTagsAK8
+     removed      -0.00%         0.09 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTags
+     removed      -0.00%         0.01 ms/ev ->         0.00 ms/ev conditionsInEdm
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfSimpleSecondaryVertexHighPurBJetTagsPuppi
+     removed      -0.00%         0.49 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTagsPuppi
+     removed      -0.01%         1.26 ms/ev ->         0.00 ms/ev pfCombinedMVABJetTags
+     removed      -0.00%         0.03 ms/ev ->         0.00 ms/ev pfTrackCountingHighPurBJetTagsAK8
+   -1.513967      -0.01%         0.98 ms/ev ->         0.14 ms/ev ElecMuonHLTOfflineDQM
+   -1.501022      -0.05%         6.02 ms/ev ->         0.86 ms/ev topSingleMuonHLTOfflineDQM
+   -1.488067      -0.05%         5.78 ms/ev ->         0.85 ms/ev SingleTopSingleMuonHLTOfflineDQM
+   -1.365238      -0.04%         5.12 ms/ev ->         0.97 ms/ev topSingleElectronHLTOfflineDQM
+   -1.357902      -0.00%         0.08 ms/ev ->         0.02 ms/ev rctDigis
+   -1.348129      -0.04%         4.95 ms/ev ->         0.96 ms/ev SingleTopSingleElectronHLTOfflineDQM
+   -1.000894      -0.01%         0.91 ms/ev ->         0.30 ms/ev selectedPatTrigger
+   -0.606336      -0.00%         0.82 ms/ev ->         0.44 ms/ev uncleanedOnlyConversionTrackCandidates
+   -0.363398      -0.05%        18.57 ms/ev ->        12.86 ms/ev hltResults
+   -0.314297      -0.01%         4.61 ms/ev ->         3.36 ms/ev HILowLumiHLTOfflineSource
+   -0.263720      -0.01%         2.92 ms/ev ->         2.24 ms/ev jetMETHLTOfflineSource
+   +0.200304      +0.00%         0.45 ms/ev ->         0.56 ms/ev egmGedGsfElectronPFPileUpIsolation
+   -0.115157      -0.02%        20.43 ms/ev ->        18.21 ms/ev patTrigger
+   -0.102287      -0.08%        85.57 ms/ev ->        77.25 ms/ev jetCoreRegionalStepTrackCandidates
+   +0.091709      +0.10%       114.79 ms/ev ->       125.82 ms/ev particleFlowDisplacedVertex
+   +0.091049      +0.10%       114.81 ms/ev ->       125.76 ms/ev particleFlowDisplacedVertexNoHF
+   +0.090883      +0.01%        13.73 ms/ev ->        15.04 ms/ev trackVertexArbitrator
+   +0.090384      +0.00%         4.90 ms/ev ->         5.36 ms/ev particleFlowRecHitHBHE
+   +0.080998      +0.01%         8.93 ms/ev ->         9.68 ms/ev generalV0Candidates
+   +0.077412      +0.02%        21.72 ms/ev ->        23.46 ms/ev pfNoPileUpJMEEI
+   +0.075387      +0.01%        12.47 ms/ev ->        13.45 ms/ev pfCHSNoHF
+   -0.075072      -0.03%        41.97 ms/ev ->        38.93 ms/ev MINIAODSIMoutput
+   +0.074815      +0.02%        21.79 ms/ev ->        23.48 ms/ev pfNoPileUpJME
+   +0.073177      +0.01%        11.13 ms/ev ->        11.98 ms/ev pfNoJetEI
+   +0.071753      +0.02%        33.03 ms/ev ->        35.49 ms/ev tobTecStepSeedsPair
+   +0.069654      +0.19%       277.31 ms/ev ->       297.33 ms/ev pixelLessStepTrackCandidates
+   +0.069290      +0.02%        24.32 ms/ev ->        26.06 ms/ev pfNoPileUpEI
+   +0.068290      +0.01%        15.39 ms/ev ->        16.48 ms/ev gedPhotons
+   +0.068249      +0.02%        24.34 ms/ev ->        26.06 ms/ev pfNoPileUpIsoPFBRECO
+   +0.066658      +0.00%         4.87 ms/ev ->         5.21 ms/ev dt4DSegments
+   +0.066433      +0.37%       566.46 ms/ev ->       605.39 ms/ev pixelPairStepTrackCandidates
+   +0.066000      +0.00%         5.94 ms/ev ->         6.35 ms/ev uncleanedOnlyPfTrack
+   +0.065677      +0.01%        18.09 ms/ev ->        19.32 ms/ev candidateVertexArbitratorCvsL
+   +0.064406      +0.00%         6.59 ms/ev ->         7.03 ms/ev pixelLessStepClassifier1
+   +0.064355      +0.03%        51.67 ms/ev ->        55.10 ms/ev allConversions
+   +0.063394      +0.03%        51.97 ms/ev ->        55.37 ms/ev lowPtTripletStepSeeds
+   +0.063154      +0.00%         5.94 ms/ev ->         6.33 ms/ev JetPlusTrackZSPCorJetAntiKt4
+   +0.061515      +0.01%        21.39 ms/ev ->        22.75 ms/ev duplicateTrackCandidates
+   +0.061059      +0.02%        28.36 ms/ev ->        30.14 ms/ev pfCandidateToVertexAssociationNoHF
+   +0.060506      +0.01%        12.96 ms/ev ->        13.76 ms/ev candidateVertexArbitrator
+   +0.059216      +0.00%         6.05 ms/ev ->         6.42 ms/ev boostedTauSeeds
+   +0.059174      +0.00%         7.81 ms/ev ->         8.29 ms/ev pfTrack
+   +0.059054      +0.01%        19.28 ms/ev ->        20.45 ms/ev pfNoPileUpIso
+   +0.058769      +0.01%        19.26 ms/ev ->        20.43 ms/ev pfNoPileUp
+   +0.057848      +0.08%       144.10 ms/ev ->       152.68 ms/ev tobTecStepTrackCandidates
+   +0.057695      +0.01%        20.44 ms/ev ->        21.65 ms/ev mixedTripletStepTrackCandidates
+   +0.057141      +0.02%        28.25 ms/ev ->        29.91 ms/ev pfCandidateToVertexAssociation
+   +0.057076      +0.01%        20.12 ms/ev ->        21.30 ms/ev mixedTripletStepSeedsB
+   +0.057008      +0.01%        15.42 ms/ev ->        16.33 ms/ev pixelPairStep
+   +0.056790      +0.01%        22.01 ms/ev ->        23.29 ms/ev particleFlowTmp
+   +0.056538      +0.02%        27.91 ms/ev ->        29.53 ms/ev mixedTripletStepTracks
+   +0.054954      +0.15%       289.91 ms/ev ->       306.29 ms/ev lowPtTripletStepTrackCandidates
+   +0.054703      +0.18%       338.68 ms/ev ->       357.73 ms/ev detachedTripletStepTrackCandidates
+   +0.054510      +0.02%        42.51 ms/ev ->        44.90 ms/ev photonConvTrajSeedFromSingleLeg
+   +0.054474      +0.00%         5.66 ms/ev ->         5.97 ms/ev TrackSeedMondetachedTripletStep
+   +0.054299      +0.00%         5.43 ms/ev ->         5.73 ms/ev particleFlowEGamma
+   +0.053431      +0.00%         5.52 ms/ev ->         5.83 ms/ev globalSETMuons
+   +0.052257      +0.05%        99.37 ms/ev ->       104.70 ms/ev detachedTripletStepSeeds
+   +0.052116      +0.02%        40.83 ms/ev ->        43.02 ms/ev earlyGeneralTracks
+   +0.050691      +0.01%        17.10 ms/ev ->        17.99 ms/ev combinatoricRecoTausBoosted
+  ---------- ------------     --------                  ----       ------------
+Job total:  10.5969 s/ev ==> 10.915 s/ev
+

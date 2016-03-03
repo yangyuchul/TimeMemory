@@ -1,0 +1,41 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre4 vs CMSSW_7_5_0_pre3
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.646001 s/ev ==> 0.643418 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.03%         0.22 ms/ev ->         0.00 ms/ev caloJetMap
+   +0.251520      +0.40%         9.03 ms/ev ->        11.62 ms/ev prunedGenParticles
+   +0.183630      +1.16%        37.06 ms/ev ->        44.55 ms/ev prunedGenParticlesWithStatusOne
+   -0.070659      -0.09%         8.96 ms/ev ->         8.35 ms/ev pfImpactParameterTagInfosAK8
+   -0.052732      -0.09%        10.78 ms/ev ->        10.23 ms/ev pfImpactParameterTagInfosPuppi
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.645489 s/ev ==> 0.647627 s/ev
+
+### Full Comparison CMSSW_7_5_0_pre4 vs CMSSW_7_5_0_pre3 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.04%         0.24 ms/ev ->         0.00 ms/ev caloJetMap
+   -0.512605      -0.77%        12.26 ms/ev ->         7.26 ms/ev primaryVertexAssociation
+   +0.406130      +0.03%         0.42 ms/ev ->         0.63 ms/ev ecalLaserCorrFilter
+   +0.251476      +0.40%         9.03 ms/ev ->        11.63 ms/ev prunedGenParticles
+   +0.182810      +1.16%        37.32 ms/ev ->        44.82 ms/ev prunedGenParticlesWithStatusOne
+   -0.070760      -0.09%         8.96 ms/ev ->         8.34 ms/ev pfImpactParameterTagInfosAK8
+   -0.065017      -0.06%         5.99 ms/ev ->         5.61 ms/ev patJets
+   -0.052767      -0.09%        10.78 ms/ev ->        10.22 ms/ev pfImpactParameterTagInfosPuppi
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.646001 s/ev ==> 0.643418 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.03%         0.22 ms/ev ->         0.00 ms/ev caloJetMap
+   +0.251520      +0.40%         9.03 ms/ev ->        11.62 ms/ev prunedGenParticles
+   +0.183630      +1.16%        37.06 ms/ev ->        44.55 ms/ev prunedGenParticlesWithStatusOne
+   -0.070659      -0.09%         8.96 ms/ev ->         8.35 ms/ev pfImpactParameterTagInfosAK8
+   -0.052732      -0.09%        10.78 ms/ev ->        10.23 ms/ev pfImpactParameterTagInfosPuppi
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.645489 s/ev ==> 0.647627 s/ev
+

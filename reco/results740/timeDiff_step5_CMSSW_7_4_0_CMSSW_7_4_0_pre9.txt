@@ -1,0 +1,54 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0 vs CMSSW_7_4_0_pre9
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.090176      +0.01%         0.02 ms/ev ->         0.07 ms/ev logErrorTooManyClusters
+   -0.499536      -0.05%         1.01 ms/ev ->         0.61 ms/ev selectedPatTrigger
+   +0.340227      +0.04%         0.75 ms/ev ->         1.06 ms/ev reducedEgamma
+   -0.312026      -0.38%        10.27 ms/ev ->         7.50 ms/ev prunedGenParticles
+   +0.240612      +0.12%         3.13 ms/ev ->         3.98 ms/ev patJetPartonMatchAK4PFForMetUnc
+   -0.198926      -1.00%        40.51 ms/ev ->        33.18 ms/ev prunedGenParticlesWithStatusOne
+   -0.171708      -1.74%        81.02 ms/ev ->        68.21 ms/ev pfImpactParameterTagInfos
+   -0.142225      -0.19%        10.43 ms/ev ->         9.05 ms/ev pfImpactParameterTagInfosAK8
+   -0.138702      -0.22%        12.72 ms/ev ->        11.07 ms/ev pfImpactParameterTagInfosPuppi
+   +0.097185      +0.12%         8.83 ms/ev ->         9.73 ms/ev patJets
+
+### Full Comparison CMSSW_7_4_0 vs CMSSW_7_4_0_pre9 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.550030      -0.06%         1.06 ms/ev ->         0.60 ms/ev selectedPatTrigger
+   -0.312254      -0.38%        10.29 ms/ev ->         7.51 ms/ev prunedGenParticles
+   -0.240734      -0.04%         1.47 ms/ev ->         1.15 ms/ev combinedSecondaryVertexBJetTags
+   +0.240157      +0.12%         3.13 ms/ev ->         3.98 ms/ev patJetPartonMatchAK4PFForMetUnc
+   -0.210105      -1.06%        41.00 ms/ev ->        33.20 ms/ev prunedGenParticlesWithStatusOne
+   +0.200401      +0.03%         0.90 ms/ev ->         1.10 ms/ev reducedEgamma
+   -0.172160      -1.75%        81.03 ms/ev ->        68.18 ms/ev pfImpactParameterTagInfos
+   -0.143531      -0.17%         9.10 ms/ev ->         7.88 ms/ev primaryVertexAssociation
+   -0.142593      -0.19%        10.43 ms/ev ->         9.04 ms/ev pfImpactParameterTagInfosAK8
+   -0.139332      -0.23%        12.72 ms/ev ->        11.06 ms/ev pfImpactParameterTagInfosPuppi
+   +0.073847      +0.07%         6.59 ms/ev ->         7.09 ms/ev patJets
+   -0.065326      -0.40%        46.74 ms/ev ->        43.79 ms/ev MINIAODSIMoutput
+   +0.062007      +0.05%         5.28 ms/ev ->         5.62 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   -0.053676      -0.12%        16.43 ms/ev ->        15.57 ms/ev pileupJetId
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.732003 s/ev ==> 0.694377 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.090176      +0.01%         0.02 ms/ev ->         0.07 ms/ev logErrorTooManyClusters
+   -0.499536      -0.05%         1.01 ms/ev ->         0.61 ms/ev selectedPatTrigger
+   +0.340227      +0.04%         0.75 ms/ev ->         1.06 ms/ev reducedEgamma
+   -0.312026      -0.38%        10.27 ms/ev ->         7.50 ms/ev prunedGenParticles
+   +0.240612      +0.12%         3.13 ms/ev ->         3.98 ms/ev patJetPartonMatchAK4PFForMetUnc
+   -0.198926      -1.00%        40.51 ms/ev ->        33.18 ms/ev prunedGenParticlesWithStatusOne
+   -0.171708      -1.74%        81.02 ms/ev ->        68.21 ms/ev pfImpactParameterTagInfos
+   -0.142225      -0.19%        10.43 ms/ev ->         9.05 ms/ev pfImpactParameterTagInfosAK8
+   -0.138702      -0.22%        12.72 ms/ev ->        11.07 ms/ev pfImpactParameterTagInfosPuppi
+   +0.097185      +0.12%         8.83 ms/ev ->         9.73 ms/ev patJets
+   +0.062660      +0.05%         5.28 ms/ev ->         5.62 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   -0.060021      -0.37%        46.17 ms/ev ->        43.48 ms/ev MINIAODSIMoutput
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.734284 s/ev ==> 0.701033 s/ev
+

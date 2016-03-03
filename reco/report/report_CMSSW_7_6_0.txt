@@ -1,0 +1,37 @@
+1. cmsDriver
+step3 \
+--conditions auto:run2_mc \
+--eventcontent RECOSIM,AODSIM,MINIAODSIM,DQM \
+--runUnscheduled -s RAW2DIGI,L1Reco,RECO,EI,PAT,DQM:@common \
+--datatier GEN-SIM-RECO,AODSIM,MINIAODSIM,DQMIO \
+--customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1
+-n 1000 \
+--customise Validation/Performance/TimeMemoryInfo.py \
+--no_exec \
+--filein filelist:localfile \
+--fileout file:step3.root \
+--python_filename step3.py
+
+
+2. cmsDriver update (for after CMSSW_7_6_0_pre7)
+--customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1
+-->
+--era Run2_25ns
+    #
+    # -- Warning! You are using a deprecated customisation function. --
+    #
+    # It will probably run fine, but the customisations you are getting may be out of date.
+    # You should update your configuration file by
+    #   If using cmsDriver:
+    #       1) remove the "--customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1" option
+    #       2) add the option "--era Run2_25ns"
+    #   If using a pre-made configuration file:
+    #       1) remove or comment out the "process = customisePostLS1(process)" line.
+    #       2) add "from Configuration.StandardSequences.Eras import eras" to the TOP of the config file (above
+    #          the process declaration).
+    #       3) add "eras.Run2_25ns" as a parameter to the process object, e.g. "process = cms.Process('HLT',eras.Run2_25ns)"
+    #
+    # There is more information at https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideCmsDriverEras
+    #
+
+

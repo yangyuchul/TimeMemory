@@ -1,0 +1,2 @@
+|  CMSSW_VERSION     |  MaxMemory(evt)  |  AverageTime  |  MaxTime(evt)  |
+|  CMSSW_8_0_0_pre1  |  2262.16(785)    |  11.3267      |  39.1375(498)  |

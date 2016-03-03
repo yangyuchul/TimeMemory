@@ -1,0 +1,101 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0_pre2 vs CMSSW_7_4_0_pre1
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.01%         0.00 ms/ev ->         0.09 ms/ev ak8PFJetsCHSTrimmedLinks
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.56%         5.70 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDrop
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+       added      +0.01%         0.00 ms/ev ->         0.07 ms/ev ak8PFJetsCHSFilteredLinks
+       added      +0.01%         0.00 ms/ev ->         0.08 ms/ev ak8PFJetsCHSPrunedLinks
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSFilteredMass
+     removed      -0.01%         0.09 ms/ev ->         0.00 ms/ev ak8PFJetsCHSTrimmedMass
+   -1.158875      -4.18%        58.28 ms/ev ->        15.52 ms/ev NjettinessAK8
+   -0.489470      -0.06%         1.46 ms/ev ->         0.89 ms/ev tauIsoDepositPFNeutralHadrons
+
+### Full Comparison CMSSW_7_4_0_pre2 vs CMSSW_7_4_0_pre1 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         0.09 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+       added      +0.01%         0.00 ms/ev ->         0.09 ms/ev ak8PFJetsCHSPrunedLinks
+     removed      -0.01%         0.09 ms/ev ->         0.00 ms/ev ak8PFJetsCHSTrimmedMass
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSFilteredMass
+     removed      -0.56%         5.69 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDrop
+       added      +0.01%         0.00 ms/ev ->         0.08 ms/ev ak8PFJetsCHSFilteredLinks
+       added      +0.01%         0.00 ms/ev ->         0.10 ms/ev ak8PFJetsCHSTrimmedLinks
+   -1.158289      -4.19%        58.20 ms/ev ->        15.51 ms/ev NjettinessAK8
+   -0.488283      -0.06%         1.46 ms/ev ->         0.89 ms/ev tauIsoDepositPFNeutralHadrons
+   -0.253275      -0.06%         2.71 ms/ev ->         2.10 ms/ev selectedPatJetsForMETtype1p2Corr
+   -0.226354      -0.05%         2.75 ms/ev ->         2.19 ms/ev selectedPatJetsForMETtype1p2CorrOriginalReserved
+   -0.216944      -0.07%         3.50 ms/ev ->         2.81 ms/ev selectedPatJetsForMETtype1p2CorrEnDown
+   -0.207631      -0.19%        10.05 ms/ev ->         8.16 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   -0.204670      -0.06%         3.52 ms/ev ->         2.86 ms/ev selectedPatJetsForMETtype1p2CorrEnUp
+   -0.196574      -0.18%        10.00 ms/ev ->         8.21 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   -0.175638      -0.45%        28.71 ms/ev ->        24.07 ms/ev tauIsoDepositPFCandidates
+   -0.173109      -0.65%        41.78 ms/ev ->        35.13 ms/ev pfCandsNotInJetsPtrForMetCorr
+   -0.172368      -0.43%        27.69 ms/ev ->        23.29 ms/ev prunedGenParticlesWithStatusOne
+   -0.169086      -0.21%        13.67 ms/ev ->        11.54 ms/ev prunedGenParticles
+   -0.161991      -0.08%         5.45 ms/ev ->         4.63 ms/ev patPFJetMETtype1p2CorrOriginalReserved
+   -0.157760      -0.22%        15.44 ms/ev ->        13.18 ms/ev impactParameterTagInfos
+   -0.152356      -0.08%         5.45 ms/ev ->         4.68 ms/ev patJetFlavourAssociationAK8
+   -0.149330      -0.89%        65.60 ms/ev ->        56.48 ms/ev patJets
+   -0.137807      -0.10%         8.03 ms/ev ->         6.99 ms/ev patJetCorrFactors
+   -0.135321      -0.08%         6.45 ms/ev ->         5.63 ms/ev corrPfMetType1
+   -0.132641      -1.08%        88.76 ms/ev ->        77.72 ms/ev pfNoPileUpIsoPFBRECO
+   -0.131631      -1.08%        88.91 ms/ev ->        77.93 ms/ev pfNoPileUpPFBRECO
+   -0.130608      -0.07%         5.89 ms/ev ->         5.17 ms/ev ak8PFJetsCHSPruned
+   -0.127548      -0.91%        77.50 ms/ev ->        68.20 ms/ev pfNoPileUpJME
+   -0.126498      -0.06%         5.46 ms/ev ->         4.81 ms/ev ak8PFJetsCHSFiltered
+   -0.124716      -0.10%         8.89 ms/ev ->         7.85 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   -0.123633      -1.85%       162.12 ms/ev ->       143.24 ms/ev pfImpactParameterTagInfos
+   -0.121906      -0.10%         8.94 ms/ev ->         7.91 ms/ev packedPFCandidates
+   -0.119928      -0.09%         8.20 ms/ev ->         7.27 ms/ev patJetFlavourAssociation
+   -0.116227      -0.45%        41.48 ms/ev ->        36.92 ms/ev ak8PFJetsCHSTrimmed
+   -0.097188      -0.31%        33.90 ms/ev ->        30.76 ms/ev pileupJetId
+  ---------- ------------     --------                  ----       ------------
+Job total:  1.01876 s/ev ==> 0.852308 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.01%         0.00 ms/ev ->         0.09 ms/ev ak8PFJetsCHSTrimmedLinks
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.56%         5.70 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDrop
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+       added      +0.01%         0.00 ms/ev ->         0.07 ms/ev ak8PFJetsCHSFilteredLinks
+       added      +0.01%         0.00 ms/ev ->         0.08 ms/ev ak8PFJetsCHSPrunedLinks
+     removed      -0.01%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSFilteredMass
+     removed      -0.01%         0.09 ms/ev ->         0.00 ms/ev ak8PFJetsCHSTrimmedMass
+   -1.158875      -4.18%        58.28 ms/ev ->        15.52 ms/ev NjettinessAK8
+   -0.489470      -0.06%         1.46 ms/ev ->         0.89 ms/ev tauIsoDepositPFNeutralHadrons
+   -0.253804      -0.06%         2.71 ms/ev ->         2.10 ms/ev selectedPatJetsForMETtype1p2Corr
+   -0.226957      -0.06%         2.76 ms/ev ->         2.20 ms/ev selectedPatJetsForMETtype1p2CorrOriginalReserved
+   -0.217588      -0.07%         3.51 ms/ev ->         2.82 ms/ev selectedPatJetsForMETtype1p2CorrEnDown
+   -0.212950      -0.19%        10.11 ms/ev ->         8.17 ms/ev selectedPatJetsForMETtype1p2CorrResDown
+   -0.205617      -0.06%         3.52 ms/ev ->         2.87 ms/ev selectedPatJetsForMETtype1p2CorrEnUp
+   -0.197407      -0.18%        10.02 ms/ev ->         8.22 ms/ev selectedPatJetsForMETtype1p2CorrResUp
+   -0.176454      -0.46%        28.71 ms/ev ->        24.06 ms/ev tauIsoDepositPFCandidates
+   -0.173314      -0.65%        41.80 ms/ev ->        35.14 ms/ev pfCandsNotInJetsPtrForMetCorr
+   -0.172147      -0.43%        27.68 ms/ev ->        23.29 ms/ev prunedGenParticlesWithStatusOne
+   -0.170527      -0.21%        13.67 ms/ev ->        11.52 ms/ev prunedGenParticles
+   -0.162394      -0.08%         5.46 ms/ev ->         4.64 ms/ev patPFJetMETtype1p2CorrOriginalReserved
+   -0.159281      -0.22%        15.44 ms/ev ->        13.16 ms/ev impactParameterTagInfos
+   -0.152700      -0.08%         5.45 ms/ev ->         4.68 ms/ev patJetFlavourAssociationAK8
+   -0.138406      -0.10%         8.05 ms/ev ->         7.00 ms/ev patJetCorrFactors
+   -0.138210      -0.08%         6.46 ms/ev ->         5.63 ms/ev corrPfMetType1
+   -0.136534      -0.86%        68.98 ms/ev ->        60.17 ms/ev patJets
+   -0.132801      -1.08%        88.83 ms/ev ->        77.77 ms/ev pfNoPileUpIsoPFBRECO
+   -0.131845      -1.08%        88.95 ms/ev ->        77.95 ms/ev pfNoPileUpPFBRECO
+   -0.130992      -0.07%         5.90 ms/ev ->         5.17 ms/ev ak8PFJetsCHSPruned
+   -0.127705      -0.91%        77.54 ms/ev ->        68.23 ms/ev pfNoPileUpJME
+   -0.127521      -0.06%         5.47 ms/ev ->         4.81 ms/ev ak8PFJetsCHSFiltered
+   -0.126511      -0.10%         8.92 ms/ev ->         7.86 ms/ev patJetCorrFactorsAK4PFForMetUnc
+   -0.125878      -0.37%        31.94 ms/ev ->        28.16 ms/ev pileupJetId
+   -0.124255      -1.86%       162.22 ms/ev ->       143.25 ms/ev pfImpactParameterTagInfos
+   -0.121214      -0.10%         8.94 ms/ev ->         7.92 ms/ev packedPFCandidates
+   -0.121089      -0.09%         8.21 ms/ev ->         7.27 ms/ev patJetFlavourAssociation
+   -0.116452      -0.45%        41.54 ms/ev ->        36.97 ms/ev ak8PFJetsCHSTrimmed
+  ---------- ------------     --------                  ----       ------------
+Job total:  1.02182 s/ev ==> 0.853942 s/ev
+

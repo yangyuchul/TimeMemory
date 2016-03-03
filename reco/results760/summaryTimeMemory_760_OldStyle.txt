@@ -1,0 +1,12 @@
+Short Summary for Time and Memory for step3(RECO)
+|  CMSSW_VERSION     |  MaxMemory (evt)  |  AverageTime  |  MaxTime (evt)  |
+|  CMSSW_7_6_0_pre1  |  1874 (359)       |  9.96607      |  25.3645 (63)   |
+|  CMSSW_7_6_0_pre2  |  1627.72 (948)    |  9.88484      |  24.9077 (743)  |
+|  CMSSW_7_6_0_pre3  |  1426.21 (52)     |  19.3409      |  98.8267 (665)  |
+
+
+Short Summary for Time and Memory for step5(PAT)
+|  CMSSW_VERSION     |  MaxMemory (evt)  |  AverageTime  |  MaxTime (evt)  |
+|  CMSSW_7_6_0_pre1  |  1199.91 (964)    |  0.929554     |  8.24248 (692)  |
+|  CMSSW_7_6_0_pre2  |  1203.83 (977)    |  0.934951     |  8.16214 (690)  |
+|  CMSSW_7_6_0_pre3  |  1097.15 (796)    |  1.13314      |  11.2519 (744)  |

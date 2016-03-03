@@ -1,0 +1,126 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_8_0_0_pre4 vs CMSSW_8_0_0_pre5
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.42 ms/ev highPurityPtRange0to1
+       added      +0.10%         0.00 ms/ev ->        11.13 ms/ev TrackerCollisionSelectedTrackMonCommonhighPurityPtRange0to1
+   -1.398838      -0.02%         3.22 ms/ev ->         0.57 ms/ev muonSeededSeedsOutInDisplaced
+   -0.848457      -1.04%       204.30 ms/ev ->        82.59 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.722442      -0.01%         1.20 ms/ev ->         0.56 ms/ev muonSeededSeedsOutIn
+   -0.680645      -0.00%         0.83 ms/ev ->         0.41 ms/ev MeasurementTrackerEventPreSplitting
+   -0.661950      -0.01%         1.32 ms/ev ->         0.66 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   -0.431373      -0.00%         0.90 ms/ev ->         0.58 ms/ev muPFIsoDepositPU
+   -0.412411      -0.00%         0.93 ms/ev ->         0.61 ms/ev muPFIsoDepositPUPAT
+
+### Full Comparison CMSSW_8_0_0_pre4 vs CMSSW_8_0_0_pre5 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.42 ms/ev highPurityPtRange0to1
+       added      +0.10%         0.00 ms/ev ->        11.13 ms/ev TrackerCollisionSelectedTrackMonCommonhighPurityPtRange0to1
+   -1.398838      -0.02%         3.22 ms/ev ->         0.57 ms/ev muonSeededSeedsOutInDisplaced
+   -0.848457      -1.04%       204.30 ms/ev ->        82.59 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.722442      -0.01%         1.20 ms/ev ->         0.56 ms/ev muonSeededSeedsOutIn
+   -0.680645      -0.00%         0.83 ms/ev ->         0.41 ms/ev MeasurementTrackerEventPreSplitting
+   -0.661950      -0.01%         1.32 ms/ev ->         0.66 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   -0.431373      -0.00%         0.90 ms/ev ->         0.58 ms/ev muPFIsoDepositPU
+   -0.412411      -0.00%         0.93 ms/ev ->         0.61 ms/ev muPFIsoDepositPUPAT
+   -0.377842      -0.60%       220.10 ms/ev ->       150.15 ms/ev tobTecStepTrackCandidates
+   -0.293671      -0.00%         0.91 ms/ev ->         0.67 ms/ev muonSeededTrackCandidatesOutIn
+   -0.254840      -0.00%         1.95 ms/ev ->         1.51 ms/ev siStripZeroSuppression
+   -0.246914      -0.00%         1.73 ms/ev ->         1.35 ms/ev ak4PFJetsLegacyHPSPiZeros76xReMiniAOD
+   -0.235785      -0.00%         1.74 ms/ev ->         1.37 ms/ev pfJetsLegacyHPSPiZeros
+   -0.235028      -0.00%         1.73 ms/ev ->         1.36 ms/ev ak4PFJetsLegacyHPSPiZeros
+   -0.171572      -0.47%       350.53 ms/ev ->       295.14 ms/ev pixelLessStepTrackCandidates
+   -0.165689      -0.48%       369.41 ms/ev ->       312.89 ms/ev lowPtTripletStepTrackCandidates
+   -0.161267      -0.12%        90.11 ms/ev ->        76.66 ms/ev puppiNoLep
+   -0.160576      -0.11%        90.18 ms/ev ->        76.78 ms/ev puppi
+   -0.142841      -0.47%       415.50 ms/ev ->       360.11 ms/ev detachedTripletStepTrackCandidates
+   -0.113436      -0.41%       441.52 ms/ev ->       394.12 ms/ev initialStepTrackCandidates
+   +0.112548      +0.01%         9.12 ms/ev ->        10.21 ms/ev particleFlowRecHitHF
+   -0.110259      -0.40%       447.72 ms/ev ->       400.93 ms/ev initialStepTrackCandidatesPreSplitting
+   -0.104755      -0.02%        19.85 ms/ev ->        17.88 ms/ev tobTecStepTracks
+   -0.100448      -0.00%         5.28 ms/ev ->         4.77 ms/ev uncleanedOnlyAllConversions
+   +0.094180      +0.00%         4.89 ms/ev ->         5.37 ms/ev hcalnoise
+   -0.089824      -0.08%       113.89 ms/ev ->       104.10 ms/ev detachedTripletStepSeeds
+   -0.084830      -0.00%         5.46 ms/ev ->         5.01 ms/ev TrackSeedMonlowPtTripletStep
+   -0.080621      -0.00%         6.03 ms/ev ->         5.56 ms/ev TrackSeedMondetachedTripletStep
+   -0.079438      -0.00%         5.63 ms/ev ->         5.20 ms/ev TrackSeedMoninitialStep
+   -0.066020      -0.02%        32.00 ms/ev ->        29.95 ms/ev initialStepSeeds
+   -0.064645      -0.01%        10.84 ms/ev ->        10.16 ms/ev pixelLessStepClassifier1
+   -0.064599      -0.01%        23.38 ms/ev ->        21.92 ms/ev SiStripMonitorDigi
+   -0.064488      -0.10%       187.68 ms/ev ->       175.96 ms/ev pixelPairStepTracks
+   -0.061913      -0.01%        10.04 ms/ev ->         9.44 ms/ev generalV0Candidates
+   -0.060606      -0.02%        32.04 ms/ev ->        30.16 ms/ev initialStepSeedsPreSplitting
+   -0.059169      -0.04%        71.34 ms/ev ->        67.24 ms/ev pixelLessStepTracks
+   -0.059049      -0.01%        10.22 ms/ev ->         9.63 ms/ev generalTracks
+   -0.058587      -0.04%        84.40 ms/ev ->        79.60 ms/ev particleFlowClusterHF
+   -0.058204      -0.32%       651.56 ms/ev ->       614.71 ms/ev pixelPairStepTrackCandidates
+   -0.058136      -0.03%        69.05 ms/ev ->        65.15 ms/ev tobTecStepSeedsTripl
+   -0.057897      -0.00%         9.51 ms/ev ->         8.97 ms/ev muonMETValueMapProducer
+   -0.056882      -0.01%        12.82 ms/ev ->        12.11 ms/ev TrackSeedMonpixelPairStep
+   -0.056867      -0.01%        18.12 ms/ev ->        17.12 ms/ev gedPhotons
+   +0.053333      +0.00%         6.64 ms/ev ->         7.01 ms/ev topSingleMuonHLTOfflineDQM
+   -0.053282      -0.01%        13.80 ms/ev ->        13.08 ms/ev TrackSeedMontobTecStep
+   -0.052965      -0.00%         9.32 ms/ev ->         8.84 ms/ev pixelLessStepClassifier2
+   -0.052417      -0.00%         5.42 ms/ev ->         5.15 ms/ev dedxTruncated40
+   -0.051912      -0.03%        58.16 ms/ev ->        55.22 ms/ev lowPtTripletStepSeeds
+   -0.051495      -0.00%         6.67 ms/ev ->         6.34 ms/ev dedxDQMHarm2SP
+   -0.050994      -0.01%        22.66 ms/ev ->        21.54 ms/ev mixedTripletStepTrackCandidates
+  ---------- ------------     --------                  ----       ------------
+Job total:  11.6712 s/ev ==> 10.9093 s/ev
+
+The same excluding the first 1 events
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.42 ms/ev highPurityPtRange0to1
+       added      +0.10%         0.00 ms/ev ->        11.12 ms/ev TrackerCollisionSelectedTrackMonCommonhighPurityPtRange0to1
+   -1.397855      -0.02%         3.22 ms/ev ->         0.57 ms/ev muonSeededSeedsOutInDisplaced
+   -0.847956      -1.05%       204.24 ms/ev ->        82.62 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.722571      -0.01%         1.21 ms/ev ->         0.57 ms/ev muonSeededSeedsOutIn
+   -0.661315      -0.01%         1.32 ms/ev ->         0.66 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   -0.430265      -0.00%         0.90 ms/ev ->         0.58 ms/ev muPFIsoDepositPU
+   -0.411651      -0.00%         0.93 ms/ev ->         0.61 ms/ev muPFIsoDepositPUPAT
+   -0.377871      -0.60%       220.03 ms/ev ->       150.10 ms/ev tobTecStepTrackCandidates
+   -0.293858      -0.00%         0.91 ms/ev ->         0.68 ms/ev muonSeededTrackCandidatesOutIn
+   -0.246341      -0.00%         1.73 ms/ev ->         1.35 ms/ev ak4PFJetsLegacyHPSPiZeros76xReMiniAOD
+   -0.235631      -0.00%         1.74 ms/ev ->         1.37 ms/ev pfJetsLegacyHPSPiZeros
+   -0.234688      -0.00%         1.72 ms/ev ->         1.36 ms/ev ak4PFJetsLegacyHPSPiZeros
+   -0.171612      -0.48%       350.54 ms/ev ->       295.14 ms/ev pixelLessStepTrackCandidates
+   -0.165683      -0.49%       369.17 ms/ev ->       312.68 ms/ev lowPtTripletStepTrackCandidates
+   -0.161252      -0.12%        90.04 ms/ev ->        76.60 ms/ev puppiNoLep
+   -0.161142      -0.12%        90.12 ms/ev ->        76.68 ms/ev puppi
+   -0.142854      -0.48%       415.27 ms/ev ->       359.90 ms/ev detachedTripletStepTrackCandidates
+   -0.113439      -0.41%       441.25 ms/ev ->       393.88 ms/ev initialStepTrackCandidates
+   +0.112497      +0.01%         9.11 ms/ev ->        10.20 ms/ev particleFlowRecHitHF
+   -0.110304      -0.40%       447.44 ms/ev ->       400.66 ms/ev initialStepTrackCandidatesPreSplitting
+   -0.104632      -0.02%        19.84 ms/ev ->        17.87 ms/ev tobTecStepTracks
+   -0.100504      -0.00%         5.28 ms/ev ->         4.77 ms/ev uncleanedOnlyAllConversions
+   +0.094178      +0.00%         4.88 ms/ev ->         5.37 ms/ev hcalnoise
+   -0.089785      -0.08%       113.83 ms/ev ->       104.05 ms/ev detachedTripletStepSeeds
+   -0.084661      -0.00%         5.45 ms/ev ->         5.01 ms/ev TrackSeedMonlowPtTripletStep
+   -0.080671      -0.00%         6.02 ms/ev ->         5.56 ms/ev TrackSeedMondetachedTripletStep
+   -0.079404      -0.00%         5.62 ms/ev ->         5.19 ms/ev TrackSeedMoninitialStep
+   -0.065980      -0.02%        31.98 ms/ev ->        29.94 ms/ev initialStepSeeds
+   -0.064709      -0.01%        23.36 ms/ev ->        21.89 ms/ev SiStripMonitorDigi
+   -0.064682      -0.01%        10.82 ms/ev ->        10.15 ms/ev pixelLessStepClassifier1
+   -0.064446      -0.10%       187.57 ms/ev ->       175.86 ms/ev pixelPairStepTracks
+   -0.061904      -0.01%        10.03 ms/ev ->         9.43 ms/ev generalV0Candidates
+   -0.060699      -0.02%        31.99 ms/ev ->        30.10 ms/ev initialStepSeedsPreSplitting
+   -0.059121      -0.04%        71.31 ms/ev ->        67.22 ms/ev pixelLessStepTracks
+   -0.058801      -0.01%        10.21 ms/ev ->         9.63 ms/ev generalTracks
+   -0.058519      -0.04%        84.40 ms/ev ->        79.60 ms/ev particleFlowClusterHF
+   -0.058214      -0.32%       651.34 ms/ev ->       614.50 ms/ev pixelPairStepTrackCandidates
+   -0.058108      -0.03%        69.03 ms/ev ->        65.13 ms/ev tobTecStepSeedsTripl
+   -0.057848      -0.00%         9.50 ms/ev ->         8.97 ms/ev muonMETValueMapProducer
+   -0.056817      -0.01%        12.81 ms/ev ->        12.11 ms/ev TrackSeedMonpixelPairStep
+   +0.053377      +0.00%         6.65 ms/ev ->         7.01 ms/ev topSingleMuonHLTOfflineDQM
+   -0.053337      -0.01%        13.79 ms/ev ->        13.07 ms/ev TrackSeedMontobTecStep
+   -0.053021      -0.00%         9.32 ms/ev ->         8.84 ms/ev pixelLessStepClassifier2
+   -0.052361      -0.00%         5.42 ms/ev ->         5.14 ms/ev dedxTruncated40
+   -0.051921      -0.03%        58.14 ms/ev ->        55.20 ms/ev lowPtTripletStepSeeds
+   -0.051277      -0.00%         6.67 ms/ev ->         6.33 ms/ev dedxDQMHarm2SP
+   -0.051006      -0.01%        22.65 ms/ev ->        21.53 ms/ev mixedTripletStepTrackCandidates
+  ---------- ------------     --------                  ----       ------------
+Job total:  11.5691 s/ev ==> 10.8175 s/ev
+

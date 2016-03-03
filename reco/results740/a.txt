@@ -1,0 +1,11 @@
+mv ./igprofMEM_CMSSW_7_4_0_pre9_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre9_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_setp3.sql3        ./igprofMEM_CMSSW_7_4_0_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre1_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre1_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre4_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre4_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre3_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre3_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre7_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre7_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre2_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre2_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre6_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre6_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre5_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre5_step3.sql3
+mv ./igprofMEM_CMSSW_7_4_0_pre8_setp3.sql3   ./igprofMEM_CMSSW_7_4_0_pre8_step3.sql3
+

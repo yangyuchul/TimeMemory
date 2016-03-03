@@ -1,0 +1,38 @@
+Compare Igprof CPU step3 CMSSW_8_0_0_pre4 vs CMSSW_8_0_0_pre5
+
+### legacy modules CMSSW_8_0_0_pre4 --> CMSSW_8_0_0_pre5 
+Non    --->  Non    edm::WorkerT<edm::EDProducer>::implDo(
+85.03  --->  84.02  edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(
+5.83   --->  6.11   edm::WorkerT<edm::one::OutputModuleBase>::implDo(
+
+### top 20 ::stream ED producers Rank and Cost [CMSSW_8_0_0_pre4 --> CMSSW_8_0_0_pre5]
+[  1   ->  1   ]  [  27.52  -->  24.34  ]  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&)
+[  2   ->  2   ]  [  7.58   -->  7.71   ]  TrackProducer::produce(edm::Event&, edm::EventSetup const&)
+[  3   ->  3   ]  [  7.23   -->  7.47   ]  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&)
+[  4   ->  4   ]  [  6.08   -->  6.28   ]  MuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+[  5   ->  5   ]  [  5.22   -->  5.60   ]  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&)
+[  6   ->  6   ]  [  1.96   -->  2.06   ]  PrimaryVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+[  7   ->  7   ]  [  1.64   -->  1.50   ]  pat::PATElectronSlimmer::produce(edm::Event&, edm::EventSetup const&)
+[  8   ->  8   ]  [  1.37   -->  1.45   ]  RecoTauProducer::produce(edm::Event&, edm::EventSetup const&)
+[  9   ->  9   ]  [  1.29   -->  1.35   ]  FastjetJetProducer::produce(edm::Event&, edm::EventSetup const&)
+[  10  ->  11  ]  [  1.19   -->  1.26   ]  TopProjector<reco::PFCandidate, reco::PFCandidate, TopProjectorFwdPtrOverlap<reco::PFCandidate, reco::PFCandidate> >::produce(edm::Event&, edm::EventSetup const&)
+[  11  ->  10  ]  [  1.19   -->  1.26   ]  PFBlockProducer::produce(edm::Event&, edm::EventSetup const&)
+[  12  ->  12  ]  [  1.15   -->  1.20   ]  TrackMVAClassifierBase::produce(edm::Event&, edm::EventSetup const&)
+[  13  ->  13  ]  [  1.12   -->  1.20   ]  EcalUncalibRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+[  14  ->  14  ]  [  1.07   -->  1.09   ]  TauDiscriminationProducerBase<reco::PFTau, reco::PFTauDiscriminator>::produce(edm::Event&, edm::EventSetup const&)
+[  15  ->  15  ]  [  1.05   -->  1.08   ]  PFDisplacedVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+[  16  ->  16  ]  [  0.98   -->  1.05   ]  GsfTrackProducer::produce(edm::Event&, edm::EventSetup const&)
+[  17  ->  17  ]  [  0.85   -->  0.89   ]  PFClusterProducer::produce(edm::Event&, edm::EventSetup const&)
+[  18  ->  18  ]  [  0.83   -->  0.86   ]  ConversionTrackCandidateProducer::produce(edm::Event&, edm::EventSetup const&)
+[  19  ->  19  ]  [  0.79   -->  0.79   ]  pat::PATTauProducer::produce(edm::Event&, edm::EventSetup const&)
+[  20  ->  21  ]  [  0.77   -->  0.76   ]  TrackExtrapolator::produce(edm::Event&, edm::EventSetup const&)
+
+### Delta Check : [CMSSW_8_0_0_pre5 - CMSSW_8_0_0_pre4 / total * 100% = delta]
+(162.73-164.26)/14674.23*100%)=    -0.01%  EcalUncalibRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+(0.34-0.34)/14674.23*100%)=        0.0%    MultiTrackSelector::run(edm::Event&, edm::EventSetup const&) const
+(3293.19-4038.60)/14674.23*100%)=  -5.08%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&)
+(1010.06-1060.86)/14674.23*100%)=  -0.35%  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&)
+(850.23-891.92)/14674.23*100%)=    -0.28%  MuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+(3.47-3.64)/14674.23*100%)=        -0.0%   CosmicsMuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+(757.61-766.40)/14674.23*100%)=    -0.06%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&)
+

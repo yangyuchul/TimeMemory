@@ -1,0 +1,3 @@
+nm: /cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/zlib/1.2.8/lib/libz.so.1.2.8: no symbols
+
+User interrupted.

@@ -1,0 +1,109 @@
+Compare Igprof CPU step3 CMSSW_7_5_0_pre1 vs CMSSW_7_5_0_pre2
+
+### legacy modules CMSSW_7_5_0_pre1 --> CMSSW_7_5_0_pre2 
+1.81   --->  1.79   edm::WorkerT<edm::EDProducer>::implDo(
+92.30  --->  92.07  edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(
+4.13   --->  4.24   edm::WorkerT<edm::one::OutputModuleBase>::implDo(
+
+### top 20 ::stream ED producers Rank and Cost [CMSSW_7_5_0_pre1 --> CMSSW_7_5_0_pre2]
+[  1   ->  1   ]  [  26.95  -->  27.00  ]  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&)
+[  2   ->  2   ]  [  12.22  -->  12.00  ]  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&)
+[  3   ->  3   ]  [  8.84   -->  8.89   ]  TrackProducer::produce(edm::Event&, edm::EventSetup const&)
+[  4   ->  4   ]  [  7.92   -->  7.73   ]  MuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+[  5   ->  5   ]  [  5.10   -->  5.20   ]  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&)
+[  6   ->  6   ]  [  2.80   -->  2.80   ]  PFBlockProducer::produce(edm::Event&, edm::EventSetup const&)
+[  7   ->  7   ]  [  2.32   -->  2.32   ]  PrimaryVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+[  8   ->  8   ]  [  1.32   -->  1.33   ]  EcalUncalibRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+[  9   ->  9   ]  [  1.28   -->  1.26   ]  PFDisplacedVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+[  10  ->  10  ]  [  1.14   -->  1.12   ]  VirtualJetProducer::produce(edm::Event&, edm::EventSetup const&)
+[  11  ->  11  ]  [  1.09   -->  1.10   ]  ConversionTrackCandidateProducer::produce(edm::Event&, edm::EventSetup const&)
+[  12  ->  13  ]  [  1.08   -->  1.04   ]  TrackExtrapolator::produce(edm::Event&, edm::EventSetup const&)
+[  13  ->  12  ]  [  1.08   -->  1.07   ]  GsfTrackProducer::produce(edm::Event&, edm::EventSetup const&)
+[  14  ->  14  ]  [  1.02   -->  1.03   ]  PFDisplacedVertexCandidateProducer::produce(edm::Event&, edm::EventSetup const&)
+[  15  ->  15  ]  [  1.02   -->  1.00   ]  TauDiscriminationProducerBase<reco::PFTau, reco::PFTauDiscriminator>::produce(edm::Event&, edm::EventSetup const&)
+[  16  ->  17  ]  [  0.91   -->  0.87   ]  PFClusterProducer::produce(edm::Event&, edm::EventSetup const&)
+[  17  ->  16  ]  [  0.90   -->  0.90   ]  TrackListMerger::produce(edm::Event&, edm::EventSetup const&)
+[  18  ->  18  ]  [  0.88   -->  0.87   ]  RecoTauProducer::produce(edm::Event&, edm::EventSetup const&)
+[  19  ->  20  ]  [  0.76   -->  0.78   ]  MultiTrackSelector::run(edm::Event&, edm::EventSetup const&) const
+[  20  ->  19  ]  [  0.72   -->  0.79   ]  CosmicMuonProducer::produce(edm::Event&, edm::EventSetup const&)
+
+### Delta Check : [CMSSW_7_5_0_pre2 - CMSSW_7_5_0_pre1 / total * 100% = delta]
+(165.58-179.50)/13613.52*100%)=    -0.1%   EcalUncalibRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+(96.66-103.78)/13613.52*100%)=     -0.05%  MultiTrackSelector::run(edm::Event&, edm::EventSetup const&) const
+(0.01-0.01)/13613.52*100%)=        0.0%    MultiTrackSelector::produce(edm::Event&, edm::EventSetup const&)
+(3356.12-3668.38)/13613.52*100%)=  -2.29%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&)
+(1491.42-1663.78)/13613.52*100%)=  -1.27%  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&)
+(960.62-1077.52)/13613.52*100%)=   -0.86%  MuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+(4.33-4.73)/13613.52*100%)=        -0.0%   CosmicsMuonIdProducer::produce(edm::Event&, edm::EventSetup const&)
+(646.96-694.59)/13613.52*100%)=    -0.35%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&)
+
+### top-5 legacy modules for CMSSW_7_5_0_pre2  
+1.31  TopProjector<reco::PFCandidate, reco::PFCandidate, TopProjectorFwdPtrOverlap<reco::PFCandidate, reco::PFCandidate> >::produce(edm::Event&, edm::EventSetup const&)
+0.12  TopProjector<reco::PFJet, reco::PFCandidate, TopProjectorFwdPtrOverlap<reco::PFJet, reco::PFCandidate> >::produce(edm::Event&, edm::EventSetup const&)
+0.09  RecoTauCleanerImpl<std::vector<reco::PFTau, std::allocator<reco::PFTau> > >::produce(edm::Event&, edm::EventSetup const&)
+0.09  HBHEIsolatedNoiseReflagger::produce(edm::Event&, edm::EventSetup const&)
+0.08  PFRecoTauTagInfoProducer::produce(edm::Event&, edm::EventSetup const&)
+0.03  ESRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+0.02  CandidateProducer<edm::View<reco::Track>, std::vector<reco::RecoChargedRefCandidate, std::allocator<reco::RecoChargedRefCandidate> >, AnySelector, converter::TrackToRefCandidate, converter::helper::ConcreteCreator, reco::modules::NoEventSetupInit<AnySelector> >::produce(edm::Event&, edm::EventSetup const&)
+0.02  edm::service::Timing::postModule(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.01  edm::LogErrorHarvester::produce(edm::Event&, edm::EventSetup const&)
+0.01  citk::PFIsolationSumProducer::produce(edm::Event&, edm::EventSetup const&)
+0.00  HcalHitSelection::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::Event::commit (std::vector<edm::BranchID, std::allocator<edm::BranchID> >*, edm::Hash<5>*)
+0.00  PFTauSecondaryVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+0.00  L1TCaloUpgradeToGCTConverter::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::Event::~Event()
+0.00  PFTauTransverseImpactParameters::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::SystemTimeKeeper::stopModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::service::EnableFloatingPointExceptions::preActions(edm::ModuleCallingContext const&, char const*)
+0.00  edm::service::MessageLogger::establishModule(unsigned int, edm::ModuleCallingContext const&, char const*)
+0.00  JetDeltaRValueMapProducer<reco::Jet>::produce(edm::Event&, edm::EventSetup const&)
+0.00  TopProjector<reco::PFTau, reco::PFJet, TopProjectorDeltaROverlap<reco::PFTau, reco::PFJet> >::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::SharedResourcesAcquirer::lock()
+0.00    pthread mutex lock full
+0.00  edm::Event::Event(edm::EventPrincipal&, edm::ModuleDescription const&, edm::ModuleCallingContext const*)
+0.00  edm::service::EnableFloatingPointExceptions::postActions(edm::ModuleCallingContext const&, char const*)
+0.00  edm::service::Timing::preModule(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::service::MessageLogger::unEstablishModule(edm::ModuleCallingContext const&, char const*)
+0.00   init
+0.00  edm::SystemTimeKeeper::startModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  std:: Function handler<void (edm::StreamContext const&, edm::ModuleCallingContext const&), std:: Bind<std:: Mem fn<void (edm::SystemTimeKeeper::*)(edm::StreamContext const&, edm::ModuleCallingContext const&)> (edm::SystemTimeKeeper*, std:: Placeholder<1>, std:: Placeholder<2>)> >:: M invoke(std:: Any data const&, edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::LuminosityBlock::setConsumer(edm::EDConsumerBase const*)
+
+### top-5 legacy modules for CMSSW_7_5_0_pre1  
+1.33  TopProjector<reco::PFCandidate, reco::PFCandidate, TopProjectorFwdPtrOverlap<reco::PFCandidate, reco::PFCandidate> >::produce(edm::Event&, edm::EventSetup const&)
+0.12  TopProjector<reco::PFJet, reco::PFCandidate, TopProjectorFwdPtrOverlap<reco::PFJet, reco::PFCandidate> >::produce(edm::Event&, edm::EventSetup const&)
+0.09  HBHEIsolatedNoiseReflagger::produce(edm::Event&, edm::EventSetup const&)
+0.08  PFRecoTauTagInfoProducer::produce(edm::Event&, edm::EventSetup const&)
+0.08  RecoTauCleanerImpl<std::vector<reco::PFTau, std::allocator<reco::PFTau> > >::produce(edm::Event&, edm::EventSetup const&)
+0.03  ESRecHitProducer::produce(edm::Event&, edm::EventSetup const&)
+0.03  CandidateProducer<edm::View<reco::Track>, std::vector<reco::RecoChargedRefCandidate, std::allocator<reco::RecoChargedRefCandidate> >, AnySelector, converter::TrackToRefCandidate, converter::helper::ConcreteCreator, reco::modules::NoEventSetupInit<AnySelector> >::produce(edm::Event&, edm::EventSetup const&)
+0.02  edm::service::Timing::postModule(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.02  citk::PFIsolationSumProducer::produce(edm::Event&, edm::EventSetup const&)
+0.01  edm::LogErrorHarvester::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::Event::commit (std::vector<edm::BranchID, std::allocator<edm::BranchID> >*, edm::Hash<5>*)
+0.00  HcalHitSelection::produce(edm::Event&, edm::EventSetup const&)
+0.00  PFTauSecondaryVertexProducer::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::Event::~Event()
+0.00  edm::service::MessageLogger::establishModule(unsigned int, edm::ModuleCallingContext const&, char const*)
+0.00  L1TCaloUpgradeToGCTConverter::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::service::EnableFloatingPointExceptions::preActions(edm::ModuleCallingContext const&, char const*)
+0.00  JetDeltaRValueMapProducer<reco::Jet>::produce(edm::Event&, edm::EventSetup const&)
+0.00  TopProjector<reco::PFTau, reco::PFJet, TopProjectorDeltaROverlap<reco::PFTau, reco::PFJet> >::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::ModuleCallingContext::getStreamContext() const
+0.00  PFTauTransverseImpactParameters::produce(edm::Event&, edm::EventSetup const&)
+0.00  edm::SystemTimeKeeper::stopModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::Event::Event(edm::EventPrincipal&, edm::ModuleDescription const&, edm::ModuleCallingContext const*)
+0.00  edm::SystemTimeKeeper::startModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::SharedResourcesAcquirer::lock()
+0.00    pthread mutex lock full
+0.00  edm::service::EnableFloatingPointExceptions::postActions(edm::ModuleCallingContext const&, char const*)
+0.00  edm::service::MessageLogger::unEstablishModule(edm::ModuleCallingContext const&, char const*)
+0.00  edm::Event::commit aux(std::vector<std::pair<std::unique ptr<edm::WrapperBase, std::default delete<edm::WrapperBase> >, edm::BranchDescription const*>, std::allocator<std::pair<std::unique ptr<edm::WrapperBase, std::default delete<edm::WrapperBase> >, edm::BranchDescription const*> > >&, bool, std::vector<edm::BranchID, std::allocator<edm::BranchID> >*, edm::Hash<5>*)
+0.00  edm::service::Timing::preModule(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  std::function<void (edm::StreamContext const&, edm::ModuleCallingContext const&)>::operator()(edm::StreamContext const&, edm::ModuleCallingContext const&) const
+0.00  std:: Function handler<void (edm::StreamContext const&, edm::ModuleCallingContext const&), std:: Bind<std:: Mem fn<void (edm::SystemTimeKeeper::*)(edm::StreamContext const&, edm::ModuleCallingContext const&)> (edm::SystemTimeKeeper*, std:: Placeholder<1>, std:: Placeholder<2>)> >:: M invoke(std:: Any data const&, edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::SharedResourcesAcquirer::unlock()
+0.00  edm::service::MessageLogger::postModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+0.00  edm::service::MessageLogger::preModuleEvent(edm::StreamContext const&, edm::ModuleCallingContext const&)
+

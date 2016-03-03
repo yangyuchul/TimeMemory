@@ -1,0 +1,105 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0_pre8 vs CMSSW_7_4_0_pre7
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         1.20 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexV2BJetTags
+   +1.608964      +0.01%         0.14 ms/ev ->         1.28 ms/ev caloStage1Digis
+   +0.612964      +0.05%         7.47 ms/ev ->        14.06 ms/ev muonShowerInformation
+   -0.135028      -0.01%         8.52 ms/ev ->         7.44 ms/ev dt4DSegments
+   -0.100103      -0.01%         7.54 ms/ev ->         6.82 ms/ev dt4DCosmicSegments
+   +0.086873      +0.02%        21.36 ms/ev ->        23.30 ms/ev inclusiveCandidateVertexFinder
+   +0.086594      +0.02%        20.63 ms/ev ->        22.50 ms/ev inclusiveVertexFinder
+   +0.084348      +0.01%        15.93 ms/ev ->        17.33 ms/ev electronCkfTrackCandidates
+   +0.081604      +0.01%        19.15 ms/ev ->        20.78 ms/ev candidateVertexArbitrator
+   -0.070441      -0.00%         5.32 ms/ev ->         4.96 ms/ev ecalRecHit
+
+### Full Comparison CMSSW_7_4_0_pre8 vs CMSSW_7_4_0_pre7 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         1.20 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexV2BJetTags
+   +1.939946      +0.15%         0.28 ms/ev ->        18.50 ms/ev hpsPFTauDiscriminationByMVA5LooseElectronRejection
+   +1.936526      +0.13%         0.27 ms/ev ->        16.99 ms/ev hpsPFTauDiscriminationByMVA5MediumElectronRejection
+   +1.931782      +0.15%         0.32 ms/ev ->        18.67 ms/ev hpsPFTauDiscriminationByMVA5TightElectronRejection
+   +1.907211      +0.03%         0.09 ms/ev ->         3.87 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwLT
+   +1.871264      +0.01%         0.06 ms/ev ->         1.68 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwLT
+   +1.853107      +0.01%         0.06 ms/ev ->         1.70 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3oldDMwoLT
+   +1.830417      +0.01%         0.06 ms/ev ->         1.42 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3oldDMwoLT
+   +1.827669      +0.02%         0.09 ms/ev ->         2.00 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwLT
+   +1.825486      +0.02%         0.10 ms/ev ->         2.21 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3oldDMwoLT
+   +1.822751      +0.01%         0.07 ms/ev ->         1.45 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwLT
+   +1.822715      +0.01%         0.06 ms/ev ->         1.38 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwoLT
+   +1.822494      +0.01%         0.06 ms/ev ->         1.25 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3newDMwLT
+   +1.812865      +0.01%         0.06 ms/ev ->         1.14 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3newDMwLT
+   +1.810252      +0.01%         0.06 ms/ev ->         1.25 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3oldDMwLT
+   +1.801123      +0.01%         0.06 ms/ev ->         1.19 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3oldDMwoLT
+   +1.794307      +0.01%         0.06 ms/ev ->         1.03 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3newDMwLT
+   +1.789668      +0.01%         0.06 ms/ev ->         1.03 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwLT
+   +1.777575      +0.01%         0.06 ms/ev ->         1.04 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3oldDMwoLT
+   +1.767098      +0.01%         0.06 ms/ev ->         1.02 ms/ev hpsPFTauDiscriminationByMVAMediumMuonRejection
+   +1.766636      +0.01%         0.06 ms/ev ->         1.03 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3oldDMwLT
+   +1.750000      +0.01%         0.08 ms/ev ->         1.25 ms/ev hpsPFTauDiscriminationByMVATightMuonRejection
+   +1.646429      +0.01%         0.10 ms/ev ->         1.02 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3oldDMwLT
+   +1.600281      +0.01%         0.14 ms/ev ->         1.28 ms/ev caloStage1Digis
+   +1.567625      +0.13%         2.23 ms/ev ->        18.36 ms/ev hpsPFTauDiscriminationByMVA5VLooseElectronRejection
+   +1.418202      +0.12%         3.09 ms/ev ->        18.18 ms/ev hpsPFTauDiscriminationByMVA5VTightElectronRejection
+   +1.407203      +0.04%         1.18 ms/ev ->         6.79 ms/ev hpsPFTauDiscriminationByMVA5rawElectronRejection
+   +1.323529      +0.02%         0.48 ms/ev ->         2.37 ms/ev hpsPFTauDiscriminationByTightIsolationMVA3newDMwoLT
+   +1.290954      +0.00%         0.14 ms/ev ->         0.67 ms/ev castorDigis
+   +1.290221      +0.01%         0.23 ms/ev ->         1.04 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3oldDMwLT
+   +1.274818      +0.02%         0.60 ms/ev ->         2.71 ms/ev hpsPFTauDiscriminationByMVALooseMuonRejection
+   +1.150034      +0.01%         0.31 ms/ev ->         1.16 ms/ev dt1DRecHits
+   +1.117845      +0.00%         0.13 ms/ev ->         0.46 ms/ev hpsPFTauDiscriminationByIsolationMVA3oldDMwoLTraw
+   +1.089643      +0.01%         0.52 ms/ev ->         1.78 ms/ev hpsPFTauDiscriminationByMediumIsolationMVA3newDMwoLT
+   +1.082759      +0.00%         0.13 ms/ev ->         0.45 ms/ev hpsPFTauDiscriminationByIsolationMVA3oldDMwLTraw
+   +0.957150      +0.01%         0.51 ms/ev ->         1.43 ms/ev hpsPFTauDiscriminationByVTightIsolationMVA3newDMwoLT
+   +0.728087      +0.00%         0.50 ms/ev ->         1.07 ms/ev hpsPFTauDiscriminationByLooseIsolationMVA3newDMwoLT
+   +0.690429      +0.00%         0.50 ms/ev ->         1.02 ms/ev hpsPFTauDiscriminationByVVTightIsolationMVA3newDMwoLT
+   +0.657684      +0.01%         1.05 ms/ev ->         2.07 ms/ev hpsPFTauDiscriminationByVLooseIsolationMVA3newDMwoLT
+   +0.612746      +0.05%         7.46 ms/ev ->        14.05 ms/ev muonShowerInformation
+   -0.432783      -0.01%         2.06 ms/ev ->         1.33 ms/ev combinedSecondaryVertexBJetTags
+   -0.423970      -0.00%         0.81 ms/ev ->         0.53 ms/ev hpsPFTauDiscriminationByIsolationMVA3newDMwoLTraw
+   +0.196498      +0.13%        74.61 ms/ev ->        90.86 ms/ev particleFlowClusterECAL
+   -0.135670      -0.01%         8.53 ms/ev ->         7.45 ms/ev dt4DSegments
+   -0.100063      -0.01%         7.54 ms/ev ->         6.83 ms/ev dt4DCosmicSegments
+   +0.099907      +0.01%         7.17 ms/ev ->         7.92 ms/ev muonCSCDigis
+   +0.087138      +0.02%        20.65 ms/ev ->        22.53 ms/ev inclusiveVertexFinder
+   +0.087034      +0.02%        21.38 ms/ev ->        23.32 ms/ev inclusiveCandidateVertexFinder
+   +0.083909      +0.01%        16.02 ms/ev ->        17.42 ms/ev electronCkfTrackCandidates
+   +0.081947      +0.00%         5.48 ms/ev ->         5.94 ms/ev ecalRecHit
+   +0.081789      +0.01%        19.17 ms/ev ->        20.81 ms/ev candidateVertexArbitrator
+   +0.065624      +0.08%       148.69 ms/ev ->       158.78 ms/ev electronGsfTracks
+   +0.060705      +0.00%         8.32 ms/ev ->         8.84 ms/ev ghostTrackVertexTagInfos
+   +0.059287      +0.01%        19.62 ms/ev ->        20.82 ms/ev gedPhotons
+   +0.056950      +0.18%       390.57 ms/ev ->       413.47 ms/ev jetCoreRegionalStepTrackCandidates
+   +0.056256      +0.00%         7.20 ms/ev ->         7.62 ms/ev muonSeededTrackCandidatesInOut
+   +0.054934      +0.01%        19.65 ms/ev ->        20.76 ms/ev trackVertexArbitrator
+   +0.054134      +0.00%         5.23 ms/ev ->         5.52 ms/ev siPixelRecHits
+   +0.053418      +0.01%        14.39 ms/ev ->        15.18 ms/ev gedPhotonsTmp
+  ---------- ------------     --------                  ----       ------------
+Job total:  12.5255 s/ev ==> 12.9158 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.01%         1.20 ms/ev ->         0.00 ms/ev pfCombinedSecondaryVertexV2BJetTags
+   +1.608964      +0.01%         0.14 ms/ev ->         1.28 ms/ev caloStage1Digis
+   +0.612964      +0.05%         7.47 ms/ev ->        14.06 ms/ev muonShowerInformation
+   -0.135028      -0.01%         8.52 ms/ev ->         7.44 ms/ev dt4DSegments
+   -0.100103      -0.01%         7.54 ms/ev ->         6.82 ms/ev dt4DCosmicSegments
+   +0.086873      +0.02%        21.36 ms/ev ->        23.30 ms/ev inclusiveCandidateVertexFinder
+   +0.086594      +0.02%        20.63 ms/ev ->        22.50 ms/ev inclusiveVertexFinder
+   +0.084348      +0.01%        15.93 ms/ev ->        17.33 ms/ev electronCkfTrackCandidates
+   +0.081604      +0.01%        19.15 ms/ev ->        20.78 ms/ev candidateVertexArbitrator
+   -0.070441      -0.00%         5.32 ms/ev ->         4.96 ms/ev ecalRecHit
+   +0.065250      +0.08%       148.44 ms/ev ->       158.45 ms/ev electronGsfTracks
+   +0.060854      +0.00%         8.31 ms/ev ->         8.84 ms/ev ghostTrackVertexTagInfos
+   +0.059356      +0.01%        19.61 ms/ev ->        20.81 ms/ev gedPhotons
+   +0.057381      +0.19%       389.60 ms/ev ->       412.62 ms/ev jetCoreRegionalStepTrackCandidates
+   +0.055576      +0.00%         7.20 ms/ev ->         7.61 ms/ev muonSeededTrackCandidatesInOut
+   +0.054274      +0.00%         5.23 ms/ev ->         5.52 ms/ev siPixelRecHits
+   +0.053886      +0.01%        19.65 ms/ev ->        20.74 ms/ev trackVertexArbitrator
+   +0.053639      +0.01%        14.38 ms/ev ->        15.18 ms/ev gedPhotonsTmp
+  ---------- ------------     --------                  ----       ------------
+Job total:  12.3516 s/ev ==> 12.5962 s/ev
+

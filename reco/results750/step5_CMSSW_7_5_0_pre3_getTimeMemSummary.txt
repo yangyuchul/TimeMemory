@@ -1,0 +1,6 @@
+Summary for 1000 events
+Max VSIZ 1476.96 on evt 489 ; max RSS 1010.73 on evt 962
+Time av 0.696706 s/evt   max 8.47415 s on evt 706
+CPU av 0 s/evt   max 0 s on evt -1
+M1 Time av 0.692783 s/evt   max 8.47415 s on evt 706
+M1 CPU av 0 s/evt   max 0 s on evt -1

@@ -1,0 +1,829 @@
+<html>
+<head>
+<title>Time and Memory Test</title>
+</head>
+<body>
+
+<h2>RecoIntegration : Time and Memory Test</h2>  
+
+<hr>
+<h3>CMSSW_8_0_0_preX (pre1-6 and CMSSW_8_0_0) 
+<small> [<a href="reco/shortSummary_CMSSW_8_0_0_preX.htm">Short Summary Time and Memory</a>] </small> 
+<small> [<a href="reco/report/report_CMSSW_8_0_0.txt">Report</a>] </small> 
+</h3>
+<ul style="line-height: 200%">
+
+<!-- Start CMSSW_8_0_0 -->
+   <li> CMSSW_8_0_0 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0-PU25ns_80X_mcRun2_asymptotic_v4-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_8_0_0.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_CMSSW_8_0_0_pre6.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_CMSSW_8_0_0_pre6.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_CMSSW_8_0_0_pre6.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (3317.48-3134.09)/13279.96*100%)=  1.38%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small>
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0 -->
+
+
+
+
+<!-- Start CMSSW_8_0_0_pre6 -->
+   <li> CMSSW_8_0_0_pre6 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre6-PU25ns_80X_mcRun2_asymptotic_v4-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre6.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre6_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre6_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre6_CMSSW_8_0_0_pre5.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre6_CMSSW_8_0_0_pre5.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre6_CMSSW_8_0_0_pre5.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3134.09-3293.19)/13530.31*100%)=  -1.18%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0_pre6 -->
+
+<!-- Start CMSSW_8_0_0_pre5 -->
+   <li> CMSSW_8_0_0_pre5 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre4-PU25ns_76X_mcRun2_asymptotic_v13-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre5.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre5_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre5_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre5_CMSSW_8_0_0_pre4.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre5_CMSSW_8_0_0_pre4.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre5_CMSSW_8_0_0_pre4.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3293.19-4038.60)/14674.23*100%)=  -5.08%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small>
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0_pre5 -->
+
+
+<!-- Start CMSSW_8_0_0_pre4 -->
+   <li> CMSSW_8_0_0_pre4 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre4-PU25ns_76X_mcRun2_asymptotic_v13-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre4.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre4_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre4_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre4_CMSSW_8_0_0_pre3.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre4_CMSSW_8_0_0_pre3.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre4_CMSSW_8_0_0_pre3.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (4038.6-3668.61)/14142.91*100%)=   2.62%   cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (1060.86-1252.48)/14142.91*100%)=  -1.35%  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0_pre4 -->
+
+<!-- Start CMSSW_8_0_0_pre3 -->
+   <li> CMSSW_8_0_0_pre3 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre2-PU25ns_76X_mcRun2_asymptotic_v12-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre3.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre3_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre3_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre3_CMSSW_8_0_0_pre2.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre3_CMSSW_8_0_0_pre2.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre3_CMSSW_8_0_0_pre2.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (735.22-636.57)/14437.39*100%)=  0.68%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0_pre3 -->
+
+
+<!-- Start CMSSW_8_0_0_pre2 -->
+   <li> CMSSW_8_0_0_pre2 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre2-PU25ns_76X_mcRun2_asymptotic_v12-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_8_0_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>, <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre2.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre2_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre2_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre2_CMSSW_8_0_0_pre1.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre2_CMSSW_8_0_0_pre1.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre2_CMSSW_8_0_0_pre1.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] : 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3666.91-3780.07)/14641.27*100%)=  -0.77%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_8_0_0_pre2 -->
+
+<!-- Start CMSSW_8_0_0_pre1 -->
+   <li> CMSSW_8_0_0_pre1 <small> (Dataset: /RelValTTbar_13/CMSSW_8_0_0_pre1-PU25ns_76X_mcRun2_asymptotic_v11-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_8_0_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>, <a href="reco/memoryTimeProfile_CMSSW_8_0_0_pre1.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre1_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_8_0_0_pre1_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0 :
+               [<a href="reco/timeDiff_step3_CMSSW_8_0_0_pre1_CMSSW_7_6_0.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_8_0_0_pre1_CMSSW_7_6_0.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_8_0_0_pre1_CMSSW_7_6_0.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3780.07-3898.83)/14993.20*100%)=  -0.79%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+</ul>
+
+<hr>
+<h3>CMSSW_7_6_3  
+<small> [<a href="reco/shortSummary_CMSSW_7_6_3.htm">Short Summary Time and Memory</a>] </small> 
+<!--  <small> [<a href="reco/report/report_CMSSW_7_6_3.txt">Report</a>] </small> --!>
+</h3>
+<ul style="line-height: 200%">
+<!-- Start CMSSW_7_6_3 -->
+   <li> CMSSW_7_6_3 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_2-PU25ns_76X_mcRun2_asymptotic_v12-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_7_6_3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>], <a href="reco/memoryTimeProfile_CMSSW_7_6_3.gif">hist</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_3_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_3_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_3 -->
+</ul>
+
+
+
+<hr>
+<h3>CMSSW_7_6_0_preX (pre4, pre5, pre6, pre7 and CMSSW_7_6_0) 
+<small> [<a href="reco/shortSummary_CMSSW_7_6_0.txt">Short Summary Time and Memory</a>] </small> 
+<small> [<a href="reco/report/report_CMSSW_7_6_0.txt">Report</a>] </small> 
+</h3>
+<ul style="line-height: 200%">
+<!-- Start CMSSW_7_6_0 -->
+   <li> CMSSW_7_6_0 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_0-PU25ns_76X_mcRun2_asymptotic_v11-v1/GEN-SIM-DIGI-RAW-HLTDEBUG ) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_7_6_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre7 :
+               [<a href="reco/timeDiff_step3_CMSSW_7_6_0_CMSSW_7_6_0_pre7.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_7_6_0_CMSSW_7_6_0_pre7.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_7_6_0_CMSSW_7_6_0_pre7.txt">IgprofCPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (3898.83-3630.76)/14944.19*100%)=  1.79%   cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (639.72-1061.95)/14944.19*100%)=   -2.83%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_0 -->
+<!-- Start CMSSW_7_6_0_pre7 -->
+   <li> CMSSW_7_6_0_pre7 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_0_pre7-PU25ns_76X_mcRun2_asymptotic_v5-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_7_6_0_pre7_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre7_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre7_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre6 :
+               [<a href="reco/timeDiff_step3_CMSSW_7_6_0_pre7_CMSSW_7_6_0_pre6.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_7_6_0_pre7_CMSSW_7_6_0_pre6.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_7_6_0_pre7_CMSSW_7_6_0_pre6.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (3630.76-3163.45)/13872.79*100%)=  3.37%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (1299.5-1191.80)/13872.79*100%)=   0.78%  SeedGeneratorFromRegionHitsEDProducer::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (1061.95-947.69)/13872.79*100%)=   0.82%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_0_pre7 -->
+
+<!-- Start CMSSW_7_6_0_pre6 -->
+   <li> CMSSW_7_6_0_pre6 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_0_pre6-PU25ns_76X_mcRun2_asymptotic_v4-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_7_6_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre6_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre6_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre5 :
+               [<a href="reco/timeDiff_step3_CMSSW_7_6_0_pre6_CMSSW_7_6_0_pre5.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_7_6_0_pre6_CMSSW_7_6_0_pre5.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_7_6_0_pre6_CMSSW_7_6_0_pre5.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3163.45-3258.68)/14110.22*100%)=  -0.67%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_0_pre6 -->
+
+<!-- Start CMSSW_7_6_0_pre5 -->
+   <li> CMSSW_7_6_0_pre5 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_0_pre5-PU25ns_76X_mcRun2_asymptotic_v1-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_7_6_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre5_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre5_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre4 :
+               [<a href="reco/timeDiff_step3_CMSSW_7_6_0_pre5_CMSSW_7_6_0_pre4.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_7_6_0_pre5_CMSSW_7_6_0_pre4.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_7_6_0_pre5_CMSSW_7_6_0_pre4.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="green"> (3258.68-3450.66)/14407.19*100%)=  -1.33%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_0_pre5 -->
+
+<!-- Start CMSSW_7_6_0_pre4 -->
+   <li> CMSSW_7_6_0_pre4 <small> (Dataset: /RelValTTbar_13/CMSSW_7_6_0_pre4-PU25ns_76X_mcRun2_asymptotic_v1-v1/GEN-SIM-DIGI-RAW-HLTDEBUG) </small>
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) :
+         [<a href="reco/CMSSW_7_6_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre4_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre4_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/timeDiff_step3_CMSSW_7_6_0_pre4_CMSSW_7_6_0_pre3.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/compareProduct_CMSSW_7_6_0_pre4_CMSSW_7_6_0_pre3.txt">CompareOutProd (edmEventSize)</a>] &nbsp;
+               [<a href="reco/igprofCompare/compareIgprofCPU_step3_CMSSW_7_6_0_pre4_CMSSW_7_6_0_pre3.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (3450.66-3323.88)/13595.79*100%)=  0.93%  cms::CkfTrackCandidateMakerBase::produceBase(edm::Event&, edm::EventSetup const&) </font></small> 
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <small><font color="red"> (954.75-568.09)/13595.79*100%)=    2.84%  HcalHitReconstructor::produce(edm::Event&, edm::EventSetup const&) </font></small> 
+               </small>
+         </ul>
+   </ul>
+<!-- End CMSSW_7_6_0_pre4 -->
+</ul>
+
+<!-- Start CMSSW_7_6_0_pre3 -->
+   <li> CMSSW_7_6_0_pre3 (Dataset: /RelValTTbar_13/CMSSW_7_6_0_pre3-PU25ns_75X_mcRun2_asymptotic_v2-v1/GEN-SIM-DIGI-RAW-HLTDEBUG)
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO+PAT) : 
+         [<a href="reco/CMSSW_7_6_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre3_igprofCPU">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/CMSSW_7_6_0_pre3_igprofMEM">Memory Profiler igprof(25202.0)</a>] &nbsp;
+<!--
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ :
+               [<a href="reco/">TimeDiff</a>] &nbsp;
+               [<a href="reco/">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] :
+               </small>
+         </ul>
+   </ul>
+-->
+<!-- End CMSSW_7_6_0_pre3 -->
+
+
+
+<hr>
+<h3>CMSSW_7_6_0_preX (OldStyle Step3(RECO) and Step5(PAT) for pre1, pre2, pre3) 
+<small> [<a href="reco/results760/summaryTimeMemory_760_OldStyle.txt">Short Summary Time and Memory</a>] </small> 
+</h3>
+<ul style="line-height: 200%">
+   <!-- CMSSW_7_6_0_pre3 -->
+   <li> CMSSW_7_6_0_pre3
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results760/step3_CMSSW_7_6_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre3_step3_OldStyle">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre3_step3_OldStyle">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre2 :
+               [<a href="reco/results760/timeDiff_step3_CMSSW_7_6_0_pre3_CMSSW_7_6_0_pre2.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results760/compareIgprofCPU_step3_CMSSW_7_6_0_pre2_CMSSW_7_6_0_pre3.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results760/step5_CMSSW_7_6_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre3_step5_OldStyle">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre3_step5_OldStyle">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_6_0_pre2 :
+               [<a href="reco/results760/timeDiff_step5_CMSSW_7_6_0_pre3_CMSSW_7_6_0_pre2.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_6_0_pre2 -->
+   <li> CMSSW_7_6_0_pre2
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results760/step3_CMSSW_7_6_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre2_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre2_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_6_0_pre1 :
+               [<a href="reco/results760/timeDiff_step3_CMSSW_7_6_0_pre2_CMSSW_7_6_0_pre1.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results760/compareIgprofCPU_step3_CMSSW_7_6_0_pre1_CMSSW_7_6_0_pre2.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results760/step5_CMSSW_7_6_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre2_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre2_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_6_0_pre1 :
+               [<a href="reco/results760/timeDiff_step5_CMSSW_7_6_0_pre2_CMSSW_7_6_0_pre1.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_6_0_pre1 -->
+   <li> CMSSW_7_6_0_pre1
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results760/step3_CMSSW_7_6_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre1_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre1_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+      <li> Step5(PAT) :
+         [<a href="reco/results760/step5_CMSSW_7_6_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_6_0_pre1_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_6_0_pre1_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+   </ul>
+
+</ul>
+
+
+
+<hr>
+<h3>CMSSW_7_5_0_preX 
+<small> [<a href="reco/results750/summaryTimeMemory_750.txt">Short Summary Time and Memory</a>] </small> 
+</h3>
+<ul style="line-height: 200%">
+   <!-- CMSSW_7_5_0 -->
+   <li> CMSSW_7_5_0
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre6 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_CMSSW_7_5_0_pre6.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre6_CMSSW_7_5_0.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre6 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_CMSSW_7_5_0_pre6.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre6 -->
+   <li> CMSSW_7_5_0_pre6
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre6_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre6_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre5 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_pre6_CMSSW_7_5_0_pre5.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre5_CMSSW_7_5_0_pre6.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre6_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre6_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre5 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_pre6_CMSSW_7_5_0_pre5.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre5 -->
+   <li> CMSSW_7_5_0_pre5
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre5_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre5_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre4 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_pre5_CMSSW_7_5_0_pre4.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre4_CMSSW_7_5_0_pre5.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre5_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre5_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre4 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_pre5_CMSSW_7_5_0_pre4.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre4 -->
+   <li> CMSSW_7_5_0_pre4
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre4_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre4_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre3 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_pre4_CMSSW_7_5_0_pre3.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre3_CMSSW_7_5_0_pre4.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre4_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre4_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre3 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_pre4_CMSSW_7_5_0_pre3.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre3 -->
+   <li> CMSSW_7_5_0_pre3
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre3_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre3_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre2 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_pre3_CMSSW_7_5_0_pre2.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre2_CMSSW_7_5_0_pre3.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre3_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre3_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre2 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_pre3_CMSSW_7_5_0_pre2.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre2 -->
+   <li> CMSSW_7_5_0_pre2
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre2_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre2_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_5_0_pre1 :
+               [<a href="reco/results750/timeDiff_step3_CMSSW_7_5_0_pre2_CMSSW_7_5_0_pre1.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results750/compareIgprofCPU_step3_CMSSW_7_5_0_pre1_CMSSW_7_5_0_pre2.txt">Igprof CPU</a>] &nbsp;
+               </small>
+            <li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ]
+               </small>
+         </ul>
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre2_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre2_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_5_0_pre1 :
+               [<a href="reco/results750/timeDiff_step5_CMSSW_7_5_0_pre2_CMSSW_7_5_0_pre1.txt">TimeDiff</a>] &nbsp;
+               </small>
+         </ul>
+   </ul>
+
+   <!-- CMSSW_7_5_0_pre1 -->
+   <li> CMSSW_7_5_0_pre1
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) :
+         [<a href="reco/results750/step3_CMSSW_7_5_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre1_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre1_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+      <li> Step5(PAT) :
+         [<a href="reco/results750/step5_CMSSW_7_5_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_5_0_pre1_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_5_0_pre1_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+   </ul>
+
+</ul>
+
+
+
+
+<hr>
+<h3>CMSSW_7_4_0_preX 
+<small> [<a href="reco/results740/summaryTimeMemory_740.txt">Short Summary Time and Memory</a>] </small> 
+</h3>
+<ul style="line-height: 200%">
+	<!-- CMSSW_7_4_0 -->
+   <li> CMSSW_7_4_0
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre9 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_CMSSW_7_4_0_pre9.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre9_CMSSW_7_4_0.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre9 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_CMSSW_7_4_0_pre9.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre9 -->
+   <li> CMSSW_7_4_0_pre9
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre9_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre9_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre9_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre8 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre9_CMSSW_7_4_0_pre8.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre8_CMSSW_7_4_0_pre9.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre9_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre9_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre9_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre8 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre9_CMSSW_7_4_0_pre8.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre8 -->
+   <li> CMSSW_7_4_0_pre8
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre8_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre8_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre8_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre7 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre8_CMSSW_7_4_0_pre7.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre7_CMSSW_7_4_0_pre8.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre8_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre8_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre8_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre7 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre8_CMSSW_7_4_0_pre7.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre7 -->
+   <li> CMSSW_7_4_0_pre7
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre7_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre7_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre7_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre6 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre7_CMSSW_7_4_0_pre6.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre6_CMSSW_7_4_0_pre7.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre7_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre7_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre7_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre6 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre7_CMSSW_7_4_0_pre6.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre6 -->
+   <li> CMSSW_7_4_0_pre6
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre6_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre6_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre5 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre6_CMSSW_7_4_0_pre5.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre5_CMSSW_7_4_0_pre6.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre6_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre6_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre6_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre5 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre6_CMSSW_7_4_0_pre5.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre5 -->
+   <li> CMSSW_7_4_0_pre5
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre5_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre5_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre4 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre5_CMSSW_7_4_0_pre4.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre4_CMSSW_7_4_0_pre5.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre5_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre5_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre5_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre4 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre5_CMSSW_7_4_0_pre4.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre4 -->
+   <li> CMSSW_7_4_0_pre4
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre4_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre4_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre3 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre4_CMSSW_7_4_0_pre3.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre3_CMSSW_7_4_0_pre4.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre4_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre4_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre4_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre3 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre4_CMSSW_7_4_0_pre3.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre3 -->
+   <li> CMSSW_7_4_0_pre3
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre3_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre3_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre2 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre3_CMSSW_7_4_0_pre2.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre2_CMSSW_7_4_0_pre3.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre3_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre3_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre3_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre2 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre3_CMSSW_7_4_0_pre2.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre2 -->
+   <li> CMSSW_7_4_0_pre2
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre2_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre2_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small>Comparison w/ CMSSW_7_4_0_pre1 :
+               [<a href="reco/results740/timeDiff_step3_CMSSW_7_4_0_pre2_CMSSW_7_4_0_pre1.txt">TimeDiff</a>] &nbsp;
+               [<a href="reco/results740/compareIgprofCPU_step3_CMSSW_7_4_0_pre1_CMSSW_7_4_0_pre2.txt">Igprof CPU</a>] &nbsp;
+					</small>
+				<li> <small> delta(igprofCPU) report [ (New-Old)/OldTotal > 0.5% ] 
+					</small>
+         </ul>
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre2_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre2_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre2_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+         <ul style="line-height: 120%">
+            <li> <small> Comparison w/ CMSSW_7_4_0_pre1 :
+               [<a href="reco/results740/timeDiff_step5_CMSSW_7_4_0_pre2_CMSSW_7_4_0_pre1.txt">TimeDiff</a>] &nbsp;
+					</small>
+         </ul>
+   </ul>
+	
+	<!-- CMSSW_7_4_0_pre1 -->
+   <li> CMSSW_7_4_0_pre1
+   <ul style="line-height: 150%" >
+      <li> Step3(RECO) : 
+         [<a href="reco/results740/step3_CMSSW_7_4_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre1_step3">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre1_step3">Memory Profiler igprof(25202.0)</a>] &nbsp;
+      <li> Step5(PAT) : 
+         [<a href="reco/results740/step5_CMSSW_7_4_0_pre1_getTimeMemSummary.txt">getTimeMemSummary (25202.0)</a>] &nbsp; 
+         [<a href="cgi-bin/igprof-navigator/igprofCPU_CMSSW_7_4_0_pre1_step5">CPU Profiler igprof(25202.0)</a>] &nbsp;
+         [<a href="cgi-bin/igprof-navigator/igprofMEM_CMSSW_7_4_0_pre1_step5">Memory Profiler igprof(25202.0)</a>] &nbsp;
+   </ul>
+	
+</ul>
+
+</body>
+</html>
+
+

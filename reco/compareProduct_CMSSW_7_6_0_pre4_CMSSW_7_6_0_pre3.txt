@@ -1,0 +1,40 @@
+Checking process _RECO CMSSW_7_6_0_pre3/src/TimeMemory/step3.root and CMSSW_7_6_0_pre4/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+        0 ->         101        101     NEWO   0.00     recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedMVAV2BJetTags__RECO.
+        0 ->          65         65     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByRawPileupWeightedIsolation3Hits__RECO.
+       86 ->           0        -86     OLDO  -0.00     recoPFTauDiscriminator_hpsPFTauMVA3IsolationPUcorrPtSum__RECO.
+        0 ->          19         19     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByPhotonPtSumOutsideSignalCone__RECO.
+        0 ->          18         18     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByLoosePileupWeightedIsolation3Hits__RECO.
+    18878 ->       19073        196      1.0   0.01     recoPFClusters_particleFlowClusterHCAL__RECO.
+    25476 ->       25713        237      0.9   0.01     recoGsfTrackExtras_electronGsfTracks__RECO.
+       33 ->          54         21     47.6   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr__RECO.
+     6276 ->        6417        141      2.2   0.01     CSCDetIdCSCSegmentsOwnedRangeMap_cscSegments__RECO.
+        0 ->          84         84     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauNeutralIsoPtSum__RECO.
+     1971 ->        2102        131      6.4   0.01     recoPFTaus_pfTausEI__RECO.
+     6645 ->        6852        207      3.1   0.01     recoMuons_muons__RECO.
+    16019 ->       16144        125      0.8   0.01     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_RECO.
+        0 ->          17         17     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByTightPileupWeightedIsolation3Hits__RECO.
+     6259 ->        6374        114      1.8   0.01     edmErrorSummaryEntrys_logErrorHarvester__RECO.
+        0 ->         101        101     NEWO   0.00     recoJetedmRefToBaseProdTofloatsAssociationVector_combinedMVAV2BJetTags__RECO.
+   150636 ->      151280        644      0.4   0.03     recoPFClusters_particleFlowClusterPS__RECO.
+   101592 ->      101718        126      0.1   0.01     recoTracks_generalTracks__RECO.
+    75723 ->       75986        263      0.3   0.01     recoPFBlocks_particleFlowBlock__RECO.
+     4458 ->        4584        126      2.8   0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_ecal_RECO.
+     2847 ->        3198        351     11.6   0.02     recoPFTaus_hpsPFTauProducer__RECO.
+    92244 ->       92460        216      0.2   0.01     TrackingRecHitsOwned_generalTracks__RECO.
+    77340 ->       77452        113      0.1   0.01     CaloTowersSorted_towerMaker__RECO.
+      846 ->        1071        225     23.5   0.01     recoPFTauTransverseImpactParameters_hpsPFTauTransverseImpactParameters_PFTauTIP_RECO.
+   494139 ->      496192       2053      0.4   0.10     SiStripClusteredmNewDetSetVector_siStripClusters__RECO.
+        0 ->          18         18     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumPileupWeightedIsolation3Hits__RECO.
+      751 ->        1027        276     31.1   0.01     recoRecoTauPiZeros_hpsPFTauProducer_pizeros_RECO.
+    79218 ->       79519        301      0.4   0.01     EcalRecHitsSorted_ecalPreshowerRecHit_EcalRecHitsES_RECO.
+       75 ->           0        -75     OLDO  -0.00     recoPFTauDiscriminator_hpsPFTauMVA3IsolationChargedIsoPtSum__RECO.
+   180773 ->      181058        285      0.2   0.01     recoTrackExtras_generalTracks__RECO.
+      193 ->         567        374     98.6   0.02     L1GlobalTriggerObjectMaps_l1L1GtObjectMap__RECO.
+        0 ->          86         86     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauPUcorrPtSum__RECO.
+        0 ->          75         75     NEWO   0.00     recoPFTauDiscriminator_hpsPFTauChargedIsoPtSum__RECO.
+       83 ->           0        -83     OLDO  -0.00     recoPFTauDiscriminator_hpsPFTauMVA3IsolationNeutralIsoPtSum__RECO.
+-------------------------------------------------------------
+  2118328 ->     2126705       8377             0.4     ALL BRANCHES

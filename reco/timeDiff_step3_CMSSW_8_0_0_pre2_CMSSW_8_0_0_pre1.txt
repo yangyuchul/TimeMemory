@@ -1,0 +1,71 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_8_0_0_pre1 vs CMSSW_8_0_0_pre2
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.19 ms/ev selectedPatJetsForMETUnc
+   -0.706774      -0.01%         2.95 ms/ev ->         1.41 ms/ev siStripZeroSuppression
+   -0.456444      -0.02%         5.82 ms/ev ->         3.66 ms/ev topSingleElectronHLTOfflineDQM
+   -0.434335      -0.00%         0.71 ms/ev ->         0.46 ms/ev patSmearedJetsResUp
+   -0.430959      -0.00%         0.69 ms/ev ->         0.45 ms/ev patSmearedJetsResDown
+   +0.362834      +0.01%         2.78 ms/ev ->         4.02 ms/ev muonSeededSeedsOutInDisplaced
+   +0.341350      +0.00%         1.07 ms/ev ->         1.51 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   +0.281493      +0.05%        16.11 ms/ev ->        21.39 ms/ev SiStripMonitorClusterBPTX
+   -0.234917      -0.01%         4.36 ms/ev ->         3.45 ms/ev SingleTopSingleElectronHLTOfflineDQM
+
+### Full Comparison CMSSW_8_0_0_pre1 vs CMSSW_8_0_0_pre2 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.19 ms/ev selectedPatJetsForMETUnc
+   -0.706774      -0.01%         2.95 ms/ev ->         1.41 ms/ev siStripZeroSuppression
+   -0.456444      -0.02%         5.82 ms/ev ->         3.66 ms/ev topSingleElectronHLTOfflineDQM
+   -0.434335      -0.00%         0.71 ms/ev ->         0.46 ms/ev patSmearedJetsResUp
+   -0.430959      -0.00%         0.69 ms/ev ->         0.45 ms/ev patSmearedJetsResDown
+   +0.362834      +0.01%         2.78 ms/ev ->         4.02 ms/ev muonSeededSeedsOutInDisplaced
+   +0.341350      +0.00%         1.07 ms/ev ->         1.51 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   +0.281493      +0.05%        16.11 ms/ev ->        21.39 ms/ev SiStripMonitorClusterBPTX
+   -0.234917      -0.01%         4.36 ms/ev ->         3.45 ms/ev SingleTopSingleElectronHLTOfflineDQM
+   -0.172667      -0.21%       157.43 ms/ev ->       132.41 ms/ev conversionTrackCandidates
+   -0.161006      -0.01%         6.92 ms/ev ->         5.89 ms/ev topSingleMuonHLTOfflineDQM
+   -0.097710      -0.01%        17.70 ms/ev ->        16.05 ms/ev siPixelClustersPreSplitting
+   -0.089353      -0.01%        16.15 ms/ev ->        14.77 ms/ev trackVertexArbitrator
+   -0.076392      -0.13%       202.81 ms/ev ->       187.89 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.068611      -0.01%        15.29 ms/ev ->        14.27 ms/ev candidateVertexArbitrator
+   -0.068384      -0.01%        21.46 ms/ev ->        20.04 ms/ev candidateVertexArbitratorCvsL
+   -0.061030      -0.00%         8.10 ms/ev ->         7.62 ms/ev particleFlowEGamma
+   +0.060785      +0.01%        24.02 ms/ev ->        25.53 ms/ev SETMuonSeed
+   +0.060378      +0.09%       166.65 ms/ev ->       177.02 ms/ev ewkMuLumiMonitorDQM
+   -0.058470      -0.01%        16.88 ms/ev ->        15.92 ms/ev pfImpactParameterTagInfos
+   -0.057756      -0.01%        16.67 ms/ev ->        15.74 ms/ev pfImpactParameterTagInfosEI
+   -0.056225      -0.00%         5.38 ms/ev ->         5.08 ms/ev siStripFEDCheck
+   -0.051669      -0.01%        16.32 ms/ev ->        15.50 ms/ev inclusiveVertexFinder
+  ---------- ------------     --------                  ----       ------------
+Job total:  11.7215 s/ev ==> 11.6199 s/ev
+
+The same excluding the first 1 events
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.19 ms/ev selectedPatJetsForMETUnc
+   -0.456763      -0.02%         5.83 ms/ev ->         3.66 ms/ev topSingleElectronHLTOfflineDQM
+   -0.433970      -0.00%         0.71 ms/ev ->         0.46 ms/ev patSmearedJetsResUp
+   -0.430501      -0.00%         0.69 ms/ev ->         0.45 ms/ev patSmearedJetsResDown
+   +0.368975      +0.01%         2.77 ms/ev ->         4.02 ms/ev muonSeededSeedsOutInDisplaced
+   +0.353172      +0.00%         1.06 ms/ev ->         1.51 ms/ev muonSeededTrackCandidatesOutInDisplaced
+   +0.281418      +0.05%        16.09 ms/ev ->        21.36 ms/ev SiStripMonitorClusterBPTX
+   -0.235222      -0.01%         4.37 ms/ev ->         3.45 ms/ev SingleTopSingleElectronHLTOfflineDQM
+   -0.172719      -0.22%       157.59 ms/ev ->       132.53 ms/ev conversionTrackCandidates
+   -0.161103      -0.01%         6.92 ms/ev ->         5.89 ms/ev topSingleMuonHLTOfflineDQM
+   -0.088474      -0.01%        16.11 ms/ev ->        14.75 ms/ev trackVertexArbitrator
+   -0.072133      -0.12%       202.15 ms/ev ->       188.07 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.068024      -0.01%        15.26 ms/ev ->        14.25 ms/ev candidateVertexArbitrator
+   -0.067587      -0.01%        21.41 ms/ev ->        20.01 ms/ev candidateVertexArbitratorCvsL
+   +0.062115      +0.01%        24.02 ms/ev ->        25.55 ms/ev SETMuonSeed
+   -0.060980      -0.00%         8.10 ms/ev ->         7.62 ms/ev particleFlowEGamma
+   +0.060117      +0.09%       166.49 ms/ev ->       176.81 ms/ev ewkMuLumiMonitorDQM
+   -0.057431      -0.01%        16.83 ms/ev ->        15.89 ms/ev pfImpactParameterTagInfos
+   -0.057430      -0.01%        16.65 ms/ev ->        15.72 ms/ev pfImpactParameterTagInfosEI
+   -0.056302      -0.00%         5.37 ms/ev ->         5.08 ms/ev siStripFEDCheck
+   -0.051045      -0.01%        16.28 ms/ev ->        15.47 ms/ev inclusiveVertexFinder
+  ---------- ------------     --------                  ----       ------------
+Job total:  11.6102 s/ev ==> 11.5125 s/ev
+

@@ -1,0 +1,46 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_6_0_pre2 vs CMSSW_7_6_0_pre1
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +0.490233      +0.04%         0.57 ms/ev ->         0.93 ms/ev reducedEgamma
+   -0.217188      -0.24%        11.02 ms/ev ->         8.86 ms/ev prunedGenParticles
+   -0.158239      -0.68%        41.46 ms/ev ->        35.38 ms/ev prunedGenParticlesWithStatusOne
+   +0.087776      +0.33%        32.40 ms/ev ->        35.37 ms/ev MINIAODSIMoutput
+   -0.079013      -0.21%        24.59 ms/ev ->        22.72 ms/ev pfImpactParameterTagInfosPuppi
+   -0.074369      -0.07%         8.81 ms/ev ->         8.18 ms/ev pfImpactParameterTagInfosAK8
+   -0.065419      -0.49%        69.38 ms/ev ->        64.98 ms/ev pfImpactParameterTagInfos
+   -0.061016      -0.03%         5.22 ms/ev ->         4.91 ms/ev patJetCorrFactorsAK4PFForMetUnc
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.891489 s/ev ==> 0.885009 s/ev
+
+### Full Comparison CMSSW_7_6_0_pre2 vs CMSSW_7_6_0_pre1 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+       added      +0.00%         0.00 ms/ev ->         0.00 ms/ev MEtoEDMConverter
+   +0.433763      +0.04%         0.67 ms/ev ->         1.04 ms/ev reducedEgamma
+   -0.216771      -0.24%        11.02 ms/ev ->         8.87 ms/ev prunedGenParticles
+   -0.155779      -0.67%        41.79 ms/ev ->        35.75 ms/ev prunedGenParticlesWithStatusOne
+   +0.087748      +0.33%        32.45 ms/ev ->        35.43 ms/ev MINIAODSIMoutput
+   -0.079293      -0.21%        24.60 ms/ev ->        22.72 ms/ev pfImpactParameterTagInfosPuppi
+   -0.074257      -0.07%         8.81 ms/ev ->         8.18 ms/ev pfImpactParameterTagInfosAK8
+   -0.065136      -0.49%        69.37 ms/ev ->        64.99 ms/ev pfImpactParameterTagInfos
+   +0.062372      +0.12%        17.29 ms/ev ->        18.40 ms/ev primaryVertexAssociation
+   -0.061156      -0.03%         5.22 ms/ev ->         4.91 ms/ev patJetCorrFactorsAK4PFForMetUnc
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.896981 s/ev ==> 0.891661 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +0.490233      +0.04%         0.57 ms/ev ->         0.93 ms/ev reducedEgamma
+   -0.217188      -0.24%        11.02 ms/ev ->         8.86 ms/ev prunedGenParticles
+   -0.158239      -0.68%        41.46 ms/ev ->        35.38 ms/ev prunedGenParticlesWithStatusOne
+   +0.087776      +0.33%        32.40 ms/ev ->        35.37 ms/ev MINIAODSIMoutput
+   -0.079013      -0.21%        24.59 ms/ev ->        22.72 ms/ev pfImpactParameterTagInfosPuppi
+   -0.074369      -0.07%         8.81 ms/ev ->         8.18 ms/ev pfImpactParameterTagInfosAK8
+   -0.065419      -0.49%        69.38 ms/ev ->        64.98 ms/ev pfImpactParameterTagInfos
+   -0.061016      -0.03%         5.22 ms/ev ->         4.91 ms/ev patJetCorrFactorsAK4PFForMetUnc
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.891489 s/ev ==> 0.885009 s/ev
+

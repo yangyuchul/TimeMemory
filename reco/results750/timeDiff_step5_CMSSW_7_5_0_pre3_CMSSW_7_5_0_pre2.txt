@@ -1,0 +1,38 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre3 vs CMSSW_7_5_0_pre2
+   -0.052126      -0.04%         5.61 ms/ev ->         5.33 ms/ev patJets
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.643418 s/ev ==> 0.636313 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.286054      -0.45%        11.62 ms/ev ->         8.71 ms/ev prunedGenParticles
+   -0.225806      -1.40%        44.55 ms/ev ->        35.51 ms/ev prunedGenParticlesWithStatusOne
+   -0.217625      -0.03%         1.12 ms/ev ->         0.90 ms/ev selectedPatTrigger
+   -0.054034      -0.15%        18.17 ms/ev ->        17.21 ms/ev NjettinessAK8
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.647627 s/ev ==> 0.641016 s/ev
+
+### Full Comparison CMSSW_7_5_0_pre3 vs CMSSW_7_5_0_pre2 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.450732      -0.04%         0.63 ms/ev ->         0.40 ms/ev ecalLaserCorrFilter
+   -0.285883      -0.45%        11.63 ms/ev ->         8.72 ms/ev prunedGenParticles
+   -0.224544      -1.41%        44.82 ms/ev ->        35.77 ms/ev prunedGenParticlesWithStatusOne
+   -0.214493      -0.03%         1.15 ms/ev ->         0.92 ms/ev selectedPatTrigger
+   -0.053999      -0.15%        18.16 ms/ev ->        17.21 ms/ev NjettinessAK8
+   -0.052126      -0.04%         5.61 ms/ev ->         5.33 ms/ev patJets
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.643418 s/ev ==> 0.636313 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   -0.286054      -0.45%        11.62 ms/ev ->         8.71 ms/ev prunedGenParticles
+   -0.225806      -1.40%        44.55 ms/ev ->        35.51 ms/ev prunedGenParticlesWithStatusOne
+   -0.217625      -0.03%         1.12 ms/ev ->         0.90 ms/ev selectedPatTrigger
+   -0.054034      -0.15%        18.17 ms/ev ->        17.21 ms/ev NjettinessAK8
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.647627 s/ev ==> 0.641016 s/ev
+

@@ -1,0 +1,28 @@
+Checking process _RECO CMSSW_8_0_0_pre3/src/TimeMemory/step3.root and CMSSW_8_0_0_pre4/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+     2507 ->        2649        142      5.5   0.01     recoConversions_allConversions__RECO.
+    18804 ->       19075        271      1.4   0.01     recoPFClusters_particleFlowClusterHCAL__RECO.
+    24394 ->       24917        523      2.1   0.03     recoGsfTrackExtras_electronGsfTracks__RECO.
+     5246 ->        5400        154      2.9   0.01     recoTrackExtras_conversionStepTracks__RECO.
+     8976 ->        9085        109      1.2   0.01     recoCaloMuons_calomuons__RECO.
+     6813 ->        6662       -152     -2.3  -0.01     recoMuons_muons__RECO.
+    15848 ->       16077        229      1.4   0.01     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_RECO.
+    35606 ->       35998        393      1.1   0.02     recoPFClusters_particleFlowClusterECAL__RECO.
+     4556 ->        4683        127      2.7   0.01     recoDeDxDataedmValueMap_dedxTruncated40__RECO.
+    67369 ->       67762        393      0.6   0.02     recoPFClusters_particleFlowClusterPS__RECO.
+     9899 ->       10055        156      1.6   0.01     EcalRecHitsSorted_reducedEcalRecHitsEE__RECO.
+   104770 ->      105564        794      0.8   0.04     recoTracks_generalTracks__RECO.
+    62096 ->       62386        290      0.5   0.01     recoPFBlocks_particleFlowBlock__RECO.
+    54408 ->       54737        329      0.6   0.02     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEB_RECO.
+    96064 ->       97488       1424      1.5   0.07     TrackingRecHitsOwned_generalTracks__RECO.
+    78054 ->       78256        202      0.3   0.01     CaloTowersSorted_towerMaker__RECO.
+   489159 ->      491478       2319      0.5   0.11     SiStripClusteredmNewDetSetVector_siStripClusters__RECO.
+   115666 ->      116373        707      0.6   0.03     EcalRecHitsSorted_ecalPreshowerRecHit_EcalRecHitsES_RECO.
+    11180 ->       11330        150      1.3   0.01     EcalRecHitsSorted_reducedEcalRecHitsEB__RECO.
+     4557 ->        4691        135      2.9   0.01     recoDeDxDataedmValueMap_dedxHarmonic2__RECO.
+   186713 ->      187949       1236      0.7   0.06     recoTrackExtras_generalTracks__RECO.
+    96619 ->       96884        266      0.3   0.01     SiPixelClusteredmNewDetSetVector_siPixelClusters__RECO.
+-------------------------------------------------------------
+  2029642 ->     2040309      10667             0.5     ALL BRANCHES

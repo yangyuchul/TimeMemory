@@ -1,0 +1,180 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_4_0_pre2 vs CMSSW_7_4_0_pre1
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.46%        62.01 ms/ev ->         0.00 ms/ev firstStepPrimaryVerticesPreSplitting
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+     removed      -0.04%         5.61 ms/ev ->         0.00 ms/ev siPixelRecHitsPreSplitting
+     removed      -0.00%         0.38 ms/ev ->         0.00 ms/ev MeasurementTrackerEventPreSplitting
+       added      +0.04%         0.00 ms/ev ->         5.70 ms/ev ca8PFJetsCHSPruned
+     removed      -0.00%         0.19 ms/ev ->         0.00 ms/ev initialStepSeedLayersPreSplitting
+     removed      -0.04%         5.61 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPruned
+     removed      -0.03%         3.72 ms/ev ->         0.00 ms/ev caloTowerForTrkPreSplitting
+     removed      -0.03%         3.63 ms/ev ->         0.00 ms/ev siPixelClusterShapeCachePreSplitting
+
+### Full Comparison CMSSW_7_4_0_pre2 vs CMSSW_7_4_0_pre1 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.46%        61.96 ms/ev ->         0.00 ms/ev firstStepPrimaryVerticesPreSplitting
+     removed      -0.00%         0.07 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+     removed      -0.04%         5.59 ms/ev ->         0.00 ms/ev siPixelRecHitsPreSplitting
+     removed      -0.00%         0.46 ms/ev ->         0.00 ms/ev MeasurementTrackerEventPreSplitting
+       added      +0.04%         0.00 ms/ev ->         5.69 ms/ev ca8PFJetsCHSPruned
+     removed      -0.00%         0.18 ms/ev ->         0.00 ms/ev initialStepSeedLayersPreSplitting
+     removed      -0.04%         5.60 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPruned
+     removed      -0.03%         3.72 ms/ev ->         0.00 ms/ev caloTowerForTrkPreSplitting
+     removed      -0.03%         3.62 ms/ev ->         0.00 ms/ev siPixelClusterShapeCachePreSplitting
+       added      +0.21%         0.00 ms/ev ->        28.28 ms/ev ca8PFJetsCHS
+     removed      -0.47%        63.69 ms/ev ->         0.00 ms/ev initialStepSeedsPreSplitting
+       added      +0.05%         0.00 ms/ev ->         6.74 ms/ev dedxDiscrimASmi
+     removed      -0.00%         0.17 ms/ev ->         0.00 ms/ev dedxHitInfo
+     removed      -0.00%         0.40 ms/ev ->         0.00 ms/ev initialStepTrackRefsForJetsPreSplitting
+     removed      -0.04%         5.52 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDrop
+       added      +0.00%         0.00 ms/ev ->         0.09 ms/ev ca8PFJetsCHSPrunedLinks
+     removed      -4.17%       566.69 ms/ev ->         0.00 ms/ev initialStepTrackCandidatesPreSplitting
+     removed      -0.04%         5.56 ms/ev ->         0.00 ms/ev ak4CaloJetsForTrkPreSplitting
+     removed      -0.00%         0.26 ms/ev ->         0.00 ms/ev jetsForCoreTrackingPreSplitting
+     removed      -1.61%       218.25 ms/ev ->         0.00 ms/ev initialStepTracksPreSplitting
+     removed      -0.13%        18.15 ms/ev ->         0.00 ms/ev siPixelClustersPreSplitting
+   +0.821546      +0.09%         8.39 ms/ev ->        20.09 ms/ev siPixelClusters
+   -0.538961      -0.04%        13.79 ms/ev ->         7.94 ms/ev particleFlowClusterHBHE
+   -0.429076      -0.02%         8.94 ms/ev ->         5.78 ms/ev particleFlowClusterHCAL
+   +0.382253      +0.00%         1.19 ms/ev ->         1.75 ms/ev regionalCosmicTrackerSeeds
+   +0.294249      +0.00%         0.57 ms/ev ->         0.77 ms/ev pfAllElectronsEI
+   +0.263226      +0.00%         0.67 ms/ev ->         0.88 ms/ev pfAllMuonsEI
+   +0.240878      +0.31%       155.25 ms/ev ->       197.76 ms/ev conversionTrackCandidates
+   +0.233164      +0.76%       389.00 ms/ev ->       491.67 ms/ev hbheprereco
+   -0.232845      -0.00%         0.72 ms/ev ->         0.57 ms/ev globalCosmicMuons
+   +0.229873      +0.50%       261.40 ms/ev ->       329.30 ms/ev regionalCosmicCkfTrackCandidates
+   +0.210329      +0.11%        64.89 ms/ev ->        80.14 ms/ev ecalDrivenElectronSeeds
+   -0.184156      -0.02%        12.57 ms/ev ->        10.45 ms/ev hbhereco
+   -0.167423      -0.07%        64.58 ms/ev ->        54.60 ms/ev JetPlusTrackZSPCorJetAntiKt4
+   +0.146166      +0.01%         5.66 ms/ev ->         6.56 ms/ev muonsFromCosmics1Leg
+   +0.143746      +0.18%       162.23 ms/ev ->       187.36 ms/ev convTrackCandidates
+   +0.138780      +0.01%         4.88 ms/ev ->         5.60 ms/ev ecalDrivenGsfElectrons
+   -0.138568      -0.08%        81.84 ms/ev ->        71.24 ms/ev iterativeCone5CaloJets
+   -0.108308      -0.20%       269.13 ms/ev ->       241.48 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.102409      -0.00%         6.44 ms/ev ->         5.81 ms/ev hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorr
+   -0.098878      -0.01%         7.91 ms/ev ->         7.16 ms/ev hpsPFTauDiscriminationByLooseChargedIsolation
+   -0.098082      -0.00%         6.29 ms/ev ->         5.70 ms/ev pfTausDiscriminationByIsolation
+   +0.096621      +0.00%         4.92 ms/ev ->         5.41 ms/ev interestingGedGamIsoDetIdEB
+   -0.096412      -0.01%         7.99 ms/ev ->         7.26 ms/ev hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3Hits
+   -0.096351      -0.01%         7.99 ms/ev ->         7.25 ms/ev hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3Hits
+   -0.094745      -0.01%         7.89 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr
+   -0.094315      -0.01%         7.88 ms/ev ->         7.17 ms/ev hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr
+   -0.094101      -0.01%         7.98 ms/ev ->         7.26 ms/ev hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3Hits
+   -0.093047      -0.01%         8.10 ms/ev ->         7.38 ms/ev hpsPFTauDiscriminationByVLooseChargedIsolation
+   -0.092268      -0.01%         8.12 ms/ev ->         7.40 ms/ev hpsPFTauMVA3IsolationPUcorrPtSum
+   -0.092162      -0.01%         7.97 ms/ev ->         7.27 ms/ev hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3Hits
+   -0.091889      -0.01%         7.91 ms/ev ->         7.22 ms/ev hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorr
+   -0.091777      -0.01%         7.89 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr
+   -0.091663      -0.01%         7.88 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr
+   -0.090933      -0.01%         7.86 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorr
+   -0.090510      -0.00%         6.78 ms/ev ->         6.19 ms/ev particleFlowRecHitHBHE
+   -0.090167      -0.00%         7.87 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr
+   -0.087675      -0.00%         7.83 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByMediumChargedIsolation
+   -0.085313      -0.00%         7.83 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByTightChargedIsolation
+   -0.080975      -0.01%        14.08 ms/ev ->        12.99 ms/ev impactParameterTagInfosEI
+   -0.079297      -0.00%         6.15 ms/ev ->         5.68 ms/ev ak4JetTracksAssociatorAtCaloFace
+   -0.075928      -0.01%        19.33 ms/ev ->        17.92 ms/ev particleFlowEGamma
+   -0.075598      -0.00%         5.60 ms/ev ->         5.19 ms/ev ak4CaloJetsForTrk
+   +0.074752      +0.01%        23.14 ms/ev ->        24.94 ms/ev gedPhotons
+   -0.072075      -0.03%        60.59 ms/ev ->        56.37 ms/ev particleFlowTmp
+   -0.069747      -0.01%        19.81 ms/ev ->        18.47 ms/ev pfNoJetEI
+   -0.069729      -0.02%        39.72 ms/ev ->        37.04 ms/ev pfNoPileUpJME
+   -0.056372      -0.01%        20.59 ms/ev ->        19.46 ms/ev recoTauAK4PFJets08Region
+   +0.056234      +0.00%         9.11 ms/ev ->         9.63 ms/ev dt4DSegments
+   +0.055497      +0.01%        14.24 ms/ev ->        15.06 ms/ev hpsPFTauProducerSansRefs
+   +0.055423      +0.03%        73.63 ms/ev ->        77.83 ms/ev trackerDrivenElectronSeeds
+   +0.054038      +0.01%        16.71 ms/ev ->        17.64 ms/ev electronCkfTrackCandidates
+   -0.053349      -0.00%         9.60 ms/ev ->         9.10 ms/ev ghostTrackVertexTagInfos
+   -0.053225      -0.01%        20.54 ms/ev ->        19.48 ms/ev pfTauPFJets08Region
+   -0.051997      -0.00%         7.14 ms/ev ->         6.78 ms/ev pfRecoTauTagInfoProducer
+  ---------- ------------     --------                  ----       ------------
+Job total:  13.5976 s/ev ==> 12.8086 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPrunedMass
+     removed      -0.46%        62.01 ms/ev ->         0.00 ms/ev firstStepPrimaryVerticesPreSplitting
+     removed      -0.00%         0.08 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDropMass
+     removed      -0.04%         5.61 ms/ev ->         0.00 ms/ev siPixelRecHitsPreSplitting
+     removed      -0.00%         0.38 ms/ev ->         0.00 ms/ev MeasurementTrackerEventPreSplitting
+       added      +0.04%         0.00 ms/ev ->         5.70 ms/ev ca8PFJetsCHSPruned
+     removed      -0.00%         0.19 ms/ev ->         0.00 ms/ev initialStepSeedLayersPreSplitting
+     removed      -0.04%         5.61 ms/ev ->         0.00 ms/ev ak8PFJetsCHSPruned
+     removed      -0.03%         3.72 ms/ev ->         0.00 ms/ev caloTowerForTrkPreSplitting
+     removed      -0.03%         3.63 ms/ev ->         0.00 ms/ev siPixelClusterShapeCachePreSplitting
+       added      +0.21%         0.00 ms/ev ->        28.34 ms/ev ca8PFJetsCHS
+     removed      -0.47%        63.70 ms/ev ->         0.00 ms/ev initialStepSeedsPreSplitting
+       added      +0.05%         0.00 ms/ev ->         6.75 ms/ev dedxDiscrimASmi
+     removed      -0.00%         0.18 ms/ev ->         0.00 ms/ev dedxHitInfo
+     removed      -0.00%         0.40 ms/ev ->         0.00 ms/ev initialStepTrackRefsForJetsPreSplitting
+     removed      -0.04%         5.53 ms/ev ->         0.00 ms/ev ak8PFJetsCHSSoftDrop
+       added      +0.00%         0.00 ms/ev ->         0.09 ms/ev ca8PFJetsCHSPrunedLinks
+     removed      -4.21%       567.59 ms/ev ->         0.00 ms/ev initialStepTrackCandidatesPreSplitting
+     removed      -0.04%         5.57 ms/ev ->         0.00 ms/ev ak4CaloJetsForTrkPreSplitting
+     removed      -0.00%         0.26 ms/ev ->         0.00 ms/ev jetsForCoreTrackingPreSplitting
+     removed      -1.62%       218.58 ms/ev ->         0.00 ms/ev initialStepTracksPreSplitting
+     removed      -0.08%        10.18 ms/ev ->         0.00 ms/ev siPixelClustersPreSplitting
+   -0.539475      -0.04%        13.83 ms/ev ->         7.95 ms/ev particleFlowClusterHBHE
+   -0.429119      -0.02%         8.96 ms/ev ->         5.79 ms/ev particleFlowClusterHCAL
+   +0.381932      +0.00%         1.19 ms/ev ->         1.75 ms/ev regionalCosmicTrackerSeeds
+   +0.295112      +0.00%         0.57 ms/ev ->         0.77 ms/ev pfAllElectronsEI
+   +0.262441      +0.00%         0.68 ms/ev ->         0.88 ms/ev pfAllMuonsEI
+   +0.241795      +0.32%       155.71 ms/ev ->       198.54 ms/ev conversionTrackCandidates
+   +0.233518      +0.76%       389.50 ms/ev ->       492.48 ms/ev hbheprereco
+   +0.229859      +0.51%       262.16 ms/ev ->       330.24 ms/ev regionalCosmicCkfTrackCandidates
+   +0.211167      +0.11%        64.92 ms/ev ->        80.25 ms/ev ecalDrivenElectronSeeds
+   -0.184198      -0.02%        12.61 ms/ev ->        10.48 ms/ev hbhereco
+   -0.168188      -0.07%        64.65 ms/ev ->        54.62 ms/ev JetPlusTrackZSPCorJetAntiKt4
+   +0.164990      +0.01%         8.40 ms/ev ->         9.91 ms/ev siPixelClusters
+   +0.146657      +0.01%         5.67 ms/ev ->         6.57 ms/ev muonsFromCosmics1Leg
+   +0.145204      +0.19%       162.21 ms/ev ->       187.61 ms/ev convTrackCandidates
+   +0.142541      +0.01%         4.87 ms/ev ->         5.62 ms/ev ecalDrivenGsfElectrons
+   -0.137963      -0.08%        81.94 ms/ev ->        71.36 ms/ev iterativeCone5CaloJets
+   -0.108070      -0.21%       269.89 ms/ev ->       242.22 ms/ev jetCoreRegionalStepTrackCandidates
+   -0.102528      -0.00%         6.44 ms/ev ->         5.81 ms/ev hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorr
+   -0.099114      -0.01%         7.92 ms/ev ->         7.17 ms/ev hpsPFTauDiscriminationByLooseChargedIsolation
+   +0.097213      +0.00%         4.92 ms/ev ->         5.43 ms/ev interestingGedGamIsoDetIdEB
+   -0.096973      -0.01%         7.99 ms/ev ->         7.25 ms/ev hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3Hits
+   -0.096896      -0.01%         8.00 ms/ev ->         7.26 ms/ev hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3Hits
+   -0.096570      -0.00%         6.28 ms/ev ->         5.70 ms/ev pfTausDiscriminationByIsolation
+   -0.095657      -0.01%         7.90 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr
+   -0.095413      -0.01%         7.99 ms/ev ->         7.26 ms/ev hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3Hits
+   -0.095191      -0.01%         7.89 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr
+   -0.093390      -0.01%         8.11 ms/ev ->         7.39 ms/ev hpsPFTauDiscriminationByVLooseChargedIsolation
+   -0.092935      -0.01%         8.12 ms/ev ->         7.40 ms/ev hpsPFTauMVA3IsolationPUcorrPtSum
+   -0.092918      -0.01%         7.98 ms/ev ->         7.27 ms/ev hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3Hits
+   -0.092517      -0.01%         7.92 ms/ev ->         7.22 ms/ev hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorr
+   -0.092443      -0.01%         7.89 ms/ev ->         7.20 ms/ev hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr
+   -0.092195      -0.01%         7.89 ms/ev ->         7.20 ms/ev hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr
+   -0.090601      -0.01%         7.87 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorr
+   -0.090536      -0.01%         7.88 ms/ev ->         7.19 ms/ev hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr
+   -0.090491      -0.00%         6.79 ms/ev ->         6.20 ms/ev particleFlowRecHitHBHE
+   -0.088211      -0.00%         7.84 ms/ev ->         7.18 ms/ev hpsPFTauDiscriminationByMediumChargedIsolation
+   -0.082158      -0.00%         7.84 ms/ev ->         7.22 ms/ev hpsPFTauDiscriminationByTightChargedIsolation
+   -0.080860      -0.01%        14.10 ms/ev ->        13.00 ms/ev impactParameterTagInfosEI
+   -0.079284      -0.00%         6.16 ms/ev ->         5.69 ms/ev ak4JetTracksAssociatorAtCaloFace
+   -0.074365      -0.00%         5.61 ms/ev ->         5.21 ms/ev ak4CaloJetsForTrk
+   +0.073612      +0.01%        23.20 ms/ev ->        24.97 ms/ev gedPhotons
+   -0.073106      -0.01%        19.36 ms/ev ->        17.99 ms/ev particleFlowEGamma
+   -0.070935      -0.02%        39.79 ms/ev ->        37.07 ms/ev pfNoPileUpJME
+   -0.069839      -0.01%        19.83 ms/ev ->        18.49 ms/ev pfNoJetEI
+   -0.069495      -0.03%        60.58 ms/ev ->        56.51 ms/ev particleFlowTmp
+   +0.062175      +0.00%         9.08 ms/ev ->         9.66 ms/ev dt4DSegments
+   +0.059063      +0.23%       508.92 ms/ev ->       539.89 ms/ev RECOSIMoutput
+   -0.056250      -0.01%        20.62 ms/ev ->        19.49 ms/ev recoTauAK4PFJets08Region
+   +0.055830      +0.03%        73.69 ms/ev ->        77.92 ms/ev trackerDrivenElectronSeeds
+   +0.055655      +0.01%        14.26 ms/ev ->        15.08 ms/ev hpsPFTauProducerSansRefs
+   +0.054043      +0.01%        16.74 ms/ev ->        17.67 ms/ev electronCkfTrackCandidates
+   -0.053867      -0.00%         9.62 ms/ev ->         9.11 ms/ev ghostTrackVertexTagInfos
+   -0.052986      -0.01%        20.57 ms/ev ->        19.51 ms/ev pfTauPFJets08Region
+   -0.051681      -0.00%         7.15 ms/ev ->         6.79 ms/ev pfRecoTauTagInfoProducer
+   +0.050279      +0.01%        25.59 ms/ev ->        26.91 ms/ev pfTrackElec
+  ---------- ------------     --------                  ----       ------------
+Job total:  13.4721 s/ev ==> 12.7285 s/ev
+

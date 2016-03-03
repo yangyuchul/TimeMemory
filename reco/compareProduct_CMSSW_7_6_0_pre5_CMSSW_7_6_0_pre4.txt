@@ -1,0 +1,53 @@
+Checking process _RECO ./CMSSW_7_6_0_pre4/src/TimeMemory/step3.root and ./CMSSW_7_6_0_pre5/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+     3765 ->        3655       -109     -2.9  -0.01     recoCaloJets_ak4CaloJets__RECO.
+     9743 ->        9627       -116     -1.2  -0.01     recoPFCandidateedmFwdPtrs_particleFlowPtrs__RECO.
+     3132 ->        2976       -155     -5.1  -0.01     recoSuperClusters_multi5x5SuperClustersWithPreshower__RECO.
+    19150 ->       18626       -524     -2.8  -0.02     recoPFClusters_particleFlowClusterHCAL__RECO.
+    10242 ->       10074       -169     -1.7  -0.01     recoPFJets_ak4PFJets__RECO.
+    25937 ->       25160       -777     -3.0  -0.04     recoGsfTrackExtras_electronGsfTracks__RECO.
+     7152 ->        7034       -119     -1.7  -0.01     recoTracks_pfImpactParameterTagInfos_ghostTracks_RECO.
+     8815 ->        8588       -227     -2.6  -0.01     recoCaloMuons_calomuons__RECO.
+    12088 ->       11864       -225     -1.9  -0.01     recoCandidateedmPtrsrecoJetTagInforecoIPTagInfos_pfImpactParameterTagInfos__RECO.
+    20720 ->       20282       -438     -2.1  -0.02     recoRecoChargedRefCandidates_trackRefsForJets__RECO.
+     6833 ->        6653       -180     -2.7  -0.01     recoMuons_muons__RECO.
+     3353 ->        3188       -165     -5.1  -0.01     recoSuperClusters_correctedMulti5x5SuperClustersWithPreshower__RECO.
+    16166 ->       15733       -433     -2.7  -0.02     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_RECO.
+    35928 ->       35167       -762     -2.1  -0.04     recoPFClusters_particleFlowClusterECAL__RECO.
+     4458 ->        4339       -118     -2.7  -0.01     recoDeDxDataedmValueMap_dedxTruncated40__RECO.
+    10049 ->        9830       -219     -2.2  -0.01     recoPreIds_trackerDrivenElectronSeeds_preid_RECO.
+    12035 ->       11805       -230     -1.9  -0.01     recoTracksRefsrecoJTATagInforecoIPTagInfos_impactParameterTagInfos__RECO.
+   151518 ->      149821      -1697     -1.1  -0.08     recoPFClusters_particleFlowClusterPS__RECO.
+    10068 ->        9728       -340     -3.4  -0.02     EcalRecHitsSorted_reducedEcalRecHitsEE__RECO.
+   102259 ->      100034      -2225     -2.2  -0.10     recoTracks_generalTracks__RECO.
+     2028 ->        1918       -110     -5.6  -0.01     recoPreshowerClusters_multi5x5SuperClustersWithPreshower_preshowerYClusters_RECO.
+    76406 ->       74743      -1663     -2.2  -0.08     recoPFBlocks_particleFlowBlock__RECO.
+     4607 ->        4415       -192     -4.3  -0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_ecal_RECO.
+     3205 ->        3097       -108     -3.4  -0.01     recoPFTaus_hpsPFTauProducer__RECO.
+    54776 ->       54399       -378     -0.7  -0.02     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEB_RECO.
+    92933 ->       90771      -2163     -2.4  -0.10     TrackingRecHitsOwned_generalTracks__RECO.
+     7867 ->        7738       -129     -1.6  -0.01     recoPFJets_ak4PFJetsCHS__RECO.
+    77672 ->       76870       -803     -1.0  -0.04     CaloTowersSorted_towerMaker__RECO.
+   497644 ->      491341      -6303     -1.3  -0.30     SiStripClusteredmNewDetSetVector_siStripClusters__RECO.
+     2857 ->        2738       -119     -4.3  -0.01     recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALPreshower_RECO.
+       15 ->          11         -4    -28.7  -0.00     recoTrackExtras_uncleanedOnlyCkfInOutTracksFromConversions__RECO.
+    78086 ->       77070      -1015     -1.3  -0.05     recoPFCandidates_particleFlow__RECO.
+     1690 ->        1566       -123     -7.6  -0.01     recoCaloClusters_particleFlowEGamma_ESClusters_RECO.
+    79693 ->       78959       -734     -0.9  -0.03     EcalRecHitsSorted_ecalPreshowerRecHit_EcalRecHitsES_RECO.
+     7859 ->        7732       -127     -1.6  -0.01     recoPFJets_pfJetsEI__RECO.
+     9533 ->        9339       -194     -2.1  -0.01     recoTrackExtrapolations_trackExtrapolator__RECO.
+     7150 ->        7031       -119     -1.7  -0.01     recoTracks_impactParameterTagInfos_ghostTracks_RECO.
+     2635 ->        2504       -131     -5.1  -0.01     recoSuperClusters_multi5x5SuperClusters_multi5x5EndcapSuperClusters_RECO.
+     4456 ->        4338       -118     -2.7  -0.01     recoDeDxDataedmValueMap_dedxHarmonic2__RECO.
+     6869 ->        6700       -170     -2.5  -0.01     recoCaloClusters_multi5x5SuperClusters_multi5x5EndcapBasicClusters_RECO.
+   182051 ->      177874      -4177     -2.3  -0.20     recoTrackExtras_generalTracks__RECO.
+     2790 ->        2608       -181     -6.7  -0.01     EcalRecHitsSorted_reducedEcalRecHitsES__RECO.
+     2796 ->        2682       -114     -4.2  -0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_hcal_RECO.
+    96476 ->       94863      -1613     -1.7  -0.08     SiPixelClusteredmNewDetSetVector_siPixelClusters__RECO.
+       12 ->           9         -2    -22.4  -0.00     recoTracks_uncleanedOnlyCkfInOutTracksFromConversions__RECO.
+     9513 ->        9331       -182     -1.9  -0.01     recoPFCandidateedmFwdPtrs_particleFlowTmpPtrs__RECO.
+     6306 ->        6181       -124     -2.0  -0.01     HFRecHitsSorted_reducedHcalRecHits_hfreco_RECO.
+-------------------------------------------------------------
+  2132596 ->     2099464     -33132            -1.6     ALL BRANCHES

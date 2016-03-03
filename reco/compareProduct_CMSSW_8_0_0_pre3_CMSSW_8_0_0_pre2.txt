@@ -1,0 +1,15 @@
+Checking process _RECO CMSSW_8_0_0_pre2/src/TimeMemory/step3.root and CMSSW_8_0_0_pre3/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+    24745 ->       24394       -351     -1.4  -0.02     recoGsfTrackExtras_electronGsfTracks__RECO.
+      281 ->         176       -105    -46.2  -0.00     recoCaloClusteredmPtredmValueMap_particleFlowSuperClusterECAL_PFClusterAssociationES_RECO.
+   173949 ->       67369    -106580    -88.3  -4.95     recoPFClusters_particleFlowClusterPS__RECO.
+   104501 ->      104770        269      0.3   0.01     recoTracks_generalTracks__RECO.
+     1263 ->        1141       -122    -10.2  -0.01     recoSuperClusters_particleFlowSuperClusterECAL_particleFlowSuperClusterECALEndcapWithPreshower_RECO.
+    77033 ->       62096     -14936    -21.5  -0.69     recoPFBlocks_particleFlowBlock__RECO.
+     3090 ->        1775      -1315    -54.0  -0.06     recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALPreshower_RECO.
+    78436 ->       78054       -382     -0.5  -0.02     recoPFCandidates_particleFlow__RECO.
+     1738 ->        1056       -682    -48.8  -0.03     recoCaloClusters_particleFlowEGamma_ESClusters_RECO.
+-------------------------------------------------------------
+  2154690 ->     2029642    -125048            -5.8     ALL BRANCHES

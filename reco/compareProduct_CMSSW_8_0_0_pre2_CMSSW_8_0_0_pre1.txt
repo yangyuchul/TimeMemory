@@ -1,0 +1,42 @@
+Checking process _RECO 800/CMSSW_8_0_0_pre1/src/TimeMemory/step3.root and 800/CMSSW_8_0_0_pre2/src/TimeMemory/step3.root (if above 100 or 20%):
+-------------------------------------------------------------
+ or, B       new, B      delta, B   delta, %   deltaJ, %    branch 
+-------------------------------------------------------------
+     2657 ->        2521       -136     -5.2  -0.01     recoConversions_allConversions__RECO.
+    19299 ->       18800       -499     -2.6  -0.02     recoPFClusters_particleFlowClusterHCAL__RECO.
+    25620 ->       24745       -875     -3.5  -0.04     recoGsfTrackExtras_electronGsfTracks__RECO.
+     6463 ->        6356       -107     -1.7  -0.00     CSCDetIdCSCSegmentsOwnedRangeMap_cscSegments__RECO.
+    12096 ->       11970       -126     -1.0  -0.01     recoCandidateedmPtrsrecoJetTagInforecoIPTagInfos_pfImpactParameterTagInfos__RECO.
+    20620 ->       20481       -139     -0.7  -0.01     recoRecoChargedRefCandidates_trackRefsForJets__RECO.
+     6993 ->        6821       -172     -2.5  -0.01     recoMuons_muons__RECO.
+    46354 ->       46204       -150     -0.3  -0.01     HBHERecHitsSorted_hbhereco__RECO.
+    16335 ->       15848       -487     -3.0  -0.02     EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_RECO.
+    35936 ->       35604       -331     -0.9  -0.02     recoPFClusters_particleFlowClusterECAL__RECO.
+        0 ->           5          5     NEWO   0.00     recoPFRecHits_particleFlowRecHitHF_Cleaned_RECO.
+       24 ->          20         -4    -20.0  -0.00     recoSuperClusters_hybridSuperClusters_uncleanOnlyHybridSuperClusters_RECO.
+   175174 ->      173949      -1225     -0.7  -0.06     recoPFClusters_particleFlowClusterPS__RECO.
+    10169 ->        9907       -262     -2.6  -0.01     EcalRecHitsSorted_reducedEcalRecHitsEE__RECO.
+   105088 ->      104501       -587     -0.6  -0.03     recoTracks_generalTracks__RECO.
+    78086 ->       77033      -1054     -1.4  -0.05     recoPFBlocks_particleFlowBlock__RECO.
+     4751 ->        4539       -212     -4.6  -0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_ecal_RECO.
+        0 ->           5          5     NEWO   0.00     recoPFRecHits_particleFlowRecHitHBHE_Cleaned_RECO.
+     3132 ->        3023       -108     -3.5  -0.00     TrackingRecHitsOwned_displacedStandAloneMuons__RECO.
+    96737 ->       96079       -658     -0.7  -0.03     TrackingRecHitsOwned_generalTracks__RECO.
+    78418 ->       78054       -365     -0.5  -0.02     CaloTowersSorted_towerMaker__RECO.
+   490226 ->      489159      -1067     -0.2  -0.05     SiStripClusteredmNewDetSetVector_siStripClusters__RECO.
+     3261 ->        3090       -171     -5.4  -0.01     recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALPreshower_RECO.
+       10 ->          15          5     38.3   0.00     recoTrackExtras_uncleanedOnlyCkfInOutTracksFromConversions__RECO.
+    78820 ->       78436       -385     -0.5  -0.02     recoPFCandidates_particleFlow__RECO.
+     1912 ->        1738       -174     -9.6  -0.01     recoCaloClusters_particleFlowEGamma_ESClusters_RECO.
+   116175 ->      115666       -509     -0.4  -0.02     EcalRecHitsSorted_ecalPreshowerRecHit_EcalRecHitsES_RECO.
+    46357 ->       46208       -150     -0.3  -0.01     HBHERecHitsSorted_hbheprereco__RECO.
+     6929 ->        6823       -106     -1.5  -0.00     recoCaloClusters_multi5x5SuperClusters_multi5x5EndcapBasicClusters_RECO.
+   187779 ->      186742      -1037     -0.6  -0.05     recoTrackExtras_generalTracks__RECO.
+     7171 ->        7033       -137     -1.9  -0.01     CSCDetIdCSCRecHit2DsOwnedRangeMap_csc2DRecHits__RECO.
+     2994 ->        2846       -147     -5.0  -0.01     EcalRecHitsSorted_reducedEcalRecHitsES__RECO.
+     2892 ->        2769       -122     -4.3  -0.01     recoIsoDepositedmValueMap_muIsoDepositCalByAssociatorTowers_hcal_RECO.
+    96968 ->       96619       -350     -0.4  -0.02     SiPixelClusteredmNewDetSetVector_siPixelClusters__RECO.
+       33 ->          27         -6    -20.8  -0.00     recoCaloClusters_hybridSuperClusters_uncleanOnlyHybridBarrelBasicClusters_RECO.
+        8 ->          11          3     32.9   0.00     recoTracks_uncleanedOnlyCkfInOutTracksFromConversions__RECO.
+-------------------------------------------------------------
+  2168557 ->     2154690     -13867            -0.6     ALL BRANCHES

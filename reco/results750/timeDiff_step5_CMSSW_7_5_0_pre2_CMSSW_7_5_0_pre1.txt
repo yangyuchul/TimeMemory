@@ -1,0 +1,84 @@
+### Short Comparison (top 10 lines) excluding the first events: CMSSW_7_5_0_pre2 vs CMSSW_7_5_0_pre1
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.209985      +0.01%         0.02 ms/ev ->         0.10 ms/ev pfJetsPtrForMetCorr
+   +0.951353      +0.09%         0.33 ms/ev ->         0.92 ms/ev particleFlowPtrs
+   +0.632333      +0.06%         0.45 ms/ev ->         0.86 ms/ev muPFIsoDepositGammaPAT
+   +0.409700      +0.14%         1.80 ms/ev ->         2.72 ms/ev muPFIsoDepositPUPAT
+   +0.305345      +0.06%         1.06 ms/ev ->         1.45 ms/ev softPFElectronsTagInfos
+   +0.298930      +0.03%         0.55 ms/ev ->         0.74 ms/ev reducedEgamma
+   +0.270016      +0.04%         0.81 ms/ev ->         1.06 ms/ev tauIsoDepositPFNeutralHadrons
+   +0.259890      +0.14%         2.98 ms/ev ->         3.87 ms/ev tauIsoDepositPFGammas
+   +0.246925      +0.04%         0.92 ms/ev ->         1.17 ms/ev tauIsoDepositPFChargedHadrons
+   -0.227530      -0.07%         2.06 ms/ev ->         1.64 ms/ev patTrigger
+
+### Full Comparison CMSSW_7_5_0_pre2 vs CMSSW_7_5_0_pre1 
+Couldn't parse time report using CPU and wall-clock format: trying Wall-clock only
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.200000      +0.01%         0.02 ms/ev ->         0.10 ms/ev pfJetsPtrForMetCorr
+   +0.950925      +0.09%         0.33 ms/ev ->         0.92 ms/ev particleFlowPtrs
+   +0.631902      +0.06%         0.45 ms/ev ->         0.86 ms/ev muPFIsoDepositGammaPAT
+   +0.410097      +0.15%         1.79 ms/ev ->         2.72 ms/ev muPFIsoDepositPUPAT
+   +0.321216      +0.04%         0.64 ms/ev ->         0.88 ms/ev reducedEgamma
+   +0.305544      +0.06%         1.06 ms/ev ->         1.45 ms/ev softPFElectronsTagInfos
+   +0.270155      +0.04%         0.81 ms/ev ->         1.06 ms/ev tauIsoDepositPFNeutralHadrons
+   +0.260158      +0.14%         2.98 ms/ev ->         3.87 ms/ev tauIsoDepositPFGammas
+   +0.247363      +0.04%         0.91 ms/ev ->         1.17 ms/ev tauIsoDepositPFChargedHadrons
+   -0.226181      -0.07%         2.06 ms/ev ->         1.64 ms/ev patTrigger
+   +0.217875      +0.69%        17.86 ms/ev ->        22.22 ms/ev tauIsoDepositPFCandidates
+   +0.212400      +1.27%        34.07 ms/ev ->        42.17 ms/ev MINIAODSIMoutput
+   +0.204239      +0.02%         0.47 ms/ev ->         0.57 ms/ev lostTracks
+   +0.160212      +0.47%        17.21 ms/ev ->        20.21 ms/ev NjettinessAK8
+   +0.135014      +0.12%         5.33 ms/ev ->         6.10 ms/ev patJets
+   -0.133187      -0.17%         8.72 ms/ev ->         7.63 ms/ev prunedGenParticles
+   +0.123944      +0.37%        17.88 ms/ev ->        20.24 ms/ev ak4PFJets
+   +0.112846      +0.52%        27.86 ms/ev ->        31.19 ms/ev ak8PFJetsCHSTrimmed
+   +0.091921      +0.21%        13.59 ms/ev ->        14.89 ms/ev pileupJetId
+   +0.089932      +0.10%         7.06 ms/ev ->         7.73 ms/ev primaryVertexAssociation
+   +0.087193      +0.12%         8.44 ms/ev ->         9.20 ms/ev pfImpactParameterTagInfosAK8
+   +0.074119      +0.31%        25.37 ms/ev ->        27.33 ms/ev pfCandsNotInJetsPtrForMetCorr
+   +0.073540      +0.13%        11.23 ms/ev ->        12.08 ms/ev ak4PFJetsPuppi
+   -0.073522      -0.40%        35.77 ms/ev ->        33.24 ms/ev prunedGenParticlesWithStatusOne
+   +0.070236      +0.12%        10.43 ms/ev ->        11.19 ms/ev pfImpactParameterTagInfosPuppi
+   -0.070185      -0.13%        11.83 ms/ev ->        11.03 ms/ev packedPFCandidates
+   +0.054361      +0.59%        66.70 ms/ev ->        70.42 ms/ev pfImpactParameterTagInfos
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.636313 s/ev ==> 0.680224 s/ev
+
+The same excluding the first event 
+  delta/mean delta/orJob     original                   new       module name
+  ---------- ------------     --------                  ----       ------------
+   +1.209985      +0.01%         0.02 ms/ev ->         0.10 ms/ev pfJetsPtrForMetCorr
+   +0.951353      +0.09%         0.33 ms/ev ->         0.92 ms/ev particleFlowPtrs
+   +0.632333      +0.06%         0.45 ms/ev ->         0.86 ms/ev muPFIsoDepositGammaPAT
+   +0.409700      +0.14%         1.80 ms/ev ->         2.72 ms/ev muPFIsoDepositPUPAT
+   +0.305345      +0.06%         1.06 ms/ev ->         1.45 ms/ev softPFElectronsTagInfos
+   +0.298930      +0.03%         0.55 ms/ev ->         0.74 ms/ev reducedEgamma
+   +0.270016      +0.04%         0.81 ms/ev ->         1.06 ms/ev tauIsoDepositPFNeutralHadrons
+   +0.259890      +0.14%         2.98 ms/ev ->         3.87 ms/ev tauIsoDepositPFGammas
+   +0.246925      +0.04%         0.92 ms/ev ->         1.17 ms/ev tauIsoDepositPFChargedHadrons
+   -0.227530      -0.07%         2.06 ms/ev ->         1.64 ms/ev patTrigger
+   +0.220190      +0.03%         0.76 ms/ev ->         0.95 ms/ev combinedSecondaryVertexBJetTags
+   +0.217714      +0.68%        17.86 ms/ev ->        22.23 ms/ev tauIsoDepositPFCandidates
+   +0.205272      +1.21%        34.02 ms/ev ->        41.81 ms/ev MINIAODSIMoutput
+   +0.203439      +0.02%         0.46 ms/ev ->         0.57 ms/ev lostTracks
+   +0.160194      +0.47%        17.21 ms/ev ->        20.21 ms/ev NjettinessAK8
+   +0.137813      +0.17%         7.22 ms/ev ->         8.29 ms/ev patJets
+   -0.133325      -0.17%         8.71 ms/ev ->         7.62 ms/ev prunedGenParticles
+   +0.122735      +0.36%        17.87 ms/ev ->        20.21 ms/ev ak4PFJets
+   +0.112868      +0.52%        27.86 ms/ev ->        31.20 ms/ev ak8PFJetsCHSTrimmed
+   +0.105349      +0.10%         5.93 ms/ev ->         6.59 ms/ev primaryVertexAssociation
+   +0.101790      +0.08%         4.89 ms/ev ->         5.42 ms/ev patTaus
+   +0.096812      +0.19%        12.14 ms/ev ->        13.38 ms/ev pileupJetId
+   +0.087233      +0.12%         8.44 ms/ev ->         9.21 ms/ev pfImpactParameterTagInfosAK8
+   +0.073998      +0.30%        25.38 ms/ev ->        27.33 ms/ev pfCandsNotInJetsPtrForMetCorr
+   +0.073660      +0.13%        11.23 ms/ev ->        12.08 ms/ev ak4PFJetsPuppi
+   -0.070998      -0.13%        11.83 ms/ev ->        11.02 ms/ev packedPFCandidates
+   -0.070890      -0.38%        35.51 ms/ev ->        33.08 ms/ev prunedGenParticlesWithStatusOne
+   +0.069985      +0.12%        10.43 ms/ev ->        11.19 ms/ev pfImpactParameterTagInfosPuppi
+   +0.054233      +0.58%        66.73 ms/ev ->        70.45 ms/ev pfImpactParameterTagInfos
+  ---------- ------------     --------                  ----       ------------
+Job total:  0.641016 s/ev ==> 0.6855 s/ev
+
